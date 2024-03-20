@@ -1,0 +1,38 @@
+{
+	"mois": "Février",
+	"cours": [
+		{
+			"id": "js201",
+			"titre": "JavaScript pour Développeurs Web",
+			"formateur": "Malik Khan",
+			"description": "Dans ce cours intensif sur JavaScript...",
+			"cout": 120,
+			"nombreHeures": 30
+		},
+		{
+			"id": "jsSynchrone1",
+			"titre": "Voyage à travers JavaScript : Exploration des Concepts Fondamentaux du Langage",
+			"formateur": "Maya Patel",
+			"description": "Explorez les concepts fondamentaux du langage JavaScript...",
+			"sessions": [
+				{
+					"numeroCours": 1,
+					"date": "2024-03-15",
+					"heureDebut": "10:00",
+					"heureFin": "12:00",
+					"nombreHeures": 2,
+					"nombreJoursCours": 1
+				},
+				{
+					"numeroCours": 2,
+					"date": "2024-03-22",
+					"heureDebut": "10:00",
+					"heureFin": "12:00",
+					"nombreHeures": 2,
+					"nombreJoursCours": 1
+				}
+			],
+			"image": "/photos/javascriptJourney.jpg"
+		}
+	]
+}

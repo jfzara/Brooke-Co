@@ -1,0 +1,255 @@
+{
+    "coursSynchrones": [
+        {
+            "id": "pySynchrone1",
+            "titre": "Introduction à Python : Les Fondamentaux du Langage",
+            "formateur": "Marie Dubois",
+            "description": "Découvrez les fondamentaux du langage Python lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Python, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Python et vous préparer à des concepts plus avancés.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-02-15",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-02-22",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonIntro.jpg"
+        },
+        {
+            "id": "pySynchrone2",
+            "titre": "Python Avancé : Maîtrisez les Techniques de Programmation",
+            "formateur": "Jean Martin",
+            "description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des sujets avancés tels que la programmation orientée objet, la manipulation de fichiers, les expressions régulières et la gestion des erreurs. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide des concepts avancés de Python.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-03-05",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-03-12",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonAdvanced.jpg"
+        },
+        {
+            "id": "pySynchrone3",
+            "titre": "Python pour l'Analyse de Données : Introduction à Pandas et Matplotlib",
+            "formateur": "Sophie Lefevre",
+            "description": "Apprenez à utiliser Python pour l'analyse de données dans ce cours spécialisé. Vous découvrirez comment manipuler des données avec Pandas, effectuer des opérations de traitement et de nettoyage, et créer des visualisations avec Matplotlib. Que vous soyez débutant en analyse de données ou que vous souhaitiez approfondir vos compétences en Python, ce cours vous fournira les outils nécessaires pour analyser efficacement les données.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-04-10",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-04-17",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonDataAnalysis.jpg"
+        },
+        {
+            "id": "pySynchrone4",
+            "titre": "Développement Web avec Django : Construisez des Applications Web Puissantes",
+            "formateur": "Thomas Robert",
+            "description": "Plongez dans le développement web avec Django dans ce cours pratique. Vous apprendrez à utiliser Django pour créer des applications web puissantes et dynamiques. Explorez les fonctionnalités de Django telles que la création de modèles, les vues, les formulaires et l'authentification utilisateur. À la fin de ce cours, vous serez en mesure de créer vos propres applications web avec Django.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-05-15",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-05-22",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonDjango.jpg"
+        },
+        {
+            "id": "pySynchrone5",
+            "titre": "Python pour l'Intelligence Artificielle : Introduction à TensorFlow",
+            "formateur": "Emma Garcia",
+            "description": "Explorez l'intelligence artificielle avec Python dans ce cours spécialisé. Vous découvrirez les bases de l'apprentissage automatique avec TensorFlow, y compris la création de réseaux de neurones, l'entraînement de modèles et l'évaluation de performances. Que vous soyez intéressé par l'intelligence artificielle ou que vous souhaitiez ajouter des compétences en apprentissage automatique à votre arsenal, ce cours vous fournira les connaissances nécessaires pour commencer.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-06-05",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-06-12",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonAI.jpg"
+        },
+        {
+            "id": "pySynchrone6",
+            "titre": "Python pour le Traitement du Langage Naturel (NLP) : Introduction à NLTK",
+            "formateur": "Louis Durand",
+            "description": "Découvrez le traitement du langage naturel avec Python dans ce cours spécialisé. Vous explorerez les bases du traitement du langage naturel en utilisant NLTK, y compris le prétraitement de texte, l'extraction d'entités et l'analyse de sentiments. Que vous soyez passionné par le traitement du langage naturel ou que vous souhaitiez ajouter des compétences en NLP à votre boîte à outils, ce cours vous fournira une introduction complète.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-07-10",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-07-17",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonNLP.jpg"
+        },
+        {
+            "id": "pySynchrone7",
+            "titre": "Python pour le Développement Web Full Stack : Flask et React",
+            "formateur": "Antoine Dupuis",
+            "description": "Découvrez le développement web full stack avec Python dans ce cours complet. Vous apprendrez à créer des applications web modernes en utilisant Flask pour le backend et React pour le frontend. Explorez les concepts de routage, de gestion des états et de persistance des données pour construire des applications web réactives et évolutives.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-08-05",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-08-12",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonFullStack.jpg"
+        },
+        {
+            "id": "pySynchrone8",
+            "titre": "Python pour l'Automatisation des Tâches : Scripts et Bots",
+            "formateur": "Camille Lefebvre",
+            "description": "Automatisez vos tâches quotidiennes avec Python dans ce cours pratique. Vous apprendrez à créer des scripts et des bots pour automatiser des processus tels que le traitement de fichiers, l'envoi d'e-mails et l'interaction avec des API. Que vous souhaitiez simplifier des tâches répétitives ou développer des solutions d'automatisation avancées, ce cours vous fournira les compétences nécessaires pour automatiser efficacement.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-09-10",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-09-17",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonAutomation.jpg"
+        },
+        {
+            "id": "pySynchrone9",
+            "titre": "Python pour la Visualisation de Données : Matplotlib et Seaborn",
+            "formateur": "Julien Blanc",
+            "description": "Explorez la visualisation de données avec Python dans ce cours spécialisé. Vous découvrirez comment créer des graphiques et des visualisations attrayants à l'aide de Matplotlib et Seaborn. Ce cours couvre les techniques de visualisation de base ainsi que des stratégies avancées pour représenter visuellement des données complexes.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-10-05",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-10-12",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonDataViz.jpg"
+        },
+        {
+            "id": "pySynchrone10",
+            "titre": "Python pour la Sécurité Informatique : Scripting et Pentesting",
+            "formateur": "Nicolas Moreau",
+            "description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-11-05",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-11-12",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/pythonSecurity.jpg"
+        }
+        
+    ]
+}
