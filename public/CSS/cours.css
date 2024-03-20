@@ -120,21 +120,18 @@ footer {
 }
 
 .fond_photo {
+    width: 22vw; 
+    height: auto; 
+    overflow: hidden; 
+  }
   
-   
-}
-
-.fond_photo img{
-    width: 100%;
-    height: 393px;
-    max-height: 400px;
-    background-image: url('');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-}
-
+  .fond_photo img {
+    width: 100%; 
+    height: 100%; 
+    max-height: 150px;
+    object-fit: cover; 
+    object-position: center; 
+  }
     
     
 
@@ -228,10 +225,14 @@ font-weight: 500;
     margin-right: 5px;
 }
 .nom_cours{
+    max-width: 100%;
+    height: 60px;
     font-weight: 600;
     padding-top: 10px;
     background-color: #edededdb;
     text-align: center;
+    overflow: hidden;
+    text-transform: uppercase;
 }
 
 .zoom_en_ligne{
@@ -268,6 +269,7 @@ font-weight: 500;
 }
 .formateur{
     font-weight: 500;
+    color: #6f42c1;
 }
 
 h2 {
