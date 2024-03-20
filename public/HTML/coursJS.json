@@ -11,7 +11,7 @@
 						"description": "Dans ce cours intensif sur JavaScript, destiné aux développeurs web, vous allez plonger dans les concepts fondamentaux et avancés de ce langage de programmation incontournable pour le web moderne. Vous explorerez en profondeur les fonctionnalités clés de JavaScript, y compris les variables, les fonctions, les boucles et les objets, tout en acquérant une compréhension approfondie de la manipulation du DOM, des événements et de la programmation orientée objet. À travers des projets pratiques et des exercices stimulants, vous développerez vos compétences en JavaScript et serez prêt à créer des applications web dynamiques et interactives.",
 						"cout": 120,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					},
 					{
 						"id": "react101",
@@ -20,7 +20,7 @@
 						"description": "Ce cours d'introduction à React.js vous permettra de découvrir l'une des bibliothèques JavaScript les plus populaires pour la création d'interfaces utilisateur interactives. Vous apprendrez les concepts fondamentaux de React.js, y compris les composants, les propriétés, l'état et le cycle de vie, tout en explorant comment créer des applications web modernes et réactives. Grâce à des exemples pratiques et des projets progressifs, vous maîtriserez les bases de React.js et serez prêt à intégrer cette technologie puissante dans vos projets.",
 						"cout": 140,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON2.jpg"
+						"image": "/public/images/photoJS2.jpg"
 					},
 					{
 						"id": "nodejs101",
@@ -29,7 +29,7 @@
 						"description": "Ce cours sur Node.js est conçu pour les développeurs backend qui souhaitent construire des applications web évolutives et performantes. Vous explorerez les bases de Node.js, y compris la gestion des modules, les opérations d'entrée/sortie asynchrones et la création de serveurs web. En utilisant des frameworks populaires tels que Express.js, vous apprendrez à créer des API RESTful et à gérer les requêtes HTTP. Avec des projets pratiques et des exercices guidés, vous développerez vos compétences en développement backend avec Node.js.",
 						"cout": 150,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON3.jpg"
+						"image": "/public/images/photoJS3.jpg"
 					},
 					{
 						"id": "angular101",
@@ -38,7 +38,7 @@
 						"description": "Ce cours d'introduction à Angular vous plongera dans le framework JavaScript développé par Google pour la création d'applications web dynamiques et évolutives. Vous découvrirez les concepts de base d'Angular, y compris les composants, les modules, les directives et le routage, tout en explorant comment structurer et organiser vos projets Angular de manière efficace. Grâce à des exemples pratiques et des exercices interactifs, vous développerez les compétences nécessaires pour créer des applications web modernes avec Angular.",
 						"cout": 130,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON4.jpg"
+						"image": "/public/images/photoJS4.jpg"
 					}
 				]
 			},
@@ -52,7 +52,7 @@
 						"formateur": "John Doe",
 						"cout": 120,
 						"nombreHeures": 25,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					},
 					{
 						"id": "jsDOM",
@@ -61,7 +61,7 @@
 						"formateur": "Jane Smith",
 						"cout": 130,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON7.jpg"
+						"image": "/public/images/photoJS7.jpg"
 					},
 					{
 						"id": "jsEvents",
@@ -70,7 +70,7 @@
 						"formateur": "Alice Johnson",
 						"cout": 110,
 						"nombreHeures": 20,
-						"image": "/public/images/photoPYTHON8.jpg"
+						"image": "/public/images/photoJS8.jpg"
 					},
 					{
 						"id": "jsOO",
@@ -79,7 +79,7 @@
 						"formateur": "Bob Williams",
 						"cout": 140,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON9.jpg"
+						"image": "/public/images/photoJS9.jpg"
 					}
 				]
 			},
@@ -93,7 +93,7 @@
 						"formateur": "John Doe",
 						"cout": 130,
 						"nombreHeures": 25,
-						"image": "/public/images/photoPYTHON10.jpg"
+						"image": "/public/images/photoJS10.jpg"
 					},
 					{
 						"id": "jsStrings",
@@ -102,7 +102,7 @@
 						"formateur": "Jane Smith",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					},
 					{
 						"id": "jsRegex",
@@ -111,7 +111,7 @@
 						"formateur": "Alice Johnson",
 						"cout": 120,
 						"nombreHeures": 20,
-						"image": "/public/images/photoPYTHON2.jpg"
+						"image": "/public/images/photoJS2.jpg"
 					},
 					{
 						"id": "jsErrorHandling",
@@ -120,7 +120,7 @@
 						"formateur": "Bob Williams",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON3.jpg"
+						"image": "/public/images/photoJS3.jpg"
 					}
 				]
 			},
@@ -134,7 +134,7 @@
 						"formateur": "Malik Khan",
 						"cout": 180,
 						"nombreHeures": 50,
-						"image": "/public/images/photoPYTHON4.jpg"
+						"image": "/public/images/photoJS4.jpg"
 					},
 					{
 						"id": "reactAdvanced",
@@ -143,7 +143,7 @@
 						"formateur": "Sophie Leclerc",
 						"cout": 190,
 						"nombreHeures": 55,
-						"image": "/public/images/photoPYTHON5.jpg"
+						"image": "/public/images/photoJS5.jpg"
 					},
 					{
 						"id": "nodejsAdvanced",
@@ -152,7 +152,7 @@
 						"formateur": "Alexandre Dubois",
 						"cout": 200,
 						"nombreHeures": 60,
-						"image": "/public/images/photoPYTHON6.jpg"
+						"image": "/public/images/photoJS6.jpg"
 					},
 					{
 						"id": "angularAdvanced",
@@ -161,7 +161,7 @@
 						"formateur": "Camille Lefebvre",
 						"cout": 210,
 						"nombreHeures": 65,
-						"image": "/public/images/photoPYTHON7.jpg"
+						"image": "/public/images/photoJS7.jpg"
 					}
 				]
 			},
@@ -175,7 +175,7 @@
 						"formateur": "Émilie Legrand",
 						"cout": 160,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON8.jpg"
+						"image": "/public/images/photoJS8.jpg"
 					},
 					{
 						"id": "vuejsAdvanced",
@@ -184,7 +184,7 @@
 						"formateur": "Julien Martin",
 						"cout": 180,
 						"nombreHeures": 45,
-						"image": "/public/images/photoPYTHON9.jpg"
+						"image": "/public/images/photoJS9.jpg"
 					},
 					{
 						"id": "reactNative",
@@ -193,7 +193,7 @@
 						"formateur": "Théo Dupuis",
 						"cout": 190,
 						"nombreHeures": 50,
-						"image": "/public/images/photoPYTHON10.jpg"
+						"image": "/public/images/photoJS10.jpg"
 					},
 					{
 						"id": "angularMaterial",
@@ -202,7 +202,7 @@
 						"formateur": "Léa Renault",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					}
 				]
 			},
@@ -216,7 +216,7 @@
 						"formateur": "John Doe",
 						"cout": 170,
 						"nombreHeures": 45,
-						"image": "/public/images/photoPYTHON2.jpg"
+						"image": "/public/images/photoJS2.jpg"
 					},
 					{
 						"id": "vuejsAdvanced",
@@ -225,7 +225,7 @@
 						"formateur": "Julien Martin",
 						"cout": 180,
 						"nombreHeures": 45,
-						"image": "/public/images/photoPYTHON3.jpg"
+						"image": "/public/images/photoJS3.jpg"
 					},
 					{
 						"id": "reactNative",
@@ -234,7 +234,7 @@
 						"formateur": "Théo Dupuis",
 						"cout": 190,
 						"nombreHeures": 50,
-						"image": "/public/images/photoPYTHON4.jpg"
+						"image": "/public/images/photoJS4.jpg"
 					},
 					{
 						"id": "angularMaterial",
@@ -243,7 +243,7 @@
 						"formateur": "Léa Renault",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON5.jpg"
+						"image": "/public/images/photoJS5.jpg"
 					}
 				]
 			},
@@ -257,7 +257,7 @@
 						"formateur": "Jane Smith",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON6.jpg"
+						"image": "/public/images/photoJS6.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -266,7 +266,7 @@
 						"formateur": "Marc Dupont",
 						"cout": 160,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON7.jpg"
+						"image": "/public/images/photoJS7.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -275,7 +275,7 @@
 						"formateur": "Antoine Martin",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON8.jpg"
+						"image": "/public/images/photoJS8.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -284,7 +284,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON9.jpg"
+						"image": "/public/images/photoJS9.jpg"
 					}
 				]
 			},
@@ -298,7 +298,7 @@
 						"formateur": "Bob Williams",
 						"cout": 160,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON10.jpg"
+						"image": "/public/images/photoJS10.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -307,7 +307,7 @@
 						"formateur": "Marc Dupont",
 						"cout": 160,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -316,7 +316,7 @@
 						"formateur": "Antoine Martin",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoPYTHON2.jpg"
+						"image": "/public/images/photoJS2.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -325,7 +325,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON3.jpg"
+						"image": "/public/images/photoJS3.jpg"
 					}
 				]
 			},
@@ -339,7 +339,7 @@
 						"formateur": "Malik Khan",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON4.jpg"
+						"image": "/public/images/photoJS4.jpg"
 					},
 					{
 						"id": "jsAnimations",
@@ -348,7 +348,7 @@
 						"formateur": "Laura Tremblay",
 						"cout": 150,
 						"nombreHeures": 25,
-						"image": "/public/images/photoPYTHON5.jpg.jpg"
+						"image": "/public/images/photoJS5.jpg.jpg"
 					},
 					{
 						"id": "jsWebpack",
@@ -357,7 +357,7 @@
 						"formateur": "Alexandre Bouchard",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON6.jpg"
+						"image": "/public/images/photoJS6.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -366,7 +366,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON7.jpg"
+						"image": "/public/images/photoJS7.jpg"
 					}
 				]
 			},
@@ -380,7 +380,7 @@
 						"formateur": "Émilie Legrand",
 						"cout": 130,
 						"nombreHeures": 25,
-						"image": "/public/images/photoPYTHON8.jpg"
+						"image": "/public/images/photoJS8.jpg"
 					},
 					{
 						"id": "jsAnimations",
@@ -389,7 +389,7 @@
 						"formateur": "Laura Tremblay",
 						"cout": 150,
 						"nombreHeures": 25,
-						"image": "/public/images/photoPYTHON9.jpg"
+						"image": "/public/images/photoJS9.jpg"
 					},
 					{
 						"id": "jsWebpack",
@@ -398,7 +398,7 @@
 						"formateur": "Alexandre Bouchard",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON10.jpg"
+						"image": "/public/images/photoJS10.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -407,7 +407,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON1.jpg"
+						"image": "/public/images/photoJS1.jpg"
 					}
 				]
 			},
@@ -421,7 +421,7 @@
 						"formateur": "John Doe",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON2.jpg"
+						"image": "/public/images/photoJS2.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -430,7 +430,7 @@
 						"formateur": "Sophie Martin",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON3.jpg"
+						"image": "/public/images/photoJS3.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -439,7 +439,7 @@
 						"formateur": "Pauline Lefebvre",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON4.jpg"
+						"image": "/public/images/photoJS4.jpg"
 					}
 				]
 			},
@@ -453,7 +453,7 @@
 						"formateur": "Malik Khan",
 						"cout": 100,
 						"nombreHeures": 20,
-						"image": "/public/images/photoPYTHON5.jpg"
+						"image": "/public/images/photoJS5.jpg"
 					},
 					{
 						"id": "jsDeployment",
@@ -462,7 +462,7 @@
 						"formateur": "John Doe",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON6.jpg"
+						"image": "/public/images/photoJS6.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -471,7 +471,7 @@
 						"formateur": "Sophie Martin",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoPYTHON7.jpg"
+						"image": "/public/images/photoJS7.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -480,7 +480,7 @@
 						"formateur": "Pauline Lefebvre",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoPYTHON8.jpg"
+						"image": "/public/images/photoJS8.jpg"
 					}
 				]
 			}
@@ -514,7 +514,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON8.jpg"
+				"image": "/public/images/photoJS8.jpg"
 		   }
 			]
 		},
@@ -547,7 +547,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON9.jpg"
+				"image": "/public/images/photoJS9.jpg"
 			}
 			]
 		},
@@ -578,7 +578,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON10.jpg"
+				"image": "/public/images/photoJS10.jpg"
 		   }
 			]
 		},
@@ -609,7 +609,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON1.jpg"
+				"image": "/public/images/photoJS1.jpg"
 		   }
 			]
 		},
@@ -639,7 +639,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON3.jpg"
+				"image": "/public/images/photoJS3.jpg"
 			}
 			]
 		},
@@ -669,7 +669,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON4.jpg"
+				"image": "/public/images/photoJS4.jpg"
 		   }
 			]
 		},
@@ -699,7 +699,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON5.jpg"
+				"image": "/public/images/photoJS5.jpg"
 		   }
 			]
 		},
@@ -729,7 +729,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON6.jpg"
+				"image": "/public/images/photoJS6.jpg"
 			}
 			]
 		},
@@ -759,7 +759,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON7.jpg"
+				"image": "/public/images/photoJS7.jpg"
 			}
 			]
 		},
@@ -789,7 +789,7 @@
 						"nombreJoursCours": 1
 					}
 				],
-				"image": "/public/images/photoPYTHON8.jpg"
+				"image": "/public/images/photoJS8.jpg"
 		   }
 			]
 		},
@@ -818,7 +818,7 @@
 							"nombreJoursCours": 1
 						}
 					],
-					"image": "/public/images/photoPYTHON10.jpg"
+					"image": "/public/images/photoJS10.jpg"
 			   }
 			]
 		},
@@ -847,7 +847,7 @@
 								"nombreJoursCours": 1
 							}
 						],
-					   "image": "/public/images/photoPYTHON3.jpg"
+					   "image": "/public/images/photoJS3.jpg"
 				}
 			]
 		}
