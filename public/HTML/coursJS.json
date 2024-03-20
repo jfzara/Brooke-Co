@@ -11,7 +11,7 @@
 						"description": "Dans ce cours intensif sur JavaScript, destiné aux développeurs web, vous allez plonger dans les concepts fondamentaux et avancés de ce langage de programmation incontournable pour le web moderne. Vous explorerez en profondeur les fonctionnalités clés de JavaScript, y compris les variables, les fonctions, les boucles et les objets, tout en acquérant une compréhension approfondie de la manipulation du DOM, des événements et de la programmation orientée objet. À travers des projets pratiques et des exercices stimulants, vous développerez vos compétences en JavaScript et serez prêt à créer des applications web dynamiques et interactives.",
 						"cout": 120,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS1.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					},
 					{
 						"id": "react101",
@@ -20,7 +20,7 @@
 						"description": "Ce cours d'introduction à React.js vous permettra de découvrir l'une des bibliothèques JavaScript les plus populaires pour la création d'interfaces utilisateur interactives. Vous apprendrez les concepts fondamentaux de React.js, y compris les composants, les propriétés, l'état et le cycle de vie, tout en explorant comment créer des applications web modernes et réactives. Grâce à des exemples pratiques et des projets progressifs, vous maîtriserez les bases de React.js et serez prêt à intégrer cette technologie puissante dans vos projets.",
 						"cout": 140,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS2.jpg"
+						"image": "/public/images/photoPYTHON2.jpg"
 					},
 					{
 						"id": "nodejs101",
@@ -29,7 +29,7 @@
 						"description": "Ce cours sur Node.js est conçu pour les développeurs backend qui souhaitent construire des applications web évolutives et performantes. Vous explorerez les bases de Node.js, y compris la gestion des modules, les opérations d'entrée/sortie asynchrones et la création de serveurs web. En utilisant des frameworks populaires tels que Express.js, vous apprendrez à créer des API RESTful et à gérer les requêtes HTTP. Avec des projets pratiques et des exercices guidés, vous développerez vos compétences en développement backend avec Node.js.",
 						"cout": 150,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS3.jpg"
+						"image": "/public/images/photoPYTHON3.jpg"
 					},
 					{
 						"id": "angular101",
@@ -38,7 +38,7 @@
 						"description": "Ce cours d'introduction à Angular vous plongera dans le framework JavaScript développé par Google pour la création d'applications web dynamiques et évolutives. Vous découvrirez les concepts de base d'Angular, y compris les composants, les modules, les directives et le routage, tout en explorant comment structurer et organiser vos projets Angular de manière efficace. Grâce à des exemples pratiques et des exercices interactifs, vous développerez les compétences nécessaires pour créer des applications web modernes avec Angular.",
 						"cout": 130,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS4.jpg"
+						"image": "/public/images/photoPYTHON4.jpg"
 					}
 				]
 			},
@@ -52,7 +52,7 @@
 						"formateur": "John Doe",
 						"cout": 120,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS5.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					},
 					{
 						"id": "jsDOM",
@@ -61,7 +61,7 @@
 						"formateur": "Jane Smith",
 						"cout": 130,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS6.jpg"
+						"image": "/public/images/photoPYTHON7.jpg"
 					},
 					{
 						"id": "jsEvents",
@@ -70,7 +70,7 @@
 						"formateur": "Alice Johnson",
 						"cout": 110,
 						"nombreHeures": 20,
-						"image": "/public/images/photoJS7.jpg"
+						"image": "/public/images/photoPYTHON8.jpg"
 					},
 					{
 						"id": "jsOO",
@@ -79,7 +79,7 @@
 						"formateur": "Bob Williams",
 						"cout": 140,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS8.jpg"
+						"image": "/public/images/photoPYTHON9.jpg"
 					}
 				]
 			},
@@ -93,7 +93,7 @@
 						"formateur": "John Doe",
 						"cout": 130,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS9.jpg"
+						"image": "/public/images/photoPYTHON10.jpg"
 					},
 					{
 						"id": "jsStrings",
@@ -102,7 +102,7 @@
 						"formateur": "Jane Smith",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS10.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					},
 					{
 						"id": "jsRegex",
@@ -111,7 +111,7 @@
 						"formateur": "Alice Johnson",
 						"cout": 120,
 						"nombreHeures": 20,
-						"image": "/public/images/photoJS1.jpg"
+						"image": "/public/images/photoPYTHON2.jpg"
 					},
 					{
 						"id": "jsErrorHandling",
@@ -120,7 +120,7 @@
 						"formateur": "Bob Williams",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS2.jpg"
+						"image": "/public/images/photoPYTHON3.jpg"
 					}
 				]
 			},
@@ -134,7 +134,7 @@
 						"formateur": "Malik Khan",
 						"cout": 180,
 						"nombreHeures": 50,
-						"image": "/public/images/photoJS3.jpg"
+						"image": "/public/images/photoPYTHON4.jpg"
 					},
 					{
 						"id": "reactAdvanced",
@@ -143,7 +143,7 @@
 						"formateur": "Sophie Leclerc",
 						"cout": 190,
 						"nombreHeures": 55,
-						"image": "/public/images/photoJS4.jpg"
+						"image": "/public/images/photoPYTHON5.jpg"
 					},
 					{
 						"id": "nodejsAdvanced",
@@ -152,7 +152,7 @@
 						"formateur": "Alexandre Dubois",
 						"cout": 200,
 						"nombreHeures": 60,
-						"image": "/public/images/photoJS5.jpg"
+						"image": "/public/images/photoPYTHON6.jpg"
 					},
 					{
 						"id": "angularAdvanced",
@@ -161,7 +161,7 @@
 						"formateur": "Camille Lefebvre",
 						"cout": 210,
 						"nombreHeures": 65,
-						"image": "/public/images/photoJS6.jpg"
+						"image": "/public/images/photoPYTHON7.jpg"
 					}
 				]
 			},
@@ -175,7 +175,7 @@
 						"formateur": "Émilie Legrand",
 						"cout": 160,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS7.jpg"
+						"image": "/public/images/photoPYTHON8.jpg"
 					},
 					{
 						"id": "vuejsAdvanced",
@@ -184,7 +184,7 @@
 						"formateur": "Julien Martin",
 						"cout": 180,
 						"nombreHeures": 45,
-						"image": "/public/images/photoJS8.jpg"
+						"image": "/public/images/photoPYTHON9.jpg"
 					},
 					{
 						"id": "reactNative",
@@ -193,7 +193,7 @@
 						"formateur": "Théo Dupuis",
 						"cout": 190,
 						"nombreHeures": 50,
-						"image": "/public/images/photoJS9.jpg"
+						"image": "/public/images/photoPYTHON10.jpg"
 					},
 					{
 						"id": "angularMaterial",
@@ -202,7 +202,7 @@
 						"formateur": "Léa Renault",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS10.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					}
 				]
 			},
@@ -216,7 +216,7 @@
 						"formateur": "John Doe",
 						"cout": 170,
 						"nombreHeures": 45,
-						"image": "/public/images/photoJS1.jpg"
+						"image": "/public/images/photoPYTHON2.jpg"
 					},
 					{
 						"id": "vuejsAdvanced",
@@ -225,7 +225,7 @@
 						"formateur": "Julien Martin",
 						"cout": 180,
 						"nombreHeures": 45,
-						"image": "/public/images/photoJS2.jpg"
+						"image": "/public/images/photoPYTHON3.jpg"
 					},
 					{
 						"id": "reactNative",
@@ -234,7 +234,7 @@
 						"formateur": "Théo Dupuis",
 						"cout": 190,
 						"nombreHeures": 50,
-						"image": "/public/images/photoJS3.jpg"
+						"image": "/public/images/photoPYTHON4.jpg"
 					},
 					{
 						"id": "angularMaterial",
@@ -243,7 +243,7 @@
 						"formateur": "Léa Renault",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS4.jpg"
+						"image": "/public/images/photoPYTHON5.jpg"
 					}
 				]
 			},
@@ -257,7 +257,7 @@
 						"formateur": "Jane Smith",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS5.jpg"
+						"image": "/public/images/photoPYTHON6.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -266,7 +266,7 @@
 						"formateur": "Marc Dupont",
 						"cout": 160,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS6.jpg"
+						"image": "/public/images/photoPYTHON7.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -275,7 +275,7 @@
 						"formateur": "Antoine Martin",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS7.jpg"
+						"image": "/public/images/photoPYTHON8.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -284,7 +284,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS8.jpg"
+						"image": "/public/images/photoPYTHON9.jpg"
 					}
 				]
 			},
@@ -298,7 +298,7 @@
 						"formateur": "Bob Williams",
 						"cout": 160,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS9.jpg"
+						"image": "/public/images/photoPYTHON10.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -307,7 +307,7 @@
 						"formateur": "Marc Dupont",
 						"cout": 160,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS10.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -316,7 +316,7 @@
 						"formateur": "Antoine Martin",
 						"cout": 170,
 						"nombreHeures": 40,
-						"image": "/public/images/photoJS1.jpg"
+						"image": "/public/images/photoPYTHON2.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -325,7 +325,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS2.jpg"
+						"image": "/public/images/photoPYTHON3.jpg"
 					}
 				]
 			},
@@ -339,7 +339,7 @@
 						"formateur": "Malik Khan",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS3.jpg"
+						"image": "/public/images/photoPYTHON4.jpg"
 					},
 					{
 						"id": "jsAnimations",
@@ -348,7 +348,7 @@
 						"formateur": "Laura Tremblay",
 						"cout": 150,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS4.jpg"
+						"image": "/public/images/photoPYTHON5.jpg.jpg"
 					},
 					{
 						"id": "jsWebpack",
@@ -357,7 +357,7 @@
 						"formateur": "Alexandre Bouchard",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS5.jpg"
+						"image": "/public/images/photoPYTHON6.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -366,7 +366,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS6.jpg"
+						"image": "/public/images/photoPYTHON7.jpg"
 					}
 				]
 			},
@@ -380,7 +380,7 @@
 						"formateur": "Émilie Legrand",
 						"cout": 130,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS7.jpg"
+						"image": "/public/images/photoPYTHON8.jpg"
 					},
 					{
 						"id": "jsAnimations",
@@ -389,7 +389,7 @@
 						"formateur": "Laura Tremblay",
 						"cout": 150,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS8.jpg"
+						"image": "/public/images/photoPYTHON9.jpg"
 					},
 					{
 						"id": "jsWebpack",
@@ -398,7 +398,7 @@
 						"formateur": "Alexandre Bouchard",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS9.jpg"
+						"image": "/public/images/photoPYTHON10.jpg"
 					},
 					{
 						"id": "jsES6",
@@ -407,7 +407,7 @@
 						"formateur": "Sophie Lambert",
 						"cout": 180,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS10.jpg"
+						"image": "/public/images/photoPYTHON1.jpg"
 					}
 				]
 			},
@@ -421,7 +421,7 @@
 						"formateur": "John Doe",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS1.jpg"
+						"image": "/public/images/photoPYTHON2.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -430,7 +430,7 @@
 						"formateur": "Sophie Martin",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS2.jpg"
+						"image": "/public/images/photoPYTHON3.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -439,7 +439,7 @@
 						"formateur": "Pauline Lefebvre",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS3.jpg"
+						"image": "/public/images/photoPYTHON4.jpg"
 					}
 				]
 			},
@@ -453,7 +453,7 @@
 						"formateur": "Malik Khan",
 						"cout": 100,
 						"nombreHeures": 20,
-						"image": "/public/images/photoJS4.jpg"
+						"image": "/public/images/photoPYTHON5.jpg"
 					},
 					{
 						"id": "jsDeployment",
@@ -462,7 +462,7 @@
 						"formateur": "John Doe",
 						"cout": 150,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS5.jpg"
+						"image": "/public/images/photoPYTHON6.jpg"
 					},
 					{
 						"id": "jsTesting",
@@ -471,7 +471,7 @@
 						"formateur": "Sophie Martin",
 						"cout": 140,
 						"nombreHeures": 30,
-						"image": "/public/images/photoJS6.jpg"
+						"image": "/public/images/photoPYTHON7.jpg"
 					},
 					{
 						"id": "jsPerformance",
@@ -480,7 +480,7 @@
 						"formateur": "Pauline Lefebvre",
 						"cout": 160,
 						"nombreHeures": 35,
-						"image": "/public/images/photoJS7.jpg"
+						"image": "/public/images/photoPYTHON8.jpg"
 					}
 				]
 			}
@@ -489,335 +489,368 @@
 	{
 		"coursSynchrones": [
 			{
-				"mois": "Février",
+				"mois": "Fevrier",
 				"cours": [
 					{
-						"id": "jsSynchrone1",
-						"titre": "Voyage à travers JavaScript : Exploration des Concepts Fondamentaux du Langage",
-						"formateur": "Maya Patel",
-						"description": "Explorez les concepts fondamentaux du langage JavaScript lors de ce voyage captivant. Ce cours vous emmène dans un périple au cœur de JavaScript, en couvrant les sujets essentiels tels que les variables, les fonctions, les boucles, les conditions, les objets et les tableaux. Vous découvrirez également les principes de base de la programmation orientée objet et de la manipulation du DOM. À la fin de ce cours, vous aurez acquis une compréhension solide des fondements de JavaScript et serez prêt à passer à des concepts plus avancés.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-02-15",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-02-22",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS3.jpg"
+				"id": "pySynchrone1",
+				"titre": "Introduction à Python : Les Fondamentaux du Langage",
+				"formateur": "Marie Dubois",
+				"description": "Découvrez les fondamentaux du langage Python lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Python, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Python et vous préparer à des concepts plus avancés.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-02-15",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-02-22",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON8.jpg"
+		   }
+			]
+		},
+			
+			
+			
 			{
 				"mois": "Mars",
 				"cours": [
 					{
-						"id": "jsSynchrone2",
-						"titre": "JavaScript Interactif : Impliquez les Utilisateurs avec des Expériences Web Dynamiques",
-						"formateur": "Malik Khan",
-						"description": "Apprenez à créer des expériences web dynamiques et engageantes avec JavaScript interactif. Ce cours vous guide à travers les techniques avancées pour créer des interactions fluides sur vos sites web. Vous apprendrez à manipuler le DOM de manière interactive, à gérer les événements utilisateur et à créer des animations captivantes. En combinant théorie et pratique, vous développerez des compétences solides pour rendre vos applications web plus engageantes et interactives.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-03-05",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-03-12",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS8.jpg"
+				"id": "pySynchrone2",
+				"titre": "Python Avancé : Maîtrisez les Techniques de Programmation",
+				"formateur": "Jean Martin",
+				"description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des sujets avancés tels que la programmation orientée objet, la manipulation de fichiers, les expressions régulières et la gestion des erreurs. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide des concepts avancés de Python.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-03-05",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-03-12",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON9.jpg"
+			}
+			]
+		},
+			
 			{
 				"mois": "Avril",
 				"cours": [
 					{
-						"id": "jsSynchrone3",
-						"titre": "JavaScript pour les Concepteurs Web : Améliorez Vos Compétences Frontend",
-						"formateur": "Avery Johnson",
-						"description": "Améliorez vos compétences en frontend avec ce cours JavaScript conçu spécialement pour les web designers. Ce cours se concentre sur l'intégration de JavaScript dans le processus de conception web. Vous apprendrez à créer des animations, des transitions et des effets visuels pour améliorer l'expérience utilisateur. De plus, vous découvrirez comment utiliser JavaScript pour optimiser la performance et l'accessibilité de vos sites web. À la fin de ce cours, vous serez en mesure de créer des designs web plus dynamiques et attrayants.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-04-10",
-								"heureDebut": "09:00",
-								"heureFin": "11:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-04-17",
-								"heureDebut": "09:00",
-								"heureFin": "11:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS9.jpg"
+				"id": "pySynchrone3",
+				"titre": "Python pour l'Analyse de Données : Introduction à Pandas et Matplotlib",
+				"formateur": "Sophie Lefevre",
+				"description": "Apprenez à utiliser Python pour l'analyse de données dans ce cours spécialisé. Vous découvrirez comment manipuler des données avec Pandas, effectuer des opérations de traitement et de nettoyage, et créer des visualisations avec Matplotlib. Que vous soyez débutant en analyse de données ou que vous souhaitiez approfondir vos compétences en Python, ce cours vous fournira les outils nécessaires pour analyser efficacement les données.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-04-10",
+						"heureDebut": "09:00",
+						"heureFin": "11:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-04-17",
+						"heureDebut": "09:00",
+						"heureFin": "11:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON10.jpg"
+		   }
+			]
+		},
+			
 			{
 				"mois": "Mai",
 				"cours": [
 					{
-						"id": "jsSynchrone4",
-						"titre": "Astuces JavaScript : Trucs, Conseils et Meilleures Pratiques",
-						"formateur": "Dylan Nguyen",
-						"description": "Découvrez des astuces, des conseils et les meilleures pratiques pour maîtriser JavaScript. Ce cours aborde les astuces et les techniques avancées pour optimiser votre code JavaScript. Vous apprendrez des raccourcis utiles, des techniques de débogage efficaces et des modèles de conception éprouvés. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à améliorer votre productivité et à écrire un code JavaScript plus efficace et maintenable.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-05-15",
-								"heureDebut": "13:00",
-								"heureFin": "15:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-05-22",
-								"heureDebut": "13:00",
-								"heureFin": "15:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS10.jpg"
+				"id": "pySynchrone4",
+				"titre": "Développement Web avec Django : Construisez des Applications Web Puissantes",
+				"formateur": "Thomas Robert",
+				"description": "Plongez dans le développement web avec Django dans ce cours pratique. Vous apprendrez à utiliser Django pour créer des applications web puissantes et dynamiques. Explorez les fonctionnalités de Django telles que la création de modèles, les vues, les formulaires et l'authentification utilisateur. À la fin de ce cours, vous serez en mesure de créer vos propres applications web avec Django.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-05-15",
+						"heureDebut": "13:00",
+						"heureFin": "15:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-05-22",
+						"heureDebut": "13:00",
+						"heureFin": "15:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON1.jpg"
+		   }
+			]
+		},
 			{
 				"mois": "Juin",
 				"cours": [
 					{
-						"id": "jsSynchrone5",
-						"titre": "Cours de JavaScript Avancé : Maîtrisez les Techniques de Programmation Avancées",
-						"formateur": "Hugo Garcia",
-						"description": "Plongez dans le monde avancé de JavaScript avec ce cours intensif. Vous explorerez des concepts avancés tels que les closures, les promises, l'asynchronisme et la programmation fonctionnelle. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide de ces sujets. Que vous souhaitiez approfondir vos connaissances en JavaScript ou vous préparer à des entretiens techniques, ce cours vous fournira les compétences nécessaires pour réussir.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-06-05",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-06-12",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS1.jpg"
+				"id": "pySynchrone5",
+				"titre": "Python pour l'Intelligence Artificielle : Introduction à TensorFlow",
+				"formateur": "Emma Garcia",
+				"description": "Explorez l'intelligence artificielle avec Python dans ce cours spécialisé. Vous découvrirez les bases de l'apprentissage automatique avec TensorFlow, y compris la création de réseaux de neurones, l'entraînement de modèles et l'évaluation de performances. Que vous soyez intéressé par l'intelligence artificielle ou que vous souhaitiez ajouter des compétences en apprentissage automatique à votre arsenal, ce cours vous fournira les connaissances nécessaires pour commencer.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-06-05",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-06-12",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON3.jpg"
+			}
+			]
+		},
 			{
 				"mois": "Juillet",
 				"cours": [
 					{
-						"id": "jsSynchrone6",
-						"titre": "Développement Web Full Stack avec JavaScript : Du Frontend au Backend",
-						"formateur": "Sophie Martin",
-						"description": "Découvrez le développement web full stack avec JavaScript dans ce cours complet. Vous apprendrez à créer des applications web dynamiques en utilisant JavaScript à la fois pour le frontend et le backend. Explorez des frameworks populaires tels que React et Node.js, et apprenez à les intégrer pour construire des applications cohérentes et évolutives. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à maîtriser le développement full stack avec JavaScript.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-07-05",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-07-12",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS2.jpg"
+				"id": "pySynchrone6",
+				"titre": "Python pour le Traitement du Langage Naturel (NLP) : Introduction à NLTK",
+				"formateur": "Louis Durand",
+				"description": "Découvrez le traitement du langage naturel avec Python dans ce cours spécialisé. Vous explorerez les bases du traitement du langage naturel en utilisant NLTK, y compris le prétraitement de texte, l'extraction d'entités et l'analyse de sentiments. Que vous soyez passionné par le traitement du langage naturel ou que vous souhaitiez ajouter des compétences en NLP à votre boîte à outils, ce cours vous fournira une introduction complète.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-07-10",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-07-17",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON4.jpg"
+		   }
+			]
+		},
 			{
 				"mois": "Aout",
 				"cours": [
 					{
-						"id": "jsSynchrone7",
-						"titre": "Sécurité JavaScript : Meilleures Pratiques pour Protéger Vos Applications Web",
-						"formateur": "Eva Fernandez",
-						"description": "Apprenez les meilleures pratiques de sécurité pour protéger vos applications web JavaScript contre les attaques. Ce cours vous guidera à travers les vulnérabilités courantes et vous apprendra comment les prévenir, notamment en matière de gestion des entrées utilisateur, de protection contre les attaques XSS et CSRF, et de mise en œuvre de bonnes pratiques en matière d'authentification et d'autorisation. Protégez vos applications web et assurez la sécurité de vos utilisateurs grâce à ce cours essentiel.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-08-05",
-								"heureDebut": "09:00",
-								"heureFin": "11:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-08-12",
-								"heureDebut": "09:00",
-								"heureFin": "11:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS3.jpg"
+				"id": "pySynchrone7",
+				"titre": "Python pour le Développement Web Full Stack : Flask et React",
+				"formateur": "Antoine Dupuis",
+				"description": "Découvrez le développement web full stack avec Python dans ce cours complet. Vous apprendrez à créer des applications web modernes en utilisant Flask pour le backend et React pour le frontend. Explorez les concepts de routage, de gestion des états et de persistance des données pour construire des applications web réactives et évolutives.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-08-05",
+						"heureDebut": "09:00",
+						"heureFin": "11:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-08-12",
+						"heureDebut": "09:00",
+						"heureFin": "11:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON5.jpg"
+		   }
+			]
+		},
 			{
 				"mois": "Septembre",
 				"cours": [
 					{
-						"id": "jsSynchrone8",
-						"titre": "Développement de Jeux avec JavaScript : Créez des Expériences Ludiques et Captivantes",
-						"formateur": "Lucas Dupont",
-						"description": "Plongez dans le monde du développement de jeux avec JavaScript dans ce cours excitant. Vous apprendrez à utiliser des bibliothèques populaires telles que Phaser pour créer des jeux web captivants. Explorez les principes de base du développement de jeux, y compris la gestion des sprites, les collisions et les animations. Avec ce cours, vous serez en mesure de créer vos propres jeux web et d'offrir des expériences ludiques à vos utilisateurs.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-09-05",
-								"heureDebut": "13:00",
-								"heureFin": "15:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-09-12",
-								"heureDebut": "13:00",
-								"heureFin": "15:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS4.jpg"
+				"id": "pySynchrone8",
+				"titre": "Python pour l'Automatisation des Tâches : Scripts et Bots",
+				"formateur": "Camille Lefebvre",
+				"description": "Automatisez vos tâches quotidiennes avec Python dans ce cours pratique. Vous apprendrez à créer des scripts et des bots pour automatiser des processus tels que le traitement de fichiers, l'envoi d'e-mails et l'interaction avec des API. Que vous souhaitiez simplifier des tâches répétitives ou développer des solutions d'automatisation avancées, ce cours vous fournira les compétences nécessaires pour automatiser efficacement.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-09-10",
+						"heureDebut": "13:00",
+						"heureFin": "15:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-09-17",
+						"heureDebut": "13:00",
+						"heureFin": "15:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON6.jpg"
+			}
+			]
+		},
 			{
 				"mois": "Octobre",
 				"cours": [
 					{
-						"id": "jsSynchrone9",
-						"titre": "Optimisation des Performances JavaScript : Accélérez Vos Applications Web",
-						"formateur": "Nina Leroy",
-						"description": "Découvrez comment optimiser les performances de vos applications web JavaScript dans ce cours approfondi. Vous apprendrez les meilleures pratiques pour améliorer le chargement, l'exécution et l'efficacité de votre code JavaScript. Explorez des outils et des techniques pour mesurer et analyser les performances, ainsi que des stratégies pour réduire le temps de chargement, optimiser le rendu et minimiser l'utilisation de la mémoire. Optimisez vos applications web et offrez une expérience utilisateur fluide et réactive.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-10-05",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-10-12",
-								"heureDebut": "10:00",
-								"heureFin": "12:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS5.jpg"
+				"id": "pySynchrone9",
+				"titre": "Python pour la Visualisation de Données : Matplotlib et Seaborn",
+				"formateur": "Julien Blanc",
+				"description": "Explorez la visualisation de données avec Python dans ce cours spécialisé. Vous découvrirez comment créer des graphiques et des visualisations attrayants à l'aide de Matplotlib et Seaborn. Ce cours couvre les techniques de visualisation de base ainsi que des stratégies avancées pour représenter visuellement des données complexes.",
+				"sessions": [
+					{
+						"numeroCours": 1,
+						"date": "2024-10-05",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-10-12",
+						"heureDebut": "14:00",
+						"heureFin": "16:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
 					}
-				]
-			},
+				],
+				"image": "/public/images/photoPYTHON7.jpg"
+			}
+			]
+		},
 			{
 				"mois": "Novembre",
 				"cours": [
 					{
-						"id": "jsSynchrone10",
-						"titre": "JavaScript pour l'Internet des Objets (IoT) : Contrôlez le Monde Physique avec du Code",
-						"formateur": "Maxime Lefebvre",
-						"description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
-						"sessions": [
-							{
-								"numeroCours": 1,
-								"date": "2024-11-05",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							},
-							{
-								"numeroCours": 2,
-								"date": "2024-11-12",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
-								"nombreHeures": 2,
-								"nombreJoursCours": 1
-							}
-						],
-						"image": "/public/images/photoJS6.jpg"
-					}
-				]
-			},
-			{
-				"mois": "Décembre",
-				"cours": [
+				"id": "pySynchrone10",
+				"titre": "Python pour la Sécurité Informatique : Scripting et Pentesting",
+				"formateur": "Nicolas Moreau",
+				"description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+				"sessions": [
 					{
-						"id": "jsSynchrone10",
-						"titre": "JavaScript pour l'Internet des Objets 2(IoT) : Contrôlez le Monde Physique avec du Code",
-						"formateur": "Monique Trevor",
-						"description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
+						"numeroCours": 1,
+						"date": "2024-11-05",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					},
+					{
+						"numeroCours": 2,
+						"date": "2024-11-12",
+						"heureDebut": "10:00",
+						"heureFin": "12:00",
+						"nombreHeures": 2,
+						"nombreJoursCours": 1
+					}
+				],
+				"image": "/public/images/photoPYTHON8.jpg"
+		   }
+			]
+		},
+			{
+				"mois": "Decembre",
+				"cours": [
+					{"id": "pySynchrone10",
+					"titre": "Python pour la Sécurité Informatique : Scripting et Pentesting",
+					"formateur": "Nicolas Moreau",
+					"description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+					"sessions": [
+						{
+							"numeroCours": 1,
+							"date": "2024-12-05",
+							"heureDebut": "10:00",
+							"heureFin": "12:00",
+							"nombreHeures": 2,
+							"nombreJoursCours": 1
+						},
+						{
+							"numeroCours": 2,
+							"date": "2024-12-09",
+							"heureDebut": "10:00",
+							"heureFin": "12:00",
+							"nombreHeures": 2,
+							"nombreJoursCours": 1
+						}
+					],
+					"image": "/public/images/photoPYTHON10.jpg"
+			   }
+			]
+		},
+				{
+					"mois": "Janvier",
+					"cours": [
+						{"id": "pySynchrone10",
+						"titre": "Python pour la Sécurité Informatique : Scripting et Pentesting",
+						"formateur": "Nicolas Moreau",
+						"description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
 						"sessions": [
 							{
 								"numeroCours": 1,
-								"date": "2024-12-05",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
+								"date": "2024-01-05",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
 								"nombreHeures": 2,
 								"nombreJoursCours": 1
 							},
 							{
 								"numeroCours": 2,
-								"date": "2024-12-12",
-								"heureDebut": "14:00",
-								"heureFin": "16:00",
+								"date": "2025-01-09",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
 								"nombreHeures": 2,
 								"nombreJoursCours": 1
 							}
 						],
-						"image": "/public/images/photoJS7.jpg"
-					}
-				]
-			}
-		]
-	}
+					   "image": "/public/images/photoPYTHON3.jpg"
+				}
+			]
+		}
+	]
+}
 ]
