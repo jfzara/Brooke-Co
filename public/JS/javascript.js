@@ -25,6 +25,9 @@ async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
         const data = await recupererDonneesJSON();
         console.log('Données récupérées:', data); // Ajout d'un log pour afficher les données récupérées
 
+        // Récupération du prix unique pour tous les cours synchrones
+        const prixSynchrone = data[1].prixSynchrone; 
+
         // Vider le conteneur des cours
         const containerId = isAsynchrone ? 'coursAsynchronesContainer' : 'coursSynchronesContainer';
         const container = document.getElementById(containerId);
@@ -38,7 +41,8 @@ async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
             console.log('Cours du mois sélectionné:', coursMois); // Ajout d'un log pour afficher les cours du mois sélectionné
             if (coursMois) {
                 coursMois.cours.forEach(c => {
-                    const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c);
+                    // Passer prixSynchrone à la fonction creerVignetteCoursSynchrone
+                    const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c, prixSynchrone);
                     container.appendChild(vignetteCours);
                 });
             } else {
@@ -52,8 +56,7 @@ async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
     }
 }
 
-
-function createOrResetModal(cours) {
+function createOrResetModal(cours, isSynchrone) {
     var modal = document.querySelector('.modal');
     var modalContent = modal.querySelector('.modal-content');
 
@@ -75,30 +78,11 @@ function createOrResetModal(cours) {
     modalContent.appendChild(titreCours);
     modalContent.appendChild(descriptionCours);
 
-    // Calcul du nombre de sous-cours et leur durée respective
-    var totalHours = cours.nombreHeures;
-    var numberOfSubcourses = Math.floor(Math.random() * (6 - 3 + 1)) + 3; // Génère un nombre aléatoire entre 3 et 6
-    var subcourseDurations = [];
-    var remainingHours = totalHours;
-
-    for (var i = 0; i < numberOfSubcourses - 1; i++) {
-        var maxDuration = remainingHours - (numberOfSubcourses - i - 1) * 2; // Durée maximale compte tenu du nombre restant de sous-cours et du minimum de 2 heures par cours
-        var randomDuration = Math.floor(Math.random() * (maxDuration - 2 + 1)) + 2; // Durée aléatoire entre 2 et la durée maximale
-        subcourseDurations.push(randomDuration);
-        remainingHours -= randomDuration;
-    }
-    subcourseDurations.push(remainingHours);
-
-    // Création et ajout des divs pour chaque sous-cours
-    for (var j = 0; j < numberOfSubcourses; j++) {
-        var subcourseDiv = document.createElement('div');
-        subcourseDiv.textContent = 'Cours ' + (j + 1) + ': ' + subcourseDurations[j] + 'h';
-        modalContent.appendChild(subcourseDiv);
-    }
+    
 
     // Bouton "Ajouter au panier"
     var addToCartButton = document.createElement('button');
-    addToCartButton.textContent = 'Ajouter au panier';
+    addToCartButton.textContent = 'Ajouter au panier pour s\'inscrire';
     addToCartButton.classList.add('add-to-cart');
     addToCartButton.addEventListener('click', function () {
         addToCart(cours, addToCartButton, panierMessage); // Passez la référence du message de panier
@@ -300,7 +284,7 @@ function creerVignetteCoursAsynchrone(cours) {
     return article;
 }
 
-function creerVignetteCoursSynchrone(cours) {
+function creerVignetteCoursSynchrone(cours, prixSynchrone) {
     var article = document.createElement('article');
     article.classList.add('vignette_synchrone');
 
@@ -332,9 +316,19 @@ function creerVignetteCoursSynchrone(cours) {
     formateur.textContent = cours.formateur;
     infosCoursSynchrone.appendChild(formateur);
 
-    var dateHoraire = document.createElement('p');
-    dateHoraire.textContent = cours.date + ' ' + cours.horaire;
-    infosCoursSynchrone.appendChild(dateHoraire);
+    var datesSessions = document.createElement('div');
+    datesSessions.classList.add('dates_sessions');
+    cours.sessions.forEach(session => {
+        var dateHeure = document.createElement('p');
+        dateHeure.textContent = `${session.date} ${session.heureDebut}-${session.heureFin}`;
+        datesSessions.appendChild(dateHeure);
+    });
+    infosCoursSynchrone.appendChild(datesSessions);
+
+    var prixSynchroneElement = document.createElement('p');
+    prixSynchroneElement.classList.add('prix_synchrone');
+    prixSynchroneElement.innerHTML = 'Prix: <strong>' + prixSynchrone + '</strong> CA$'; // Mettre le prix en balise strong
+    infosCoursSynchrone.appendChild(prixSynchroneElement);
 
     article.appendChild(infosCoursSynchrone);
 
@@ -358,7 +352,6 @@ function creerVignetteCoursSynchrone(cours) {
 
     return article;
 }
-
 
 
 // Gestionnaire d'événements pour la liste déroulante des mois des cours asynchrones

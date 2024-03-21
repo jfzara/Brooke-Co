@@ -493,7 +493,7 @@
                       }
                     ]
                   },
-                  {
+                  {"prixSynchrone": "100",
                     "coursSynchrones": [
                         {
                             "id": "sqlSynchrone1",
