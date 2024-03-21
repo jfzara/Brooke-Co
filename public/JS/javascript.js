@@ -325,6 +325,25 @@ function creerVignetteCoursSynchrone(cours, prixSynchrone) {
     });
     infosCoursSynchrone.appendChild(datesSessions);
 
+    // Vérifier si le cours a un lieu spécifié
+    if (cours.lieu) {
+        var lieuIcon = document.createElement('svg');
+        lieuIcon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+        lieuIcon.setAttribute('width', '16');
+        lieuIcon.setAttribute('height', '16');
+        lieuIcon.setAttribute('fill', 'currentColor');
+        lieuIcon.setAttribute('class', 'bi bi-geo-alt');
+        lieuIcon.setAttribute('viewBox', '0 0 16 16');
+        var lieuPath = document.createElement('path');
+        lieuPath.setAttribute('d', 'M8 0a6 6 0 0 1 6 6c0 3.333-6 10-6 10s-6-6.667-6-10a6 6 0 0 1 6-6zm0 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM7 6.723a.5.5 0 0 1 .079-.265l3.5-4.5a.5.5 0 0 1 .765.629l-1.658 2.141A3.5 3.5 0 1 1 7 6.723zm.646.646a2.5 2.5 0 1 0 3.108-3.108l-3.108 4.004z');
+        lieuIcon.appendChild(lieuPath);
+        infosCoursSynchrone.appendChild(lieuIcon);
+
+        var lieu = document.createElement('p');
+        lieu.textContent = cours.lieu;
+        infosCoursSynchrone.appendChild(lieu);
+    }
+
     var prixSynchroneElement = document.createElement('p');
     prixSynchroneElement.classList.add('prix_synchrone');
     prixSynchroneElement.innerHTML = 'Prix: <strong>' + prixSynchrone + '</strong> CA$'; // Mettre le prix en balise strong
@@ -352,7 +371,6 @@ function creerVignetteCoursSynchrone(cours, prixSynchrone) {
 
     return article;
 }
-
 
 // Gestionnaire d'événements pour la liste déroulante des mois des cours asynchrones
 document.getElementById('moisListeAsynchrone').addEventListener('change', function () {
