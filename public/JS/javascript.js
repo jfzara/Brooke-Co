@@ -20,39 +20,33 @@ async function recupererDonneesJSON() {
     }
 }
 
-async function recupererEtAfficherCours(selectedMonth) {
+async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
     try {
         const data = await recupererDonneesJSON();
+        console.log('Données récupérées:', data); // Ajout d'un log pour afficher les données récupérées
 
-        let coursPourMoisSelectionne;
-        // Recherche du mois sélectionné dans les cours asynchrones
-        if (data[0].coursAsynchrones) {
-            coursPourMoisSelectionne = data[0].coursAsynchrones.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
+        // Vider le conteneur des cours
+        const containerId = isAsynchrone ? 'coursAsynchronesContainer' : 'coursSynchronesContainer';
+        const container = document.getElementById(containerId);
+        container.innerHTML = '';
+
+        // Rechercher et afficher les cours correspondants au mois sélectionné
+        const cours = isAsynchrone ? data[0].coursAsynchrones : data[1].coursSynchrones;
+        console.log('Cours trouvés:', cours); // Ajout d'un log pour afficher les cours trouvés
+        if (cours) {
+            const coursMois = cours.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
+            console.log('Cours du mois sélectionné:', coursMois); // Ajout d'un log pour afficher les cours du mois sélectionné
+            if (coursMois) {
+                coursMois.cours.forEach(c => {
+                    const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c);
+                    container.appendChild(vignetteCours);
+                });
+            } else {
+                console.error('Aucun cours disponible pour le mois sélectionné.');
+            }
+        } else {
+            console.error('Aucun cours disponible pour le type sélectionné.');
         }
-        // Si le mois n'est pas trouvé dans les cours asynchrones, rechercher dans les cours synchrones
-        if (!coursPourMoisSelectionne && data[0].coursSynchrones) {
-            coursPourMoisSelectionne = data[0].coursSynchrones.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
-        }
-
-        if (!coursPourMoisSelectionne) {
-            console.error('Aucun cours disponible pour le mois sélectionné.');
-            return;
-        }
-
-        // Vider le conteneur avant d'ajouter de nouvelles vignettes
-        document.getElementById('container').innerHTML = '';
-
-        // Générer les vignettes des cours pour le mois sélectionné
-        coursPourMoisSelectionne.cours.forEach(cours => {
-            const vignetteCours = creerVignetteCoursAsynchrone(cours);
-            // Ajouter la vignette au conteneur approprié (par exemple, div#container)
-            document.getElementById('container').appendChild(vignetteCours);
-
-            // Ajouter un gestionnaire d'événements au clic sur "En savoir plus"
-            vignetteCours.querySelector('.savoir_plus').addEventListener('click', function () {
-                createOrResetModal(cours);
-            });
-        });
     } catch (error) {
         console.error('Erreur lors du traitement des données:', error);
     }
@@ -306,35 +300,87 @@ function creerVignetteCoursAsynchrone(cours) {
     return article;
 }
 
-// Gestionnaire d'événements pour la liste déroulante des mois
-document.getElementById('moisListe').addEventListener('change', function () {
-    var selectedMonth = this.value.toLowerCase(); // Convertir en minuscules
-    console.log('Mois sélectionné :', selectedMonth);
+function creerVignetteCoursSynchrone(cours) {
+    var article = document.createElement('article');
+    article.classList.add('vignette_synchrone');
 
-    // Appeler la fonction pour afficher les cours correspondants pour le mois sélectionné
-    recupererEtAfficherCours(selectedMonth);
+    var zoomEnLigne = document.createElement('div');
+    zoomEnLigne.classList.add('zoom_en_ligne');
+
+    var imageZoom = document.createElement('img');
+    imageZoom.src = "/public/images/zoom-svgrepo-com.svg";
+    imageZoom.alt = "Icône Zoom";
+    imageZoom.classList.add('zoom');
+    zoomEnLigne.appendChild(imageZoom);
+
+    var enLigne = document.createElement('p');
+    enLigne.textContent = "En ligne";
+    zoomEnLigne.appendChild(enLigne);
+
+    article.appendChild(zoomEnLigne);
+
+    var nomCours = document.createElement('p');
+    nomCours.classList.add('nom_cours');
+    nomCours.textContent = cours.titre;
+    article.appendChild(nomCours);
+
+    var infosCoursSynchrone = document.createElement('div');
+    infosCoursSynchrone.classList.add('infos_cours_synchrone');
+
+    var formateur = document.createElement('p');
+    formateur.classList.add('formateur');
+    formateur.textContent = cours.formateur;
+    infosCoursSynchrone.appendChild(formateur);
+
+    var dateHoraire = document.createElement('p');
+    dateHoraire.textContent = cours.date + ' ' + cours.horaire;
+    infosCoursSynchrone.appendChild(dateHoraire);
+
+    article.appendChild(infosCoursSynchrone);
+
+    var savoirPlus = document.createElement('p');
+    savoirPlus.classList.add('savoir_plus');
+    savoirPlus.textContent = 'En savoir plus';
+    savoirPlus.onclick = function () {
+        createOrResetModal(cours);
+    };
+    article.appendChild(savoirPlus);
+
+    var imageCoursSynchrone = document.createElement('div');
+    imageCoursSynchrone.classList.add('image_cours_synchrone');
+
+    var image = document.createElement('img');
+    image.src = cours.image;
+    image.alt = 'image javascript';
+    imageCoursSynchrone.appendChild(image);
+
+    article.appendChild(imageCoursSynchrone);
+
+    return article;
+}
+
+
+
+// Gestionnaire d'événements pour la liste déroulante des mois des cours asynchrones
+document.getElementById('moisListeAsynchrone').addEventListener('change', function () {
+    var selectedMonth = this.value.toLowerCase(); // Récupérer la valeur et la convertir en minuscules
+    console.log('Mois sélectionné (asynchrone) :', selectedMonth);
+
+    // Appeler la fonction pour afficher les cours asynchrones correspondants pour le mois sélectionné
+    recupererEtAfficherCours(selectedMonth, true);
+});
+
+// Gestionnaire d'événements pour la liste déroulante des mois des cours synchrones
+document.getElementById('moisListeSynchrone').addEventListener('change', function () {
+    var selectedMonth = this.value.toLowerCase(); // Récupérer la valeur et la convertir en minuscules
+    console.log('Mois sélectionné (synchrone) :', selectedMonth);
+
+    // Appeler la fonction pour afficher les cours synchrones correspondants pour le mois sélectionné
+    recupererEtAfficherCours(selectedMonth, false);
 });
 
 
 
 
-// Gestionnaire d'événements pour la liste déroulante des mois
-document.getElementById('moisListe').addEventListener('change', function () {
-    var selectedMonth = this.value.toLowerCase(); // Convertir en minuscules
-    console.log('Mois sélectionné :', selectedMonth);
 
 
-
-    // Appeler la fonction pour afficher les cours correspondants pour le mois sélectionné
-    recupererEtAfficherCours(selectedMonth);
-
-
-});
-
-
-// Appeler la fonction pour récupérer les données JSON
-recupererDonneesJSON()
-    .then(data => {
-        console.log(data); // Afficher les données récupérées dans la console
-    })
-    .catch(error => console.error(error));

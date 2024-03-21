@@ -61,7 +61,7 @@
             <div class="container mt-5">
                 <p class="choisir_mois">Choisissez un mois pour voir les cours disponibles</p>
                 <!-- Liste déroulante avec les 12 mois -->
-                <select id="moisListe" class="form-control">
+                <select id="moisListeAsynchrone" class="form-control">
                     <option value="2024">&nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         &nbsp;&nbsp;&nbsp;&nbsp;
@@ -103,89 +103,120 @@
                     <option value="janvier">Janvier</option>
                 </select>
             </div>
-            <div id="container">
+            <div id="coursAsynchronesContainer">
                 <!-- Ici seront ajoutées les vignettes des cours -->
             </div>
         </div>
 
 
-        <section class="bloc" id="coursAsynchronesContainer">
+        <section class="bloc">
 
             <div id="modal" class="modal" style="display: none;">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    
-        
-                    </div>
+
+
                 </div>
             </div>
-            
+            </div>
+
 
         </section>
 
 
 
-       
-            <!-- Cours synchrones -->
 
-            <h2 class="titre_blocCours">Cours synchrones </h2>
+        <!-- Cours synchrones -->
 
-            <div class="container mt-5">
-                <p class="choisir_mois">Choisissez un mois pour voir les cours disponibles</p>
-                <!-- Liste déroulante avec les 12 mois -->
-                <select class="form-control">
-                    <option value="2">Février</option>
-                    <option value="3">Mars</option>
-                    <option value="4">Avril</option>
-                    <option value="5">Mai</option>
-                    <option value="6">Juin</option>
-                    <option value="7">Juillet</option>
-                    <option value="8">Août</option>
-                    <option value="9">Septembre</option>
-                    <option value="10">Octobre</option>
-                    <option value="11">Novembre</option>
-                    <option value="12">Décembre</option>
-                    <option value="1">2025Janvier</option>
-                </select>
+        <h2 class="titre_blocCours">Cours synchrones </h2>
+
+        <div class="container mt-5">
+            <p class="choisir_mois">Choisissez un mois pour voir les cours disponibles</p>
+            <!-- Liste déroulante avec les 12 mois -->
+            <select id="moisListeSynchrone" class="form-control">
+                <option value="2024">&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    2024 </option>
+                <option value="fevrier">Février </option>
+                <option value="mars">Mars </option>
+                <option value="avril">Avril </option>
+                <option value="mai">Mai </option>
+                <option value="juin">Juin </option>
+                <option value="juillet">Juillet </option>
+                <option value="aout">Août </option>
+                <option value="septembre">Septembre </option>
+                <option value="octobre">Octobre </option>
+                <option value="novembre">Novembre </option>
+                <option value="decembre">Décembre </option>
+                <option value="2025">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    2025</option>
+                <option value="janvier">Janvier</option>
+            </select>
+        </div>
+
+
+        <section class="bloc">
+
+
+
+            <div class="entete_bloc">
+                <table>
+                    <tr>
+                        <!-- Colonne pour le cours en ligne -->
+                        <td>
+                            <img src="/public/images/zoom-svgrepo-com.svg" alt="Icône Zoom" class="zoom">
+                            <p class="entete_lieu">En ligne</p>
+                            <p> Lien Zoom disponible après achat </p>
+                            <p class="materiel">(Matériel requis: Ordinateur de bureau ou portable, Connexion
+                                Internet)
+                            </p>
+                        </td>
+
+                        <!-- Colonne pour le cours en présentiel -->
+                        <td>
+                            <img src="/public/images\free-location-icon-2955-thumb.png" alt="Icône Géolocolisation"
+                                class="geolocolisation">
+                            <p class="entete_lieu">En présentiel</p>
+                            <p class="adresse">Centre Brooke & CO Rue St Gabriel, Montréal, QC
+                                H2Y 2Z9</p>
+                            <p class="materiel">(Matériel requis: Ordinateur portable)</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <section class="bloc">
+            <div id="coursSynchronesContainer">
+                <!-- Ici seront ajoutées les vignettes des cours -->
+            </div>
+
+            <section class="cours_synchrones">
 
 
 
-                <div class="entete_bloc">
-                    <table>
-                        <tr>
-                            <!-- Colonne pour le cours en ligne -->
-                            <td>
-                                <img src="/public/images/zoom-svgrepo-com.svg" alt="Icône Zoom" class="zoom">
-                                <p class="entete_lieu">En ligne</p>
-                                <p> Lien Zoom disponible après achat </p>
-                                <p class="materiel">(Matériel requis: Ordinateur de bureau ou portable, Connexion
-                                    Internet)
-                                </p>
-                            </td>
-
-                            <!-- Colonne pour le cours en présentiel -->
-                            <td>
-                                <img src="/public/images\free-location-icon-2955-thumb.png" alt="Icône Géolocolisation"
-                                    class="geolocolisation">
-                                <p class="entete_lieu">En présentiel</p>
-                                <p class="adresse">Centre Brooke & CO Rue St Gabriel, Montréal, QC
-                                    H2Y 2Z9</p>
-                                <p class="materiel">(Matériel requis: Ordinateur portable)</p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                
-                <section class="cours_synchrones">
+            </section>
 
 
-                    
-        </section>
-       
-        
     </main>
 
     <!-- Pied de page -->
