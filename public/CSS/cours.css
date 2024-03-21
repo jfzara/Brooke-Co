@@ -88,6 +88,7 @@ footer {
     background-color: #f2f2f2;
     padding: 10px;
     border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); 
 }
 
 .photo_play {
@@ -186,7 +187,7 @@ font-weight: 500;
 
 .vignette_synchrone {
     width: 31%; 
-
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); 
     box-sizing: border-box;
     border-radius: 8px;
     overflow: hidden; 
@@ -217,6 +218,10 @@ font-weight: 500;
 }
 
 
+
+#coursSynchronesContainer > article > p.savoir_plus :hover{
+    background-color: #fe3fe5;
+}
 
 
 .vignette_synchrone .zoom, .geolocolisation {
@@ -577,7 +582,7 @@ display: flex;
     margin-top: 45px;
     margin-bottom: 45px;
     border-bottom: 1px solid #a8a8a8;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
 }
 
 
@@ -646,4 +651,22 @@ display: flex;
 }
 .add-to-cart:hover{
   background-color: #fe3fe5;
+}
+#coursSynchronesContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.form-control{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); 
+    cursor: pointer;
+}
+ h2{
+    margin-top: 40px;
+    
+    text-transform: uppercase;
+}
+body > main > section:nth-child(5) > div.entete_bloc {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);  
 }

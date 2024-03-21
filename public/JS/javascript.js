@@ -288,21 +288,36 @@ function creerVignetteCoursSynchrone(cours, prixSynchrone) {
     var article = document.createElement('article');
     article.classList.add('vignette_synchrone');
 
-    var zoomEnLigne = document.createElement('div');
-    zoomEnLigne.classList.add('zoom_en_ligne');
+    // Créer les éléments pour l'icône et le texte en fonction du lieu
+    if (cours.lieu) {
+        var lieuIcone = document.createElement('img');
+        lieuIcone.src = "/public/images/free-location-icon-2955-thumb.png";
+        lieuIcone.alt = "Icône Géolocolisation";
+        lieuIcone.classList.add('geolocolisation');
+        article.appendChild(lieuIcone);
 
-    var imageZoom = document.createElement('img');
-    imageZoom.src = "/public/images/zoom-svgrepo-com.svg";
-    imageZoom.alt = "Icône Zoom";
-    imageZoom.classList.add('zoom');
-    zoomEnLigne.appendChild(imageZoom);
+        var lieuTexte = document.createElement('p');
+        lieuTexte.textContent = cours.lieu;
+        article.appendChild(lieuTexte);
+    } else {
+        // Afficher l'icône et le texte pour les cours en ligne
+        var zoomEnLigne = document.createElement('div');
+        zoomEnLigne.classList.add('zoom_en_ligne');
 
-    var enLigne = document.createElement('p');
-    enLigne.textContent = "En ligne";
-    zoomEnLigne.appendChild(enLigne);
+        var imageZoom = document.createElement('img');
+        imageZoom.src = "/public/images/zoom-svgrepo-com.svg";
+        imageZoom.alt = "Icône Zoom";
+        imageZoom.classList.add('zoom');
+        zoomEnLigne.appendChild(imageZoom);
 
-    article.appendChild(zoomEnLigne);
+        var enLigne = document.createElement('p');
+        enLigne.textContent = "En ligne";
+        zoomEnLigne.appendChild(enLigne);
 
+        article.appendChild(zoomEnLigne);
+    }
+
+    // Ajouter les autres informations du cours
     var nomCours = document.createElement('p');
     nomCours.classList.add('nom_cours');
     nomCours.textContent = cours.titre;
@@ -325,24 +340,7 @@ function creerVignetteCoursSynchrone(cours, prixSynchrone) {
     });
     infosCoursSynchrone.appendChild(datesSessions);
 
-    // Vérifier si le cours a un lieu spécifié
-    if (cours.lieu) {
-        var lieuIcon = document.createElement('svg');
-        lieuIcon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-        lieuIcon.setAttribute('width', '16');
-        lieuIcon.setAttribute('height', '16');
-        lieuIcon.setAttribute('fill', 'currentColor');
-        lieuIcon.setAttribute('class', 'bi bi-geo-alt');
-        lieuIcon.setAttribute('viewBox', '0 0 16 16');
-        var lieuPath = document.createElement('path');
-        lieuPath.setAttribute('d', 'M8 0a6 6 0 0 1 6 6c0 3.333-6 10-6 10s-6-6.667-6-10a6 6 0 0 1 6-6zm0 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM7 6.723a.5.5 0 0 1 .079-.265l3.5-4.5a.5.5 0 0 1 .765.629l-1.658 2.141A3.5 3.5 0 1 1 7 6.723zm.646.646a2.5 2.5 0 1 0 3.108-3.108l-3.108 4.004z');
-        lieuIcon.appendChild(lieuPath);
-        infosCoursSynchrone.appendChild(lieuIcon);
-
-        var lieu = document.createElement('p');
-        lieu.textContent = cours.lieu;
-        infosCoursSynchrone.appendChild(lieu);
-    }
+    
 
     var prixSynchroneElement = document.createElement('p');
     prixSynchroneElement.classList.add('prix_synchrone');
