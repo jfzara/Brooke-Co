@@ -1,10 +1,10 @@
 
-	
 	// Déclaration de la variable url
-    var url = 'coursJS.json';
+    var url = 'coursSQL.json';
 
 
 
+    localStorage.clear();
 
     // Fonction pour récupérer les données JSON
     async function recupererDonneesJSON() {
@@ -20,46 +20,43 @@
         }
     }
     
-    async function recupererEtAfficherCours(selectedMonth) {
+    async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
         try {
             const data = await recupererDonneesJSON();
+            console.log('Données récupérées:', data); // Ajout d'un log pour afficher les données récupérées
     
-            let coursPourMoisSelectionne;
-            // Recherche du mois sélectionné dans les cours asynchrones
-            if (data[0].coursAsynchrones) {
-                coursPourMoisSelectionne = data[0].coursAsynchrones.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
+            // Récupération du prix unique pour tous les cours synchrones
+            const prixSynchrone = data[1].prixSynchrone; 
+    
+            // Vider le conteneur des cours
+            const containerId = isAsynchrone ? 'coursAsynchronesContainer' : 'coursSynchronesContainer';
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+    
+            // Rechercher et afficher les cours correspondants au mois sélectionné
+            const cours = isAsynchrone ? data[0].coursAsynchrones : data[1].coursSynchrones;
+            console.log('Cours trouvés:', cours); // Ajout d'un log pour afficher les cours trouvés
+            if (cours) {
+                const coursMois = cours.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
+                console.log('Cours du mois sélectionné:', coursMois); // Ajout d'un log pour afficher les cours du mois sélectionné
+                if (coursMois) {
+                    coursMois.cours.forEach(c => {
+                        // Passer prixSynchrone à la fonction creerVignetteCoursSynchrone
+                        const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c, prixSynchrone);
+                        container.appendChild(vignetteCours);
+                    });
+                } else {
+                    console.error('Aucun cours disponible pour le mois sélectionné.');
+                }
+            } else {
+                console.error('Aucun cours disponible pour le type sélectionné.');
             }
-            // Si le mois n'est pas trouvé dans les cours asynchrones, rechercher dans les cours synchrones
-            if (!coursPourMoisSelectionne && data[0].coursSynchrones) {
-                coursPourMoisSelectionne = data[0].coursSynchrones.find(mois => mois.mois.toLowerCase() === selectedMonth.toLowerCase());
-            }
-    
-            if (!coursPourMoisSelectionne) {
-                console.error('Aucun cours disponible pour le mois sélectionné.');
-                return;
-            }
-    
-            // Vider le conteneur avant d'ajouter de nouvelles vignettes
-            document.getElementById('container').innerHTML = '';
-    
-            // Générer les vignettes des cours pour le mois sélectionné
-            coursPourMoisSelectionne.cours.forEach(cours => {
-                const vignetteCours = creerVignetteCoursAsynchrone(cours);
-                // Ajouter la vignette au conteneur approprié (par exemple, div#container)
-                document.getElementById('container').appendChild(vignetteCours);
-    
-                // Ajouter un gestionnaire d'événements au clic sur "En savoir plus"
-                vignetteCours.querySelector('.savoir_plus').addEventListener('click', function () {
-                    createOrResetModal(cours);
-                });
-            });
         } catch (error) {
             console.error('Erreur lors du traitement des données:', error);
         }
     }
     
-    
-    function createOrResetModal(cours) {
+    function createOrResetModal(cours, isSynchrone) {
         var modal = document.querySelector('.modal');
         var modalContent = modal.querySelector('.modal-content');
     
@@ -81,30 +78,11 @@
         modalContent.appendChild(titreCours);
         modalContent.appendChild(descriptionCours);
     
-        // Calcul du nombre de sous-cours et leur durée respective
-        var totalHours = cours.nombreHeures;
-        var numberOfSubcourses = Math.floor(Math.random() * (6 - 3 + 1)) + 3; // Génère un nombre aléatoire entre 3 et 6
-        var subcourseDurations = [];
-        var remainingHours = totalHours;
-    
-        for (var i = 0; i < numberOfSubcourses - 1; i++) {
-            var maxDuration = remainingHours - (numberOfSubcourses - i - 1) * 2; // Durée maximale compte tenu du nombre restant de sous-cours et du minimum de 2 heures par cours
-            var randomDuration = Math.floor(Math.random() * (maxDuration - 2 + 1)) + 2; // Durée aléatoire entre 2 et la durée maximale
-            subcourseDurations.push(randomDuration);
-            remainingHours -= randomDuration;
-        }
-        subcourseDurations.push(remainingHours);
-    
-        // Création et ajout des divs pour chaque sous-cours
-        for (var j = 0; j < numberOfSubcourses; j++) {
-            var subcourseDiv = document.createElement('div');
-            subcourseDiv.textContent = 'Cours ' + (j + 1) + ': ' + subcourseDurations[j] + 'h';
-            modalContent.appendChild(subcourseDiv);
-        }
+        
     
         // Bouton "Ajouter au panier"
         var addToCartButton = document.createElement('button');
-        addToCartButton.textContent = 'Ajouter au panier';
+        addToCartButton.textContent = 'Ajouter au panier pour s\'inscrire';
         addToCartButton.classList.add('add-to-cart');
         addToCartButton.addEventListener('click', function () {
             addToCart(cours, addToCartButton, panierMessage); // Passez la référence du message de panier
@@ -306,35 +284,110 @@
         return article;
     }
     
-    // Gestionnaire d'événements pour la liste déroulante des mois
-    document.getElementById('moisListe').addEventListener('change', function () {
-        var selectedMonth = this.value.toLowerCase(); // Convertir en minuscules
-        console.log('Mois sélectionné :', selectedMonth);
+    function creerVignetteCoursSynchrone(cours, prixSynchrone) {
+        var article = document.createElement('article');
+        article.classList.add('vignette_synchrone');
     
-        // Appeler la fonction pour afficher les cours correspondants pour le mois sélectionné
-        recupererEtAfficherCours(selectedMonth);
+        // Créer les éléments pour l'icône et le texte en fonction du lieu
+        if (cours.lieu) {
+            var lieuIcone = document.createElement('img');
+            lieuIcone.src = "/public/images/free-location-icon-2955-thumb.png";
+            lieuIcone.alt = "Icône Géolocolisation";
+            lieuIcone.classList.add('geolocolisation');
+            article.appendChild(lieuIcone);
+    
+            var lieuTexte = document.createElement('p');
+            lieuTexte.textContent = cours.lieu;
+            article.appendChild(lieuTexte);
+        } else {
+            // Afficher l'icône et le texte pour les cours en ligne
+            var zoomEnLigne = document.createElement('div');
+            zoomEnLigne.classList.add('zoom_en_ligne');
+    
+            var imageZoom = document.createElement('img');
+            imageZoom.src = "/public/images/zoom-svgrepo-com.svg";
+            imageZoom.alt = "Icône Zoom";
+            imageZoom.classList.add('zoom');
+            zoomEnLigne.appendChild(imageZoom);
+    
+            var enLigne = document.createElement('p');
+            enLigne.textContent = "En ligne";
+            zoomEnLigne.appendChild(enLigne);
+    
+            article.appendChild(zoomEnLigne);
+        }
+    
+        // Ajouter les autres informations du cours
+        var nomCours = document.createElement('p');
+        nomCours.classList.add('nom_cours');
+        nomCours.textContent = cours.titre;
+        article.appendChild(nomCours);
+    
+        var infosCoursSynchrone = document.createElement('div');
+        infosCoursSynchrone.classList.add('infos_cours_synchrone');
+    
+        var formateur = document.createElement('p');
+        formateur.classList.add('formateur');
+        formateur.textContent = cours.formateur;
+        infosCoursSynchrone.appendChild(formateur);
+    
+        var datesSessions = document.createElement('div');
+        datesSessions.classList.add('dates_sessions');
+        cours.sessions.forEach(session => {
+            var dateHeure = document.createElement('p');
+            dateHeure.textContent = `${session.date} ${session.heureDebut}-${session.heureFin}`;
+            datesSessions.appendChild(dateHeure);
+        });
+        infosCoursSynchrone.appendChild(datesSessions);
+    
+        
+    
+        var prixSynchroneElement = document.createElement('p');
+        prixSynchroneElement.classList.add('prix_synchrone');
+        prixSynchroneElement.innerHTML = 'Prix: <strong>' + prixSynchrone + '</strong> CA$'; // Mettre le prix en balise strong
+        infosCoursSynchrone.appendChild(prixSynchroneElement);
+    
+        article.appendChild(infosCoursSynchrone);
+    
+        var savoirPlus = document.createElement('p');
+        savoirPlus.classList.add('savoir_plus');
+        savoirPlus.textContent = 'En savoir plus';
+        savoirPlus.onclick = function () {
+            createOrResetModal(cours);
+        };
+        article.appendChild(savoirPlus);
+    
+        var imageCoursSynchrone = document.createElement('div');
+        imageCoursSynchrone.classList.add('image_cours_synchrone');
+    
+        var image = document.createElement('img');
+        image.src = cours.image;
+        image.alt = 'image javascript';
+        imageCoursSynchrone.appendChild(image);
+    
+        article.appendChild(imageCoursSynchrone);
+    
+        return article;
+    }
+    
+    // Gestionnaire d'événements pour la liste déroulante des mois des cours asynchrones
+    document.getElementById('moisListeAsynchrone').addEventListener('change', function () {
+        var selectedMonth = this.value.toLowerCase(); // Récupérer la valeur et la convertir en minuscules
+        console.log('Mois sélectionné (asynchrone) :', selectedMonth);
+    
+        // Appeler la fonction pour afficher les cours asynchrones correspondants pour le mois sélectionné
+        recupererEtAfficherCours(selectedMonth, true);
     });
     
+    // Gestionnaire d'événements pour la liste déroulante des mois des cours synchrones
+    document.getElementById('moisListeSynchrone').addEventListener('change', function () {
+        var selectedMonth = this.value.toLowerCase(); // Récupérer la valeur et la convertir en minuscules
+        console.log('Mois sélectionné (synchrone) :', selectedMonth);
     
-    
-    
-    // Gestionnaire d'événements pour la liste déroulante des mois
-    document.getElementById('moisListe').addEventListener('change', function () {
-        var selectedMonth = this.value.toLowerCase(); // Convertir en minuscules
-        console.log('Mois sélectionné :', selectedMonth);
-    
-    
-    
-        // Appeler la fonction pour afficher les cours correspondants pour le mois sélectionné
-        recupererEtAfficherCours(selectedMonth);
-    
-    
+        // Appeler la fonction pour afficher les cours synchrones correspondants pour le mois sélectionné
+        recupererEtAfficherCours(selectedMonth, false);
     });
-    
-    
-    // Appeler la fonction pour récupérer les données JSON
-    recupererDonneesJSON()
-        .then(data => {
-            console.log(data); // Afficher les données récupérées dans la console
-        })
-        .catch(error => console.error(error));
+
+
+
+

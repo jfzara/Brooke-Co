@@ -493,334 +493,370 @@
                       }
                     ]
                   },
-                  {"prixSynchrone": "100",
-                    "coursSynchrones": [
+                  { "prixSynchrone": "100",
+                  "coursSynchrones": [
+                      {
+                          "mois": "Fevrier",
+                          "cours": [
+                              {
+                                  "id": "sqlSynchrone1",
+                                  "titre": "SQL Fondamental : Maîtriser les Bases des Bases",
+                                  "formateur": "Jean Dupont",
+                                  "description": "Ce cours est une introduction complète à SQL, le langage standard pour la gestion de bases de données relationnelles. Vous apprendrez les fondamentaux de SQL, y compris la création de bases de données, les requêtes SELECT, l'insertion, la mise à jour et la suppression de données. Que vous soyez débutant en SQL ou que vous souhaitiez rafraîchir vos connaissances, ce cours est parfait pour vous.",
+                                  "sessions": [
+                                      {
+                                          "numeroCours": 1,
+                                          "date": "2024-03-10",
+                                          "heureDebut": "09:00",
+                                          "heureFin": "11:00",
+                                          "nombreHeures": 2,
+                                          "nombreJoursCours": 1
+                                      },
+                                      {
+                                          "numeroCours": 2,
+                                          "date": "2024-03-17",
+                                          "heureDebut": "09:00",
+                                          "heureFin": "11:00",
+                                          "nombreHeures": 2,
+                                          "nombreJoursCours": 1
+                                      }
+                                  ],
+                                  "image": "/public/images/photoSQL9.jpg"
+                                }
+                            ]
+                        },
                         {
-                            "mois": "Fevrier",
-                           
-                            "id": "sqlSynchrone1",
-                            "titre": "SQL Fondamental : Maîtriser les Bases des Bases",
-                            "formateur": "Jean Dupont",
-                            "description": "Ce cours est une introduction complète à SQL, le langage standard pour la gestion de bases de données relationnelles. Vous apprendrez les fondamentaux de SQL, y compris la création de bases de données, les requêtes SELECT, l'insertion, la mise à jour et la suppression de données. Que vous soyez débutant en SQL ou que vous souhaitiez rafraîchir vos connaissances, ce cours est parfait pour vous.",
-                            "sessions": [
+                            "mois": "Mars",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-03-10",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-03-17",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone2",
+                                    "titre": "SQL Avancé : Optimisation des Requêtes et Manipulation de Données Complexes",
+                                    "formateur": "Sophie Martin",
+                                    "lieu": "CENTRE BROOKE & CO",
+                                    "description": "Ce cours avancé de SQL vous apprendra les techniques d'optimisation des requêtes, la manipulation de données complexes et les meilleures pratiques pour gérer des bases de données volumineuses. Vous explorerez des sujets avancés tels que les jointures multiples, les fonctions analytiques, les déclencheurs et les procédures stockées. Grâce à ce cours, vous serez en mesure de tirer le meilleur parti de vos bases de données et d'améliorer les performances de vos applications.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-04-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-04-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL8.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL9.jpg"
+                            ]
                         },
-                        {"mois": "Mars",
-                        
-                            "id": "sqlSynchrone2",
-                            "titre": "SQL Avancé : Optimisation des Requêtes et Manipulation de Données Complexes",
-                            "formateur": "Sophie Martin",
-                            "lieu": "CENTRE BROOKE & CO",
-                            "description": "Ce cours avancé de SQL vous apprendra les techniques d'optimisation des requêtes, la manipulation de données complexes et les meilleures pratiques pour gérer des bases de données volumineuses. Vous explorerez des sujets avancés tels que les jointures multiples, les fonctions analytiques, les déclencheurs et les procédures stockées. Grâce à ce cours, vous serez en mesure de tirer le meilleur parti de vos bases de données et d'améliorer les performances de vos applications.",
-                            "sessions": [
+                        {
+                            "mois": "Avril",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-04-05",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-04-12",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone3",
+                                    "titre": "Conception de Bases de Données Relationnelles avec SQL : Du Modèle Conceptuel au Modèle Physique",
+                                    "formateur": "Maxime Lefebvre",
+                                    "description": "Ce cours vous guidera à travers les étapes de conception d'une base de données relationnelle à l'aide de SQL. Vous apprendrez à modéliser une base de données depuis le modèle conceptuel jusqu'au modèle physique, en passant par les étapes de normalisation et de dénormalisation. Grâce à des exemples pratiques et des exercices, vous acquerrez une compréhension approfondie de la conception de bases de données relationnelles.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-05-10",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-05-17",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL7.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL8.jpg"
+                            ]
                         },
-                        {"mois": "Avril",
-                       
-                            "id": "sqlSynchrone3",
-                            "titre": "Conception de Bases de Données Relationnelles avec SQL : Du Modèle Conceptuel au Modèle Physique",
-                            "formateur": "Maxime Lefebvre",
-                            "description": "Ce cours vous guidera à travers les étapes de conception d'une base de données relationnelle à l'aide de SQL. Vous apprendrez à modéliser une base de données depuis le modèle conceptuel jusqu'au modèle physique, en passant par les étapes de normalisation et de dénormalisation. Grâce à des exemples pratiques et des exercices, vous acquerrez une compréhension approfondie de la conception de bases de données relationnelles.",
-                            "sessions": [
+                        {
+                            "mois": "Mai",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-05-10",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-05-17",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone4",
+                                    "titre": "SQL pour l'Analyse de Données : Manipulation et Transformation de Données",
+                                    "formateur": "Alicia Dupuis",
+                                    "description": "Ce cours vous apprendra à utiliser SQL pour l'analyse de données. Vous découvrirez comment manipuler et transformer des données à l'aide de requêtes SQL, en explorant des techniques telles que les agrégations, les regroupements et les jointures avancées. Avec ce cours, vous serez en mesure d'extraire des informations précieuses à partir de vos bases de données et de les utiliser pour prendre des décisions stratégiques.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-06-10",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-06-17",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL6.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL7.jpg"
+                            ]
                         },
-                        {"mois": "Mai",
-                        
-                            "id": "sqlSynchrone4",
-                            "titre": "SQL pour l'Analyse de Données : Manipulation et Transformation de Données",
-                            "formateur": "Alicia Dupuis",
-                            "description": "Ce cours vous apprendra à utiliser SQL pour l'analyse de données. Vous découvrirez comment manipuler et transformer des données à l'aide de requêtes SQL, en explorant des techniques telles que les agrégations, les regroupements et les jointures avancées. Avec ce cours, vous serez en mesure d'extraire des informations précieuses à partir de vos bases de données et de les utiliser pour prendre des décisions stratégiques.",
-                            "sessions": [
+                        {
+                            "mois": "Juin",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-06-10",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-06-17",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone5",
+                                    "titre": "SQL pour les Développeurs : Intégration dans les Applications Web et Mobiles",
+                                    "formateur": "Pierre Moreau",
+                                    "description": "Dans ce cours, vous apprendrez à intégrer SQL dans les applications web et mobiles. Vous explorerez des techniques pour communiquer avec une base de données SQL à partir de différentes plateformes de développement, notamment en utilisant des frameworks tels que Django, Flask, et Express.js. Avec ce cours, vous serez en mesure de créer des applications robustes et évolutives en intégrant SQL dans votre stack technologique.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-07-05",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-07-12",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL5.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL6.jpg"
+                            ]
                         },
-                        {"mois": "Juin",
-                       
-                            "id": "sqlSynchrone5",
-                            "titre": "SQL pour les Développeurs : Intégration dans les Applications Web et Mobiles",
-                            "formateur": "Pierre Moreau",
-                            "description": "Dans ce cours, vous apprendrez à intégrer SQL dans les applications web et mobiles. Vous explorerez des techniques pour communiquer avec une base de données SQL à partir de différentes plateformes de développement, notamment en utilisant des frameworks tels que Django, Flask, et Express.js. Avec ce cours, vous serez en mesure de créer des applications robustes et évolutives en intégrant SQL dans votre stack technologique.",
-                            "sessions": [
+                        {
+                            "mois": "Juillet",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-07-05",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-07-12",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone6",
+                                    "titre": "Administration de Bases de Données SQL : Gestion et Maintenance",
+                                    "formateur": "Claire Lambert",
+                                    "description": "Ce cours vous enseignera les compétences nécessaires pour administrer des bases de données SQL. Vous apprendrez à installer, configurer et maintenir des serveurs de bases de données SQL, ainsi qu'à gérer les utilisateurs, les autorisations et les sauvegardes. Grâce à des études de cas pratiques, vous développerez une expertise en administration de bases de données SQL.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-08-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-08-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL4.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL5.jpg"
+                            ]
                         },
-                        {"mois": "Juillet",
-                       
-                            "id": "sqlSynchrone6",
-                            "titre": "Administration de Bases de Données SQL : Gestion et Maintenance",
-                            "formateur": "Claire Lambert",
-                            "description": "Ce cours vous enseignera les compétences nécessaires pour administrer des bases de données SQL. Vous apprendrez à installer, configurer et maintenir des serveurs de bases de données SQL, ainsi qu'à gérer les utilisateurs, les autorisations et les sauvegardes. Grâce à des études de cas pratiques, vous développerez une expertise en administration de bases de données SQL.",
-                            "sessions": [
+                        {
+                            "mois": "Aout",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-08-05",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-08-12",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone7",
+                                    "titre": "SQL NoSQL : Comparaison des Bases de Données Relationnelles et Non-Relationnelles",
+                                    "formateur": "Marc Dubois",
+                                    "description": "Dans ce cours, vous explorerez les différences entre les bases de données SQL et NoSQL. Vous apprendrez les caractéristiques, les avantages et les inconvénients des bases de données relationnelles et non-relationnelles, ainsi que les cas d'utilisation appropriés pour chacune. Avec une compréhension approfondie des deux types de bases de données, vous serez en mesure de choisir la solution la plus adaptée à vos besoins.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-09-05",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-09-12",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL3.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL4.jpg"
+                            ]
                         },
-                        {"mois": "Aout",
-                       
-                            "id": "sqlSynchrone7",
-                            "titre": "SQL NoSQL : Comparaison des Bases de Données Relationnelles et Non-Relationnelles",
-                            "formateur": "Marc Dubois",
-                            "lieu": "CENTRE BROOKE & CO",
-                            "description": "Dans ce cours, vous explorerez les différences entre les bases de données SQL et NoSQL. Vous apprendrez les caractéristiques, les avantages et les inconvénients des bases de données relationnelles et non-relationnelles, ainsi que les cas d'utilisation appropriés pour chacune. Avec une compréhension approfondie des deux types de bases de données, vous serez en mesure de choisir la solution la plus adaptée à vos besoins.",
-                            "sessions": [
+                        {
+                            "mois": "Septembre",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-09-05",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-09-12",
-                                    "heureDebut": "09:00",
-                                    "heureFin": "11:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone8",
+                                    "titre": "SQL pour l'Intelligence Artificielle : Extraction et Manipulation de Données pour les Modèles d'IA",
+                                    "formateur": "Lucie Martin",
+                                    "description": "Ce cours vous apprendra à utiliser SQL pour l'intelligence artificielle. Vous découvrirez comment extraire, manipuler et préparer des données à partir de bases de données SQL pour les modèles d'IA, en utilisant des techniques telles que l'agrégation, le nettoyage de données et la création de jeux de données d'entraînement. Avec ce cours, vous serez en mesure de contribuer efficacement à des projets d'intelligence artificielle en utilisant SQL comme outil de base.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-10-05",
+                                            "heureDebut": "13:00",
+                                            "heureFin": "15:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-10-12",
+                                            "heureDebut": "13:00",
+                                            "heureFin": "15:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL2.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL3.jpg"
+                            ]
                         },
-                        {"mois": "Septembre",
-                        
-                            "id": "sqlSynchrone8",
-                            "titre": "SQL pour l'Intelligence Artificielle : Extraction et Manipulation de Données pour les Modèles d'IA",
-                            "formateur": "Lucie Martin",
-                            "lieu": "CENTRE BROOKE & CO",
-                            "description": "Ce cours vous apprendra à utiliser SQL pour l'intelligence artificielle. Vous découvrirez comment extraire, manipuler et préparer des données à partir de bases de données SQL pour les modèles d'IA, en utilisant des techniques telles que l'agrégation, le nettoyage de données et la création de jeux de données d'entraînement. Avec ce cours, vous serez en mesure de contribuer efficacement à des projets d'intelligence artificielle en utilisant SQL comme outil de base.",
-                            "sessions": [
+                        {
+                            "mois": "Octobre",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-10-05",
-                                    "heureDebut": "13:00",
-                                    "heureFin": "15:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-10-12",
-                                    "heureDebut": "13:00",
-                                    "heureFin": "15:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone9",
+                                    "titre": "SQL dans le Cloud: Bases de Données SQL sur les Plateformes Cloud",
+                                    "formateur": "Thomas Rousseau",
+                                    "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-11-05",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-11-12",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL1.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL2.jpg"
+                            ]
                         },
-                        {"mois": "Octobre",
-                       
-                            "id": "sqlSynchrone9",
-                            "titre": "SQL dans le Cloud: Bases de Données SQL sur les Plateformes Cloud",
-                            "formateur": "Thomas Rousseau",
-                            "lieu": "CENTRE BROOKE & CO",
-                            "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
-                            "sessions": [
+                        {
+                            "mois": "Novembre",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-11-05",
-                                    "heureDebut": "10:00",
-                                    "heureFin": "12:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-11-12",
-                                    "heureDebut": "10:00",
-                                    "heureFin": "12:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone10",
+                                    "titre": "SQL Spatial : Gestion de Données Géospatiales",
+                                    "formateur": "Julie Lambert",
+                                    "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-12-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-12-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL10.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL1.jpg"
+                            ]
                         },
-                        {"mois": "Novembre",
-                       
-                            "id": "sqlSynchrone10",
-                            "titre": "SQL Spatial : Gestion de Données Géospatiales",
-                            "formateur": "Julie Lambert",
-                            "lieu": "CENTRE BROOKE & CO",
-                            "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
-                            "sessions": [
+                        {
+                            "mois": "Decembre",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-12-05",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-12-12",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone11",
+                                    "titre": "SQL dans le Cloud : Déploiement et Gestion de Bases de Données SQL sur les Plateformes Cloud",
+                                    "formateur": "Thomas Rousseau",
+                                    "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-11-05",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-11-12",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL1.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL10.jpg"
+                            ]
                         },
-                        {"mois": "Decembre",
-                        
-                            "id": "sqlSynchrone11",
-                            "titre": "SQL dans le Cloud : Déploiement et Gestion de Bases de Données SQL sur les Plateformes Cloud",
-                            "formateur": "Thomas Rousseau",
-                            "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
-                            "sessions": [
+                        {
+                            "mois": "Janvier",
+                            "cours": [
                                 {
-                                    "numeroCours": 1,
-                                    "date": "2024-11-05",
-                                    "heureDebut": "10:00",
-                                    "heureFin": "12:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2024-11-12",
-                                    "heureDebut": "10:00",
-                                    "heureFin": "12:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
+                                    "id": "sqlSynchrone12",
+                                    "titre": "SQL Spatial : Gestion et Analyse de Données Géospatiales",
+                                    "formateur": "Jermaine Lertt",
+                                    "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2025-01-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2025-01-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL10.jpg"
                                 }
-                            ],
-                            "image": "/public/images/photoSQL1.jpg"
-                        },
-                        {"mois": "Janvier",
-                      
-                            "id": "sqlSynchrone12",
-                            "titre": "SQL Spatial : Gestion et Analyse de Données Géospatiales",
-                            "formateur": "Jermaine Lertt",
-                            "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
-                            "sessions": [
-                                {
-                                    "numeroCours": 1,
-                                    "date": "2025-01-05",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                },
-                                {
-                                    "numeroCours": 2,
-                                    "date": "2025-01-12",
-                                    "heureDebut": "14:00",
-                                    "heureFin": "16:00",
-                                    "nombreHeures": 2,
-                                    "nombreJoursCours": 1
-                                }
-                            ],
-                            "image": "/public/images/photoSQL10.jpg"
+                            ]
                         }
                     ]
                 }
-
-
-
-
-
-
-
-    
+                
 ]

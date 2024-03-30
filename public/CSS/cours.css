@@ -17,6 +17,7 @@ nav {
 
 main {
     padding: 20px;
+  
 }
 
 .container {
@@ -32,6 +33,8 @@ h2 {
     width: 100%;
     height: 45%;
 }
+
+
 
 /* Style pour le calendrier */
 .form-control {
@@ -51,6 +54,10 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+    position: relative;
+    bottom: -18vh;
+    
+ border: 5px red solid;
 }
 
 .footer-list {
@@ -191,17 +198,18 @@ font-weight: 500;
     box-sizing: border-box;
     border-radius: 8px;
     overflow: hidden; 
-    border: 1px solid  #edededdb;
+   border: 1px solid  #edededdb;  
 }
 
 
 
 .vignette_synchrone h2 {
-    background-color: #fff; /* Fond blanc pour l'en-tête */
+    background-color: #fff; /* Fond blanc pour l'en-tête    */
     font-size: 1rem;
     margin: 0;
     padding: 10px; /* Ajout de padding pour espacement */
     text-align: center;
+   
 }
 
 .vignette_synchrone > div p {
@@ -277,9 +285,7 @@ font-weight: 500;
     color: #6f42c1;
 }
 
-h2 {
-    color: #1c1d1f;
-}
+
 @media (max-width: 768px) {
       
       .hero-container, .carousel-caption, .navbar-nav {
@@ -669,4 +675,29 @@ display: flex;
 }
 body > main > section:nth-child(5) > div.entete_bloc {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);  
+}
+
+
+#coursSynchronesContainer, #coursAsynchronesContainer{
+    margin-top: 35px;
+    }
+
+    body > main > h2{
+     padding-top: 30px;   
+    }
+
+
+
+
+    .blur-background {
+        filter: blur(5px); /* Réglez le niveau de flou selon vos préférences */
+    }
+
+/* Media Queries */
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 576px) {
+   
 }
