@@ -1,0 +1,2607 @@
+[
+    [
+	{
+		"coursAsynchrones": [
+			{
+				"mois": "Fevrier",
+				"cours": [
+					{
+						"id": "js201",
+						"titre": "JavaScript pour Développeurs Web",
+						"formateur": "Malik Khan",
+						"description": "Dans ce cours intensif sur JavaScript, destiné aux développeurs web, vous allez plonger dans les concepts fondamentaux et avancés de ce langage de programmation incontournable pour le web moderne. Vous explorerez en profondeur les fonctionnalités clés de JavaScript, y compris les variables, les fonctions, les boucles et les objets, tout en acquérant une compréhension approfondie de la manipulation du DOM, des événements et de la programmation orientée objet. À travers des projets pratiques et des exercices stimulants, vous développerez vos compétences en JavaScript et serez prêt à créer des applications web dynamiques et interactives.",
+						"cout": 120,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS1.jpg"
+					},
+					{
+						"id": "react101",
+						"titre": "Introduction à React.js",
+						"formateur": "Sophie Leclerc",
+						"description": "Ce cours d'introduction à React.js vous permettra de découvrir l'une des bibliothèques JavaScript les plus populaires pour la création d'interfaces utilisateur interactives. Vous apprendrez les concepts fondamentaux de React.js, y compris les composants, les propriétés, l'état et le cycle de vie, tout en explorant comment créer des applications web modernes et réactives. Grâce à des exemples pratiques et des projets progressifs, vous maîtriserez les bases de React.js et serez prêt à intégrer cette technologie puissante dans vos projets.",
+						"cout": 140,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS2.jpg"
+					},
+					{
+						"id": "nodejs101",
+						"titre": "Node.js pour Développeurs Backend",
+						"formateur": "Alexandre Dubois",
+						"description": "Ce cours sur Node.js est conçu pour les développeurs backend qui souhaitent construire des applications web évolutives et performantes. Vous explorerez les bases de Node.js, y compris la gestion des modules, les opérations d'entrée/sortie asynchrones et la création de serveurs web. En utilisant des frameworks populaires tels que Express.js, vous apprendrez à créer des API RESTful et à gérer les requêtes HTTP. Avec des projets pratiques et des exercices guidés, vous développerez vos compétences en développement backend avec Node.js.",
+						"cout": 150,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS3.jpg"
+					},
+					{
+						"id": "angular101",
+						"titre": "Introduction à Angular",
+						"formateur": "Camille Lefebvre",
+						"description": "Ce cours d'introduction à Angular vous plongera dans le framework JavaScript développé par Google pour la création d'applications web dynamiques et évolutives. Vous découvrirez les concepts de base d'Angular, y compris les composants, les modules, les directives et le routage, tout en explorant comment structurer et organiser vos projets Angular de manière efficace. Grâce à des exemples pratiques et des exercices interactifs, vous développerez les compétences nécessaires pour créer des applications web modernes avec Angular.",
+						"cout": 130,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS4.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Mars",
+				"cours": [
+					{
+						"id": "jsIntro",
+						"titre": "Introduction à JavaScript",
+						"description": "Ce cours d'introduction à JavaScript vous plongera dans les bases essentielles du langage de programmation le plus largement utilisé sur le web. Vous explorerez la syntaxe de base de JavaScript, y compris les variables, les opérateurs et les structures de contrôle, tout en apprenant comment créer des fonctions pour organiser votre code de manière efficace. En outre, vous découvrirez comment manipuler le DOM pour interagir avec les éléments HTML, ce qui vous permettra de rendre vos pages web plus dynamiques et réactives. Avec des exercices pratiques et des exemples concrets, vous consoliderez vos connaissances et serez prêt à passer à des concepts plus avancés.",
+						"formateur": "John Doe",
+						"cout": 120,
+						"nombreHeures": 25,
+						"image": "/public/images/photoJS1.jpg"
+					},
+					{
+						"id": "jsDOM",
+						"titre": "Manipulation du DOM",
+						"description": "Ce cours approfondi sur la manipulation du DOM vous permettra de maîtriser les techniques avancées pour interagir avec les éléments HTML de vos pages web en utilisant JavaScript. Vous apprendrez à accéder et à modifier les éléments DOM, à gérer les événements utilisateur et à créer des applications web dynamiques. En explorant des sujets tels que la création d'éléments dynamiques, la gestion des événements et la mise à jour du contenu en temps réel, vous développerez les compétences nécessaires pour créer des expériences utilisateur interactives et engageantes.",
+						"formateur": "Jane Smith",
+						"cout": 130,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS7.jpg"
+					},
+					{
+						"id": "jsEvents",
+						"titre": "Gestion des événements",
+						"description": "Ce cours pratique sur la gestion des événements en JavaScript vous plongera dans les différentes techniques pour capturer et gérer les interactions utilisateur sur vos pages web. Vous apprendrez à attacher des écouteurs d'événements, à réagir aux clics de souris, aux pressions de touches et à d'autres actions utilisateur, tout en comprenant comment créer des applications web réactives et interactives. Grâce à des exemples concrets et des exercices pratiques, vous serez en mesure de maîtriser les bases de la gestion des événements en JavaScript et de les appliquer à vos propres projets.",
+						"formateur": "Alice Johnson",
+						"cout": 110,
+						"nombreHeures": 20,
+						"image": "/public/images/photoJS8.jpg"
+					},
+					{
+						"id": "jsOO",
+						"titre": "Programmation orientée objet en JavaScript",
+						"description": "Ce cours avancé sur la programmation orientée objet (POO) en JavaScript vous permettra de comprendre et d'appliquer les principes fondamentaux de la POO dans le contexte du développement web. Vous explorerez la création de classes, l'héritage, le polymorphisme et d'autres concepts avancés de la POO, tout en apprenant à les mettre en œuvre dans vos propres projets JavaScript. Grâce à des exemples pratiques et des exercices interactifs, vous développerez une compréhension approfondie de la POO en JavaScript et serez en mesure de concevoir des applications web modulaires, flexibles et faciles à entretenir.",
+						"formateur": "Bob Williams",
+						"cout": 140,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS9.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Avril",
+				"cours": [
+					{
+						"id": "jsArrays",
+						"titre": "Travail avec les tableaux en JavaScript",
+						"description": "Ce cours approfondi sur la manipulation des tableaux en JavaScript vous fournira les compétences nécessaires pour travailler efficacement avec des collections de données dans vos applications web. Vous apprendrez les techniques avancées pour manipuler, trier, filtrer et transformer les tableaux, ce qui vous permettra de traiter efficacement les données et de créer des fonctionnalités interactives pour vos utilisateurs. En explorant des sujets tels que les méthodes de tableau intégrées, le tri personnalisé et la réduction, vous développerez une compréhension approfondie de la manipulation des tableaux en JavaScript.",
+						"formateur": "John Doe",
+						"cout": 130,
+						"nombreHeures": 25,
+						"image": "/public/images/photoJS10.jpg"
+					},
+					{
+						"id": "jsStrings",
+						"titre": "Travail avec les chaînes en JavaScript",
+						"description": "Ce cours avancé sur la manipulation des chaînes en JavaScript vous plongera dans les techniques avancées pour manipuler et transformer les chaînes de caractères dans vos applications web. Vous apprendrez à rechercher des sous-chaînes, à découper et à remplacer des parties de chaînes, ce qui vous permettra de manipuler efficacement les données texte dans vos projets JavaScript. En explorant des sujets tels que les expressions régulières, les méthodes de chaîne intégrées et les techniques de recherche avancées, vous développerez une expertise approfondie dans la manipulation des chaînes en JavaScript.",
+						"formateur": "Jane Smith",
+						"cout": 140,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS1.jpg"
+					},
+					{
+						"id": "jsRegex",
+						"titre": "Introduction aux expressions régulières en JavaScript",
+						"description": "Ce cours d'introduction aux expressions régulières en JavaScript vous fournira les compétences de base nécessaires pour utiliser cette puissante fonctionnalité de manipulation de texte dans vos projets web. Vous apprendrez à comprendre et à créer des expressions régulières pour valider, rechercher et manipuler des chaînes de caractères, ce qui vous permettra d'implémenter des fonctionnalités avancées dans vos applications JavaScript. En explorant des sujets tels que les métacaractères, les quantificateurs et les groupes de capture, vous développerez une compréhension approfondie des expressions régulières et de leur utilisation pratique.",
+						"formateur": "Alice Johnson",
+						"cout": 120,
+						"nombreHeures": 20,
+						"image": "/public/images/photoJS2.jpg"
+					},
+					{
+						"id": "jsErrorHandling",
+						"titre": "Gestion des erreurs en JavaScript",
+						"description": "Ce cours avancé sur la gestion des erreurs en JavaScript vous fournira les compétences nécessaires pour anticiper, gérer et résoudre efficacement les erreurs dans vos applications web. Vous apprendrez à utiliser des techniques telles que les blocs try-catch, les gestionnaires d'erreurs et les promesses pour gérer les situations d'erreur courantes et garantir une expérience utilisateur fluide. En explorant des sujets tels que la gestion des exceptions, le débogage avancé et les meilleures pratiques de gestion des erreurs, vous développerez une expertise approfondie dans la gestion des erreurs en JavaScript.",
+						"formateur": "Bob Williams",
+						"cout": 150,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS3.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Mai",
+				"cours": [
+					{
+						"id": "jsAdvanced",
+						"titre": "JavaScript Avancé",
+						"description": "Ce cours avancé sur JavaScript vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de programmation dynamique. Vous explorerez des sujets tels que la programmation fonctionnelle, la manipulation avancée du DOM et la gestion asynchrone avec async/await, ce qui vous permettra de développer des applications web performantes et évolutives. En combinant des projets pratiques et des exercices interactifs, vous développerez une expertise approfondie en JavaScript et serez en mesure de relever les défis de développement les plus complexes.",
+						"formateur": "Malik Khan",
+						"cout": 180,
+						"nombreHeures": 50,
+						"image": "/public/images/photoJS4.jpg"
+					},
+					{
+						"id": "reactAdvanced",
+						"titre": "React.js Avancé",
+						"description": "Approfondissez vos connaissances de React.js avec ce cours avancé. Vous explorerez des concepts tels que les hooks, le contexte, le rendu côté serveur, et la gestion de l'état complexe dans les applications React. En combinant théorie et pratique, vous développerez des compétences avancées pour créer des interfaces utilisateur dynamiques et réactives avec React.js.",
+						"formateur": "Sophie Leclerc",
+						"cout": 190,
+						"nombreHeures": 55,
+						"image": "/public/images/photoJS5.jpg"
+					},
+					{
+						"id": "nodejsAdvanced",
+						"titre": "Node.js Avancé",
+						"description": "Plongez dans les fonctionnalités avancées de Node.js avec ce cours approfondi. Vous explorerez des sujets tels que la gestion des événements, les streams, le clustering, et la sécurité dans les applications Node.js. Grâce à des exemples pratiques et des projets avancés, vous développerez des compétences solides pour créer des applications Node.js robustes et évolutives.",
+						"formateur": "Alexandre Dubois",
+						"cout": 200,
+						"nombreHeures": 60,
+						"image": "/public/images/photoJS6.jpg"
+					},
+					{
+						"id": "angularAdvanced",
+						"titre": "Angular Avancé",
+						"description": "Approfondissez vos compétences en Angular avec ce cours avancé. Vous explorerez des sujets avancés tels que les modules, les services avancés, le routage avancé, et la gestion de la performance dans les applications Angular. En combinant théorie et pratique, vous développerez des compétences avancées pour concevoir des applications Angular complexes et performantes.",
+						"formateur": "Camille Lefebvre",
+						"cout": 210,
+						"nombreHeures": 65,
+						"image": "/public/images/photoJS7.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Juin",
+				"cours": [
+					{
+						"id": "jsFrameworks",
+						"titre": "Frameworks JavaScript",
+						"description": "Ce cours approfondi sur les frameworks JavaScript vous fournira une introduction complète aux principaux frameworks tels que React, Angular et Vue.js. Vous explorerez les concepts fondamentaux de chaque framework, y compris la création de composants réutilisables, la gestion de l'état de l'application et la navigation entre les vues, ce qui vous permettra de choisir le bon framework pour vos projets web. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks JavaScript et serez prêt à les utiliser dans vos propres projets.",
+						"formateur": "Émilie Legrand",
+						"cout": 160,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS8.jpg"
+					},
+					{
+						"id": "vuejsAdvanced",
+						"titre": "Vue.js Avancé",
+						"description": "Approfondissez vos connaissances de Vue.js avec ce cours avancé. Vous explorerez des concepts avancés tels que la composition API, les mixins, les directives personnalisées, et le routage avancé dans les applications Vue.js. En combinant théorie et pratique, vous développerez des compétences avancées pour construire des applications Vue.js robustes et évolutives.",
+						"formateur": "Julien Martin",
+						"cout": 180,
+						"nombreHeures": 45,
+						"image": "/public/images/photoJS9.jpg"
+					},
+					{
+						"id": "reactNative",
+						"titre": "React Native : Développement d'Applications Mobiles",
+						"description": "Découvrez React Native dans ce cours pratique sur le développement d'applications mobiles. Vous apprendrez à créer des applications mobiles multiplateformes en utilisant React Native, en exploitant les composants React pour construire des interfaces utilisateur réactives et performantes. Grâce à des projets pratiques, vous développerez des compétences pour créer des applications mobiles professionnelles avec React Native.",
+						"formateur": "Théo Dupuis",
+						"cout": 190,
+						"nombreHeures": 50,
+						"image": "/public/images/photoJS10.jpg"
+					},
+					{
+						"id": "angularMaterial",
+						"titre": "Angular Material : Conception d'Interfaces Utilisateur",
+						"description": "Apprenez à concevoir des interfaces utilisateur attrayantes avec Angular Material dans ce cours spécialisé. Vous découvrirez comment utiliser Angular Material pour créer des composants réactifs et esthétiques, en exploitant la puissance de Angular et des directives Material Design. En appliquant ces techniques à des cas d'utilisation réels, vous développerez des compétences pour concevoir des interfaces utilisateur modernes et intuitives.",
+						"formateur": "Léa Renault",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS1.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Juillet",
+				"cours": [
+					{
+						"id": "jsTesting",
+						"titre": "Test en JavaScript",
+						"description": "Ce cours complet sur les tests en JavaScript vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos applications web. Vous explorerez des frameworks de test populaires tels que Jest et Mocha, ainsi que des techniques avancées telles que les doubles de test et le mocking, ce qui vous permettra de garantir la qualité et la fiabilité de votre code JavaScript. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en JavaScript et serez prêt à intégrer des tests dans votre processus de développement.",
+						"formateur": "John Doe",
+						"cout": 170,
+						"nombreHeures": 45,
+						"image": "/public/images/photoJS2.jpg"
+					},
+					{
+						"id": "vuejsAdvanced",
+						"titre": "Vue.js Avancé",
+						"description": "Approfondissez vos connaissances de Vue.js avec ce cours avancé. Vous explorerez des concepts avancés tels que la composition API, les mixins, les directives personnalisées, et le routage avancé dans les applications Vue.js. En combinant théorie et pratique, vous développerez des compétences avancées pour construire des applications Vue.js robustes et évolutives.",
+						"formateur": "Julien Martin",
+						"cout": 180,
+						"nombreHeures": 45,
+						"image": "/public/images/photoJS3.jpg"
+					},
+					{
+						"id": "reactNative",
+						"titre": "React Native : Développement d'Applications Mobiles",
+						"description": "Découvrez React Native dans ce cours pratique sur le développement d'applications mobiles. Vous apprendrez à créer des applications mobiles multiplateformes en utilisant React Native, en exploitant les composants React pour construire des interfaces utilisateur réactives et performantes. Grâce à des projets pratiques, vous développerez des compétences pour créer des applications mobiles professionnelles avec React Native.",
+						"formateur": "Théo Dupuis",
+						"cout": 190,
+						"nombreHeures": 50,
+						"image": "/public/images/photoJS4.jpg"
+					},
+					{
+						"id": "angularMaterial",
+						"titre": "Angular Material : Conception d'Interfaces Utilisateur",
+						"description": "Apprenez à concevoir des interfaces utilisateur attrayantes avec Angular Material dans ce cours spécialisé. Vous découvrirez comment utiliser Angular Material pour créer des composants réactifs et esthétiques, en exploitant la puissance de Angular et des directives Material Design. En appliquant ces techniques à des cas d'utilisation réels, vous développerez des compétences pour concevoir des interfaces utilisateur modernes et intuitives.",
+						"formateur": "Léa Renault",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS5.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Aout",
+				"cours": [
+					{
+						"id": "jsSecurity",
+						"titre": "Sécurité en JavaScript",
+						"description": "Ce cours avancé sur la sécurité en JavaScript vous fournira les compétences nécessaires pour protéger vos applications web contre les menaces de sécurité courantes. Vous explorerez les vulnérabilités courantes telles que les attaques XSS et CSRF, ainsi que les meilleures pratiques pour les prévenir, y compris l'authentification et l'autorisation. En combinant des études de cas réels et des exercices pratiques, vous développerez une expertise approfondie dans la sécurité en JavaScript et serez en mesure de concevoir des applications web robustes et sécurisées.",
+						"formateur": "Jane Smith",
+						"cout": 150,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS6.jpg"
+					},
+					{
+						"id": "jsTesting",
+						"titre": "Tests en JavaScript",
+						"description": "Apprenez à écrire des tests efficaces pour vos applications JavaScript dans ce cours spécialisé. Vous découvrirez les principes fondamentaux du testing en JavaScript, y compris les outils et les frameworks les plus populaires tels que Jest et Mocha. En pratiquant des tests unitaires, des tests d'intégration et des tests de bout en bout, vous développerez des compétences pour assurer la qualité et la fiabilité de votre code JavaScript.",
+						"formateur": "Marc Dupont",
+						"cout": 160,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS7.jpg"
+					},
+					{
+						"id": "jsPerformance",
+						"titre": "Optimisation des Performances en JavaScript",
+						"description": "Découvrez comment optimiser les performances de vos applications JavaScript dans ce cours avancé. Vous explorerez les techniques pour améliorer le temps de chargement, réduire le temps de rendu et optimiser l'utilisation des ressources du navigateur. En appliquant des méthodes de profilage et d'optimisation, vous développerez des compétences pour créer des applications web réactives et performantes.",
+						"formateur": "Antoine Martin",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS8.jpg"
+					},
+					{
+						"id": "jsES6",
+						"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+						"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+						"formateur": "Sophie Lambert",
+						"cout": 180,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS9.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Septembre",
+				"cours": [
+					{
+						"id": "jsPerformance",
+						"titre": "Optimisation des performances en JavaScript",
+						"description": "Ce cours avancé sur l'optimisation des performances en JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez des techniques telles que la réduction du temps de chargement, l'optimisation du rendu et la gestion de la mémoire, ce qui vous permettra de créer des applications web rapides et réactives. En combinant des analyses de performances et des exercices pratiques, vous développerez une expertise approfondie dans l'optimisation des performances en JavaScript et serez en mesure d'optimiser efficacement vos projets web.",
+						"formateur": "Bob Williams",
+						"cout": 160,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS10.jpg"
+					},
+					{
+						"id": "jsTesting",
+						"titre": "Tests en JavaScript",
+						"description": "Apprenez à écrire des tests efficaces pour vos applications JavaScript dans ce cours spécialisé. Vous découvrirez les principes fondamentaux du testing en JavaScript, y compris les outils et les frameworks les plus populaires tels que Jest et Mocha. En pratiquant des tests unitaires, des tests d'intégration et des tests de bout en bout, vous développerez des compétences pour assurer la qualité et la fiabilité de votre code JavaScript.",
+						"formateur": "Marc Dupont",
+						"cout": 160,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS1.jpg"
+					},
+					{
+						"id": "jsPerformance",
+						"titre": "Optimisation des Performances en JavaScript",
+						"description": "Découvrez comment optimiser les performances de vos applications JavaScript dans ce cours avancé. Vous explorerez les techniques pour améliorer le temps de chargement, réduire le temps de rendu et optimiser l'utilisation des ressources du navigateur. En appliquant des méthodes de profilage et d'optimisation, vous développerez des compétences pour créer des applications web réactives et performantes.",
+						"formateur": "Antoine Martin",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS2.jpg"
+					},
+					{
+						"id": "jsES6",
+						"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+						"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+						"formateur": "Sophie Lambert",
+						"cout": 180,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS3.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Octobre",
+				"cours": [
+					{
+						"id": "jsES6",
+						"titre": "Nouveautés ECMAScript 6 (ES6)",
+						"description": "Ce cours sur les nouveautés ECMAScript 6 (ES6) vous plongera dans les dernières fonctionnalités du langage JavaScript pour améliorer votre productivité et votre qualité de code. Vous explorerez des concepts tels que les variables let et const, les fonctions fléchées et les classes, ce qui vous permettra de moderniser vos projets JavaScript et d'adopter les meilleures pratiques de développement. En combinant des exemples de code et des exercices pratiques, vous développerez une expertise approfondie dans les fonctionnalités ES6 et serez en mesure de les appliquer dans vos projets actuels et futurs.",
+						"formateur": "Malik Khan",
+						"cout": 140,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS4.jpg"
+					},
+					{
+						"id": "jsAnimations",
+						"titre": "Animations avec JavaScript et CSS",
+						"description": "Découvrez comment créer des animations fluides et interactives avec JavaScript et CSS dans ce cours spécialisé. Vous explorerez les techniques pour animer des éléments HTML, gérer les transitions et les transformations, ainsi que créer des animations basées sur des événements utilisateur. En pratiquant avec des exemples concrets, vous développerez des compétences pour rendre vos pages web plus attrayantes et dynamiques.",
+						"formateur": "Laura Tremblay",
+						"cout": 150,
+						"nombreHeures": 25,
+						"image": "/public/images/photoJS5.jpg"
+					},
+					{
+						"id": "jsWebpack",
+						"titre": "Webpack : Gestion des Modules JavaScript",
+						"description": "Apprenez à gérer efficacement les modules JavaScript avec Webpack dans ce cours avancé. Vous découvrirez comment configurer et utiliser Webpack pour regrouper et optimiser votre code JavaScript, gérer les dépendances, et mettre en place des flux de production efficaces. En combinant des démonstrations pratiques et des exercices guidés, vous développerez des compétences pour simplifier et optimiser le processus de développement de vos applications web.",
+						"formateur": "Alexandre Bouchard",
+						"cout": 160,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS6.jpg"
+					},
+					{
+						"id": "jsES6",
+						"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+						"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+						"formateur": "Sophie Lambert",
+						"cout": 180,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS7.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Novembre",
+				"cours": [
+					{
+						"id": "jsPackages",
+						"titre": "Gestion des packages JavaScript",
+						"description": "Ce cours sur la gestion des packages JavaScript vous fournira les compétences nécessaires pour gérer efficacement les dépendances de vos projets JavaScript. Vous explorerez des outils populaires tels que npm et yarn, ainsi que des techniques avancées telles que la gestion des versions et la résolution des conflits, ce qui vous permettra de maintenir vos projets JavaScript de manière efficace et organisée. En combinant des démonstrations en direct et des exercices pratiques, vous développerez une expertise approfondie dans la gestion des packages JavaScript et serez en mesure de gérer facilement les dépendances de vos projets.",
+						"formateur": "Émilie Legrand",
+						"cout": 130,
+						"nombreHeures": 25,
+						"image": "/public/images/photoJS8.jpg"
+					},
+					{
+						"id": "jsAnimations",
+						"titre": "Animations avec JavaScript et CSS",
+						"description": "Découvrez comment créer des animations fluides et interactives avec JavaScript et CSS dans ce cours spécialisé. Vous explorerez les techniques pour animer des éléments HTML, gérer les transitions et les transformations, ainsi que créer des animations basées sur des événements utilisateur. En pratiquant avec des exemples concrets, vous développerez des compétences pour rendre vos pages web plus attrayantes et dynamiques.",
+						"formateur": "Laura Tremblay",
+						"cout": 150,
+						"nombreHeures": 25,
+						"image": "/public/images/photoJS9.jpg"
+					},
+					{
+						"id": "jsWebpack",
+						"titre": "Webpack : Gestion des Modules JavaScript",
+						"description": "Apprenez à gérer efficacement les modules JavaScript avec Webpack dans ce cours avancé. Vous découvrirez comment configurer et utiliser Webpack pour regrouper et optimiser votre code JavaScript, gérer les dépendances, et mettre en place des flux de production efficaces. En combinant des démonstrations pratiques et des exercices guidés, vous développerez des compétences pour simplifier et optimiser le processus de développement de vos applications web.",
+						"formateur": "Alexandre Bouchard",
+						"cout": 160,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS10.jpg"
+					},
+					{
+						"id": "jsES6",
+						"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+						"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+						"formateur": "Sophie Lambert",
+						"cout": 180,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS1.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Decembre",
+				"cours": [
+					{
+						"id": "jsDeployment",
+						"titre": "Déploiement d'applications JavaScript",
+						"description": "Ce cours sur le déploiement d'applications JavaScript vous fournira les compétences nécessaires pour déployer efficacement vos projets JavaScript sur des serveurs ou dans le cloud. Vous explorerez les différentes méthodes de déploiement, y compris l'hébergement sur des serveurs, le déploiement dans le cloud et la configuration des environnements de production, ce qui vous permettra de mettre en ligne vos projets en toute confiance. En combinant des démonstrations en direct et des études de cas pratiques, vous développerez une expertise approfondie dans le déploiement d'applications JavaScript et serez prêt à lancer vos projets sur le marché.",
+						"formateur": "John Doe",
+						"cout": 150,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS2.jpg"
+					},
+					{
+						"id": "jsTesting",
+						"titre": "Tests Automatisés en JavaScript",
+						"description": "Apprenez à mettre en place des tests automatisés pour vos projets JavaScript dans ce cours spécialisé. Vous découvrirez les frameworks et les outils populaires tels que Jest et Mocha pour écrire et exécuter des tests unitaires et des tests d'intégration. En pratiquant avec des exemples concrets, vous développerez des compétences pour garantir la qualité et la fiabilité de votre code JavaScript.",
+						"formateur": "Sophie Martin",
+						"cout": 140,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS3.jpg"
+					},
+					{
+						"id": "jsPerformance",
+						"titre": "Optimisation des Performances JavaScript",
+						"description": "Ce cours avancé sur l'optimisation des performances JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez les meilleures pratiques pour optimiser le chargement initial, réduire le temps de rendu et minimiser la consommation de mémoire, ce qui vous permettra de créer des expériences utilisateur rapides et réactives. En combinant des techniques avancées et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances JavaScript.",
+						"formateur": "Pauline Lefebvre",
+						"cout": 160,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS4.jpg"
+					},
+					{
+						"id": "jsSecurity",
+						"titre": "Sécurité JavaScript avancée",
+						"description": "Ce cours avancé sur la sécurité JavaScript vous fournira les compétences nécessaires pour sécuriser vos applications web JavaScript contre les attaques potentielles. Vous apprendrez les bonnes pratiques pour prévenir les attaques courantes telles que les injections de code, les attaques XSS et CSRF, ainsi que les vulnérabilités de sécurité liées aux dépendances et aux API. En appliquant des stratégies de sécurité avancées et en réalisant des audits de sécurité, vous pourrez renforcer la sécurité de vos applications JavaScript.",
+						"formateur": "Antoine Dupont",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS5.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Janvier",
+				"cours": [
+					{
+						"id": "jsFoundations",
+						"titre": "Fondations de JavaScript",
+						"description": "Ce cours sur les fondations de JavaScript vous fournira les bases essentielles pour démarrer avec ce langage de programmation dynamique. Vous explorerez des concepts tels que la syntaxe de base JavaScript, la manipulation de données et les structures de contrôle, ce qui vous permettra de créer des applications web simples mais fonctionnelles. En combinant des explications théoriques et des exercices pratiques, vous développerez une solide compréhension de JavaScript et serez prêt à progresser vers des concepts plus avancés.",
+						"formateur": "Malik Khan",
+						"cout": 100,
+						"nombreHeures": 20,
+						"image": "/public/images/photoJS5.jpg"
+					},
+					{
+						"id": "jsDeployment",
+						"titre": "Déploiement d'applications JavaScript",
+						"description": "Ce cours sur le déploiement d'applications JavaScript vous fournira les compétences nécessaires pour déployer efficacement vos projets JavaScript sur des serveurs ou dans le cloud. Vous explorerez les différentes méthodes de déploiement, y compris l'hébergement sur des serveurs, le déploiement dans le cloud et la configuration des environnements de production, ce qui vous permettra de mettre en ligne vos projets en toute confiance. En combinant des démonstrations en direct et des études de cas pratiques, vous développerez une expertise approfondie dans le déploiement d'applications JavaScript et serez prêt à lancer vos projets sur le marché.",
+						"formateur": "John Doe",
+						"cout": 150,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS6.jpg"
+					},
+					{
+						"id": "jsTesting",
+						"titre": "Tests Automatisés en JavaScript",
+						"description": "Apprenez à mettre en place des tests automatisés pour vos projets JavaScript dans ce cours spécialisé. Vous découvrirez les frameworks et les outils populaires tels que Jest et Mocha pour écrire et exécuter des tests unitaires et des tests d'intégration. En pratiquant avec des exemples concrets, vous développerez des compétences pour garantir la qualité et la fiabilité de votre code JavaScript.",
+						"formateur": "Sophie Martin",
+						"cout": 140,
+						"nombreHeures": 30,
+						"image": "/public/images/photoJS7.jpg"
+					},
+					{
+						"id": "jsPerformance",
+						"titre": "Optimisation des Performances JavaScript",
+						"description": "Ce cours avancé sur l'optimisation des performances JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez les meilleures pratiques pour optimiser le chargement initial, réduire le temps de rendu et minimiser la consommation de mémoire, ce qui vous permettra de créer des expériences utilisateur rapides et réactives. En combinant des techniques avancées et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances JavaScript.",
+						"formateur": "Pauline Lefebvre",
+						"cout": 160,
+						"nombreHeures": 35,
+						"image": "/public/images/photoJS8.jpg"
+					}
+				]
+			}
+		]
+	},
+	{
+		"prixSynchrone": "100",
+		"coursSynchrones": [
+			{
+				"mois": "Fevrier",
+				"cours": [
+					{
+						"id": "pySynchrone1",
+						"titre": "Introduction à Python : Les Fondamentaux du Langage",
+						"formateur": "Marie Dubois",
+						"lieu": "CENTRE BROOKE & CO",
+						"description": "Découvrez les fondamentaux du langage Python lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Python, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Python et vous préparer à des concepts plus avancés.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-02-15",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-02-22",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS8.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Mars",
+				"cours": [
+					{
+						"id": "jsSynchrone2",
+						"titre": "JavaScript Interactif : Impliquez les Utilisateurs avec des Expériences Web Dynamiques",
+						"formateur": "Malik Khan",
+						"description": "Apprenez à créer des expériences web dynamiques et engageantes avec JavaScript interactif. Ce cours vous guide à travers les techniques avancées pour créer des interactions fluides sur vos sites web. Vous apprendrez à manipuler le DOM de manière interactive, à gérer les événements utilisateur et à créer des animations captivantes. En combinant théorie et pratique, vous développerez des compétences solides pour rendre vos applications web plus engageantes et interactives.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-03-05",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-03-12",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS3.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Avril",
+				"cours": [
+					{
+						"id": "jsSynchrone3",
+						"titre": "JavaScript pour les Concepteurs Web : Améliorez Vos Compétences Frontend",
+						"formateur": "Avery Johnson",
+						"description": "Améliorez vos compétences en frontend avec ce cours JavaScript conçu spécialement pour les web designers. Ce cours se concentre sur l'intégration de JavaScript dans le processus de conception web. Vous apprendrez à créer des animations, des transitions et des effets visuels pour améliorer l'expérience utilisateur. De plus, vous découvrirez comment utiliser JavaScript pour optimiser la performance et l'accessibilité de vos sites web. À la fin de ce cours, vous serez en mesure de créer des designs web plus dynamiques et attrayants.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-04-10",
+								"heureDebut": "09:00",
+								"heureFin": "11:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-04-17",
+								"heureDebut": "09:00",
+								"heureFin": "11:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS2.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Mai",
+				"cours": [
+					{
+						"id": "jsSynchrone4",
+						"titre": "Astuces JavaScript : Trucs, Conseils et Meilleures Pratiques",
+						"formateur": "Dylan Nguyen",
+						"lieu": "CENTRE BROOKE & CO",
+						"description": "Découvrez des astuces, des conseils et les meilleures pratiques pour maîtriser JavaScript. Ce cours aborde les astuces et les techniques avancées pour optimiser votre code JavaScript. Vous apprendrez des raccourcis utiles, des techniques de débogage efficaces et des modèles de conception éprouvés. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à améliorer votre productivité et à écrire un code JavaScript plus efficace et maintenable.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-05-15",
+								"heureDebut": "13:00",
+								"heureFin": "15:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-05-22",
+								"heureDebut": "13:00",
+								"heureFin": "15:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS4.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Juin",
+				"cours": [
+					{
+						"id": "jsSynchrone5",
+						"titre": "Cours de JavaScript Avancé : Maîtrisez les Techniques de Programmation Avancées",
+						"formateur": "Hugo Garcia",
+						"description": "Plongez dans le monde avancé de JavaScript avec ce cours intensif. Vous explorerez des concepts avancés tels que les closures, les promises, l'asynchronisme et la programmation fonctionnelle. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide de ces sujets. Que vous souhaitiez approfondir vos connaissances en JavaScript ou vous préparer à des entretiens techniques, ce cours vous fournira les compétences nécessaires pour réussir.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-06-05",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-06-12",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS5.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Juillet",
+				"cours": [
+					{
+						"id": "jsSynchrone6",
+						"titre": "Développement Web Full Stack avec JavaScript : Du Frontend au Backend",
+						"formateur": "Sophie Martin",
+						"lieu": "CENTRE BROOKE & CO",
+						"description": "Découvrez le développement web full stack avec JavaScript dans ce cours complet. Vous apprendrez à créer des applications web dynamiques en utilisant JavaScript à la fois pour le frontend et le backend. Explorez des frameworks populaires tels que React et Node.js, et apprenez à les intégrer pour construire des applications cohérentes et évolutives. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à maîtriser le développement full stack avec JavaScript.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-07-05",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-07-12",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS7.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Aout",
+				"cours": [
+					{
+						"id": "jsSynchrone7",
+						"titre": "Sécurité JavaScript : Meilleures Pratiques pour Protéger Vos Applications Web",
+						"formateur": "Eva Fernandez",
+						"description": "Apprenez les meilleures pratiques de sécurité pour protéger vos applications web JavaScript contre les attaques. Ce cours vous guidera à travers les vulnérabilités courantes et vous apprendra comment les prévenir, notamment en matière de gestion des entrées utilisateur, de protection contre les attaques XSS et CSRF, et de mise en œuvre de bonnes pratiques en matière d'authentification et d'autorisation. Protégez vos applications web et assurez la sécurité de vos utilisateurs grâce à ce cours essentiel.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-08-05",
+								"heureDebut": "09:00",
+								"heureFin": "11:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-08-12",
+								"heureDebut": "09:00",
+								"heureFin": "11:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS8.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Septembre",
+				"cours": [
+					{
+						"id": "jsSynchrone8",
+						"titre": "Développement de Jeux avec JavaScript : Créez des Expériences Ludiques et Captivantes",
+						"formateur": "Lucas Dupont",
+						"lieu": "CENTRE BROOKE & CO",
+						"description": "Plongez dans le monde du développement de jeux avec JavaScript dans ce cours excitant. Vous apprendrez à utiliser des bibliothèques populaires telles que Phaser pour créer des jeux web captivants. Explorez les principes de base du développement de jeux, y compris la gestion des sprites, les collisions et les animations. Avec ce cours, vous serez en mesure de créer vos propres jeux web et d'offrir des expériences ludiques à vos utilisateurs.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-09-05",
+								"heureDebut": "13:00",
+								"heureFin": "15:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-09-12",
+								"heureDebut": "13:00",
+								"heureFin": "15:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS10.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Octobre",
+				"cours": [
+					{
+						"id": "jsSynchrone9",
+						"titre": "Optimisation des Performances JavaScript : Accélérez Vos Applications Web",
+						"formateur": "Nina Leroy",
+						"lieu": "CENTRE BROOKE & CO",
+						"description": "Découvrez comment optimiser les performances de vos applications web JavaScript dans ce cours approfondi. Vous apprendrez les meilleures pratiques pour améliorer le chargement, l'exécution et l'efficacité de votre code JavaScript. Explorez des outils et des techniques pour mesurer et analyser les performances, ainsi que des stratégies pour réduire le temps de chargement, optimiser le rendu et minimiser l'utilisation de la mémoire. Optimisez vos applications web et offrez une expérience utilisateur fluide et réactive.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-10-05",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-10-12",
+								"heureDebut": "10:00",
+								"heureFin": "12:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS1.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Novembre",
+				"cours": [
+					{
+						"id": "jsSynchrone10",
+						"titre": "JavaScript pour l'Internet des Objets (IoT) : Contrôlez le Monde Physique avec du Code",
+						"formateur": "Maxime Lefebvre",
+						"description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-11-05",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-11-12",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS2.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Decembre",
+				"cours": [
+					{
+						"id": "jsSynchrone10",
+						"titre": "JavaScript pour l'Internet des Objets 2(IoT) : Contrôlez le Monde Physique avec du Code",
+						"formateur": "Monique Trevor",
+						"description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2024-12-05",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-12-12",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS9.jpg"
+					}
+				]
+			},
+			{
+				"mois": "Janvier",
+				"cours": [
+					{
+						"id": "jsSynchrone11",
+						"titre": "JavaScript (IoT) : Contrôlez le Monde Physique avec du Code",
+						"formateur": "Saque Tebir",
+						"description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
+						"sessions": [
+							{
+								"numeroCours": 1,
+								"date": "2025-01-05",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							},
+							{
+								"numeroCours": 2,
+								"date": "2024-01-12",
+								"heureDebut": "14:00",
+								"heureFin": "16:00",
+								"nombreHeures": 2,
+								"nombreJoursCours": 1
+							}
+						],
+						"image": "/public/images/photoJS7.jpg"
+					}
+				]
+			}
+		]
+	}
+],
+[
+    {
+        "coursAsynchrones": [
+            {
+                "mois": "Fevrier",
+                "cours": [
+                    {
+                        "id": "sql201",
+                        "titre": "SQL pour Développeurs Web",
+                        "formateur": "Marie Dubois",
+                        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+                        "cout": 120,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL1.jpg"
+                    },
+                    {
+                        "id": "sql202",
+                        "titre": "SQL pour Développeurs Web",
+                        "formateur": "Marie Dubois",
+                        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+                        "cout": 120,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL2.jpg"
+                    },
+                    {
+                        "id": "sql203",
+                        "titre": "SQL pour Développeurs Web",
+                        "formateur": "Marie Dubois",
+                        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+                        "cout": 120,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL3.jpg"
+                    },
+                    {
+                        "id": "sql204",
+                        "titre": "SQL pour Développeurs Web",
+                        "formateur": "Marie Dubois",
+                        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+                        "cout": 120,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL4.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Mars",
+                "cours": [
+                    {
+                        "id": "sql205",
+                        "titre": "Introduction à SQL",
+                        "description": "Ce cours d'introduction à SQL vous fournira les bases essentielles pour travailler avec des bases de données relationnelles. Vous explorerez la syntaxe SQL de base, y compris les instructions SELECT, INSERT, UPDATE et DELETE, ainsi que les concepts de base tels que les clés primaires, les clés étrangères et les contraintes. Avec des exemples pratiques et des exercices interactifs, vous développerez une solide compréhension de SQL et serez prêt à construire et à manipuler des bases de données relationnelles.",
+                        "formateur": "Jean Martin",
+                        "cout": 110,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoSQL5.jpg"
+                    },
+                    {
+                        "id": "sql206",
+                        "titre": "Jointures en SQL",
+                        "description": "Ce cours approfondi sur les jointures en SQL vous permettra de maîtriser les techniques avancées pour combiner des données à partir de plusieurs tables dans une seule requête SQL. Vous explorerez différents types de jointures, y compris INNER JOIN, LEFT JOIN, RIGHT JOIN et FULL JOIN, ainsi que des techniques de filtrage et de tri avancées. En combinant des explications théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les jointures en SQL et serez en mesure de manipuler efficacement des ensembles de données complexes.",
+                        "formateur": "Sophie Durand",
+                        "cout": 130,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL6.jpg"
+                    },
+                    {
+                        "id": "sql207",
+                        "titre": "Gestion des Transactions en SQL",
+                        "description": "Ce cours avancé sur la gestion des transactions en SQL vous fournira les compétences nécessaires pour gérer efficacement les transactions dans les bases de données relationnelles. Vous apprendrez à utiliser les instructions COMMIT, ROLLBACK et SAVEPOINT pour garantir l'intégrité et la cohérence des données dans un environnement transactionnel. En explorant des scénarios réels et des cas d'utilisation pratiques, vous développerez une expertise approfondie dans la gestion des transactions en SQL et serez en mesure de concevoir des applications robustes et fiables.",
+                        "formateur": "Philippe Lefebvre",
+                        "cout": 140,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoSQL7.jpg"
+                    },
+                    {
+                        "id": "sql208",
+                        "titre": "Procédures Stockées en SQL",
+                        "description": "Ce cours avancé sur les procédures stockées en SQL vous plongera dans les techniques avancées pour créer et gérer des procédures stockées dans les bases de données relationnelles. Vous explorerez la syntaxe SQL pour définir des procédures stockées, ainsi que des concepts avancés tels que les paramètres d'entrée et de sortie, les variables locales et les instructions de contrôle de flux. Avec des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans les procédures stockées en SQL et serez en mesure de les utiliser pour améliorer l'efficacité et la sécurité de vos applications.",
+                        "formateur": "Émilie Blanchard",
+                        "cout": 150,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoSQL8.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Avril",
+                "cours": [
+                    {
+                        "id": "sql209",
+                        "titre": "Vues en SQL",
+                        "description": "Ce cours avancé sur les vues en SQL vous fournira les compétences nécessaires pour créer, gérer et utiliser des vues dans les bases de données relationnelles. Vous explorerez la syntaxe SQL pour créer des vues, ainsi que des techniques avancées telles que la mise à jour et la suppression de données à travers des vues. En combinant des exemples pratiques et des démonstrations en direct, vous développerez une expertise approfondie dans les vues en SQL et serez en mesure d'optimiser la gestion de vos données à l'aide de vues.",
+                        "formateur": "Lucie Girard",
+                        "cout": 130,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL9.jpg"
+                    },
+                    {
+                        "id": "sql210",
+                        "titre": "Optimisation des Performances en SQL",
+                        "description": "Ce cours avancé sur l'optimisation des performances en SQL vous fournira les compétences nécessaires pour améliorer les performances de vos requêtes SQL et de vos bases de données relationnelles. Vous apprendrez à utiliser des techniques telles que les index, les vues matérialisées et la normalisation/dénormalisation pour optimiser la structure et le fonctionnement de vos bases de données. En explorant des cas d'utilisation réels et des stratégies éprouvées, vous développerez une expertise approfondie dans l'optimisation des performances en SQL et serez en mesure de maximiser l'efficacité de vos bases de données.",
+                        "formateur": "Thierry Bouchard",
+                        "cout": 140,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoSQL10.jpg"
+                    },
+                    {
+                        "id": "sql211",
+                        "titre": "Indexation en SQL",
+                        "description": "Ce cours avancé sur l'indexation en SQL vous plongera dans les techniques avancées pour créer et gérer des index dans les bases de données relationnelles. Vous explorerez les différents types d'index, y compris les index uniques, les index composites et les index filtrés, ainsi que des stratégies avancées pour optimiser les performances de vos requêtes SQL. Avec des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie dans l'indexation en SQL et serez en mesure de maximiser l'efficacité de vos bases de données.",
+                        "formateur": "Paul Martin",
+                        "cout": 150,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoSQL1.jpg"
+                    },
+                    {
+                        "id": "sql212",
+                        "titre": "Normalisation des Bases de Données",
+                        "description": "Ce cours avancé sur la normalisation des bases de données vous fournira les compétences nécessaires pour concevoir des bases de données relationnelles efficaces et normalisées. Vous explorerez les différentes formes de la normalisation, y compris la première, la deuxième et la troisième forme normale, ainsi que des techniques pour résoudre les anomalies de mise à jour et de suppression. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la normalisation des bases de données et serez en mesure de concevoir des schémas de bases de données robustes et évolutifs.",
+                        "formateur": "Marie Dupont",
+                        "cout": 160,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoSQL2.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Mai",
+                "cours": [
+                    {
+                        "id": "sql213",
+                        "titre": "SQL Avancé",
+                        "description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de requête de bases de données. Vous explorerez des sujets tels que les fonctions d'agrégation, les opérations de fenêtrage et les requêtes récursives, ce qui vous permettra de résoudre des problèmes complexes et d'optimiser les performances de vos requêtes SQL. En combinant des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie en SQL et serez en mesure de manipuler efficacement de grandes quantités de données.",
+                        "formateur": "Thomas Lefèvre",
+                        "cout": 160,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoSQL3.jpg"
+                    },
+                    {
+                        "id": "sql214",
+                        "titre": "Frameworks SQL",
+                        "description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+                        "formateur": "Lucas Mercier",
+                        "cout": 150,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoSQL4.jpg"
+                    },
+                    {
+                        "id": "sql215",
+                        "titre": "Test en SQL",
+                        "description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+                        "formateur": "Julie Renault",
+                        "cout": 170,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoSQL5.jpg"
+                    },
+                    {
+                        "id": "sql216",
+                        "titre": "Sécurité en SQL",
+                        "description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+                        "formateur": "Nicolas Lambert",
+                        "cout": 180,
+                        "nombreHeures": 50,
+                        "image": "/public/images/photoSQL6.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Juin",
+                "cours": [
+                    {
+                        "id": "sql217",
+                        "titre": "SQL pour Développeurs Web",
+                        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+                        "formateur": "Marie Dubois",
+                        "cout": 120,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoSQL7.jpg"
+                    },
+                    {
+                        "id": "sql218",
+                        "titre": "Frameworks SQL",
+                        "description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+                        "formateur": "Lucas Mercier",
+                        "cout": 130,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoSQL8.jpg"
+                    },
+                    {
+                        "id": "sql219",
+                        "titre": "Test en SQL",
+                        "description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+                        "formateur": "Julie Renault",
+                        "cout": 140,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoSQL9.jpg"
+                    },
+                    {
+                        "id": "sql220",
+                        "titre": "Sécurité en SQL",
+                        "description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+                        "formateur": "Nicolas Lambert",
+                        "cout": 150,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoSQL10.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Juillet",
+                "cours": [
+                    {
+                        "id": "sql221",
+                        "titre": "SQL Avancé",
+                        "description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de requête de bases de données. Vous explorerez des sujets tels que les fonctions d'agrégation, les opérations de fenêtrage et les requêtes récursives, ce qui vous permettra de résoudre des problèmes complexes et d'optimiser les performances de vos requêtes SQL. En combinant des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie en SQL et serez en mesure de manipuler efficacement de grandes quantités de données.",
+                        "formateur": "Thomas Lefèvre",
+                        "cout": 160,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoSQL1.jpg"
+                    },
+                    {
+                        "id": "sql222",
+                        "titre": "Frameworks SQL",
+                        "description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+                        "formateur": "Lucas Mercier",
+                        "cout": 150,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoSQL2.jpg"
+                    },
+                    {
+                        "id": "sql223",
+                        "titre": "Test en SQL",
+                        "description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+                        "formateur": "Julie Renault",
+                        "cout": 170,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoSQL3.jpg"
+                    },
+                    {
+                        "id": "sql224",
+                        "titre": "Sécurité en SQL",
+                        "description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+                        "formateur": "Nicolas Lambert",
+                        "cout": 180,
+                        "nombreHeures": 50,
+                        "image": "/public/images/photoSQL4.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Aout",
+                "cours": [
+                    {
+                        "id": "sql225",
+                        "titre": "SQL dans le Cloud",
+                        "description": "Ce cours avancé sur SQL dans le cloud vous fournira les compétences nécessaires pour déployer, gérer et optimiser des bases de données relationnelles dans des environnements cloud tels que Amazon RDS, Azure SQL Database et Google Cloud SQL. Vous explorerez les différentes offres de services cloud pour les bases de données relationnelles, ainsi que des techniques avancées telles que la sauvegarde et la restauration, la réplication des données et le dimensionnement automatique. En combinant des démonstrations en direct et des études de cas réels, vous développerez une expertise approfondie dans SQL dans le cloud et serez en mesure de tirer parti des avantages du cloud pour vos bases de données.",
+                        "formateur": "Charlotte Dubois",
+                        "cout": 190,
+                        "nombreHeures": 55,
+                        "image": "/public/images/photoSQL5.jpg"
+                    },
+                    {
+                        "id": "sql226",
+                        "titre": "Migration vers SQL",
+                        "description": "Ce cours avancé sur la migration vers SQL vous fournira les compétences nécessaires pour migrer des bases de données relationnelles vers SQL Server, PostgreSQL, MySQL ou d'autres systèmes de gestion de bases de données SQL. Vous explorerez les meilleures pratiques pour la planification et l'exécution de migrations de bases de données, ainsi que des outils et des techniques pour minimiser les temps d'arrêt et assurer la cohérence des données. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la migration vers SQL et serez en mesure de gérer efficacement les migrations de bases de données.",
+                        "formateur": "Antoine Rousseau",
+                        "cout": 200,
+                        "nombreHeures": 60,
+                        "image": "/public/images/photoSQL6.jpg"
+                    },
+                    {
+                        "id": "sql227",
+                        "titre": "Analyse de Données en SQL",
+                        "description": "Ce cours avancé sur l'analyse de données en SQL vous fournira les compétences nécessaires pour effectuer des analyses avancées et des requêtes complexes sur de grands ensembles de données. Vous explorerez des sujets tels que les fonctions d'agrégation avancées, les fenêtres de données et les opérations d'analyse, ce qui vous permettra de découvrir des insights précieux à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse de données en SQL et serez en mesure de prendre des décisions éclairées basées sur les données.",
+                        "formateur": "Élodie Moreau",
+                        "cout": 210,
+                        "nombreHeures": 65,
+                        "image": "/public/images/photoSQL7.jpg"
+                    },
+                    {
+                        "id": "sql228",
+                        "titre": "SQL pour la Science des Données",
+                        "description": "Ce cours avancé sur SQL pour la science des données vous fournira les compétences nécessaires pour analyser, manipuler et visualiser des données volumineuses à l'aide de SQL. Vous explorerez des techniques avancées pour effectuer des analyses statistiques, créer des modèles prédictifs et générer des visualisations de données dynamiques, ce qui vous permettra de découvrir des insights significatifs à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la science des données et serez en mesure de tirer parti de la puissance de SQL dans votre travail d'analyse de données.",
+                        "formateur": "Alexandre Laurent",
+                        "cout": 220,
+                        "nombreHeures": 70,
+                        "image": "/public/images/photoSQL8.jpg"
+                    }
+                ]
+            },
+            {
+                        "mois": "Septembre",
+                        "cours": [
+                            {
+                                "id": "sql217",
+                                "titre": "SQL dans le Cloud",
+                                "description": "Ce cours avancé sur SQL dans le cloud vous fournira les compétences nécessaires pour déployer, gérer et optimiser des bases de données relationnelles dans des environnements cloud tels que Amazon RDS, Azure SQL Database et Google Cloud SQL. Vous explorerez les différentes offres de services cloud pour les bases de données relationnelles, ainsi que des techniques avancées telles que la sauvegarde et la restauration, la réplication des données et le dimensionnement automatique. En combinant des démonstrations en direct et des études de cas réels, vous développerez une expertise approfondie dans SQL dans le cloud et serez en mesure de tirer parti des avantages du cloud pour vos bases de données.",
+                                "formateur": "Charlotte Dubois",
+                                "cout": 190,
+                                "nombreHeures": 55,
+                                "image": "/public/images/photoSQL9.jpg"
+                            },
+                            {
+                                "id": "sql218",
+                                "titre": "Migration vers SQL",
+                                "description": "Ce cours avancé sur la migration vers SQL vous fournira les compétences nécessaires pour migrer des bases de données relationnelles vers SQL Server, PostgreSQL, MySQL ou d'autres systèmes de gestion de bases de données SQL. Vous explorerez les meilleures pratiques pour la planification et l'exécution de migrations de bases de données, ainsi que des outils et des techniques pour minimiser les temps d'arrêt et assurer la cohérence des données. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la migration vers SQL et serez en mesure de gérer efficacement les migrations de bases de données.",
+                                "formateur": "Antoine Rousseau",
+                                "cout": 200,
+                                "nombreHeures": 60,
+                                "image": "/public/images/photoSQL10.jpg"
+                            },
+                            {
+                                "id": "sql219",
+                                "titre": "Analyse de Données en SQL",
+                                "description": "Ce cours avancé sur l'analyse de données en SQL vous fournira les compétences nécessaires pour effectuer des analyses avancées et des requêtes complexes sur de grands ensembles de données. Vous explorerez des sujets tels que les fonctions d'agrégation avancées, les fenêtres de données et les opérations d'analyse, ce qui vous permettra de découvrir des insights précieux à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse de données en SQL et serez en mesure de prendre des décisions éclairées basées sur les données.",
+                                "formateur": "Élodie Moreau",
+                                "cout": 210,
+                                "nombreHeures": 65,
+                                "image": "/public/images/photoSQL1.jpg"
+                            },
+                            {
+                                "id": "sql220",
+                                "titre": "SQL pour la Science des Données",
+                                "description": "Ce cours avancé sur SQL pour la science des données vous fournira les compétences nécessaires pour analyser, manipuler et visualiser des données volumineuses à l'aide de SQL. Vous explorerez des techniques avancées pour effectuer des analyses statistiques, créer des modèles prédictifs et générer des visualisations de données dynamiques, ce qui vous permettra de découvrir des insights significatifs à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la science des données et serez en mesure de tirer parti de la puissance de SQL dans votre travail d'analyse de données.",
+                                "formateur": "Alexandre Laurent",
+                                "cout": 220,
+                                "nombreHeures": 70,
+                                "image": "/public/images/photoSQL2.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "mois": "Octobre",
+                        "cours": [
+                          {
+                            "id": "sql221",
+                            "titre": "Sécurité des Bases de Données",
+                            "description": "Ce cours avancé sur la sécurité des bases de données vous fournira les compétences nécessaires pour concevoir, mettre en œuvre et maintenir des stratégies de sécurité robustes pour vos bases de données SQL. Vous explorerez les meilleures pratiques pour protéger les données sensibles, gérer les autorisations d'accès et détecter les menaces potentielles à la sécurité. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurisation des bases de données et serez en mesure de garantir l'intégrité et la confidentialité de vos données.",
+                            "formateur": "Sophie Martin",
+                            "cout": 230,
+                            "nombreHeures": 75,
+                            "image": "/public/images/photoSQL3.jpg"
+                          },
+                          {
+                            "id": "sql222",
+                            "titre": "Administration Avancée de SQL Server",
+                            "description": "Ce cours avancé sur l'administration de SQL Server vous fournira les compétences nécessaires pour gérer et optimiser efficacement les instances de SQL Server dans des environnements de production. Vous explorerez des sujets tels que la surveillance des performances, la gestion de la haute disponibilité et la résolution des problèmes courants rencontrés dans SQL Server. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans l'administration de SQL Server et serez en mesure de garantir le bon fonctionnement de vos bases de données.",
+                            "formateur": "Louis Dupont",
+                            "cout": 240,
+                            "nombreHeures": 80,
+                            "image": "/public/images/photoSQL4.jpg"
+                          },
+                          {
+                            "id": "sql223",
+                            "titre": "Data Warehousing avec SQL",
+                            "description": "Ce cours avancé sur le data warehousing avec SQL vous fournira les compétences nécessaires pour concevoir, implémenter et gérer des entrepôts de données à l'aide de SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données relationnelles. Vous explorerez des concepts clés tels que la modélisation dimensionnelle, l'extraction, la transformation et le chargement des données (ETL) et la création de rapports analytiques. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans le data warehousing avec SQL et serez en mesure de fournir des solutions de business intelligence efficaces.",
+                            "formateur": "Julien Garcia",
+                            "cout": 250,
+                            "nombreHeures": 85,
+                            "image": "/public/images/photoSQL5.jpg"
+                          },
+                          {
+                            "id": "sql224",
+                            "titre": "SQL Avancé : Performance et Optimisation",
+                            "description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour optimiser les performances de vos requêtes SQL et améliorer l'efficacité de vos bases de données. Vous explorerez des techniques avancées telles que l'indexation efficace, l'optimisation des requêtes et la gestion de la mémoire et des ressources. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances SQL et serez en mesure de garantir des performances optimales pour vos applications et services.",
+                            "formateur": "Pauline Leroux",
+                            "cout": 260,
+                            "nombreHeures": 90,
+                            "image": "/public/images/photoSQL6.jpg"
+                          }
+                        ]
+                      }, {
+                        "mois": "Novembre",
+                        "cours": [
+                          {
+                            "id": "sql225",
+                            "titre": "SQL pour l'Analyse de Big Data",
+                            "description": "Ce cours avancé sur SQL pour l'analyse de Big Data vous fournira les compétences nécessaires pour interroger et analyser des ensembles de données massives à l'aide de SQL. Vous explorerez des techniques pour travailler avec des données distribuées, des bases de données NoSQL et des outils d'analyse de Big Data tels que Apache Hadoop et Spark. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour l'analyse de Big Data et serez en mesure d'extraire des insights précieux à partir de vos données volumineuses.",
+                            "formateur": "Thomas Lefebvre",
+                            "cout": 270,
+                            "nombreHeures": 95,
+                            "image": "/public/images/photoSQL7.jpg"
+                          },
+                          {
+                            "id": "sql226",
+                            "titre": "SQL Avancé : Fonctions Temporaires",
+                            "description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour utiliser efficacement les fonctions temporaires pour traiter et analyser des données dans SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données. Vous explorerez des sujets tels que les tables temporaires, les variables de table et les fonctions de table en ligne, ce qui vous permettra de manipuler des ensembles de données de manière flexible et efficace. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation des fonctions temporaires en SQL et serez en mesure de résoudre des problèmes complexes de manipulation de données.",
+                            "formateur": "Camille Renault",
+                            "cout": 280,
+                            "nombreHeures": 100,
+                            "image": "/public/images/photoSQL9.jpg"
+                          },
+                          {
+                            "id": "sql227",
+                            "titre": "Développement Web avec SQL",
+                            "description": "Ce cours avancé sur le développement web avec SQL vous fournira les compétences nécessaires pour intégrer des bases de données SQL dans des applications web dynamiques. Vous explorerez des techniques pour interagir avec des bases de données à partir de langages de programmation web tels que PHP, Python et JavaScript, ainsi que des frameworks populaires tels que Django et Express.js. En combinant des exemples pratiques et des projets de développement web réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour le développement web et serez en mesure de créer des applications web robustes et évolutives.",
+                            "formateur": "Mathieu Blanc",
+                            "cout": 290,
+                            "nombreHeures": 105,
+                            "image": "/public/images/photoSQL10.jpg"
+                          },
+                          {
+                            "id": "sql228",
+                            "titre": "SQL Spatial : Analyse Géospatiale",
+                            "description": "Ce cours avancé sur SQL spatial vous fournira les compétences nécessaires pour analyser et visualiser des données géospatiales à l'aide de SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données spatiales. Vous explorerez des techniques pour manipuler des données géographiques, effectuer des calculs de distance et créer des visualisations cartographiques interactives. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse géospatiale avec SQL et serez en mesure de résoudre des problèmes complexes liés à la localisation et à la cartographie.",
+                            "formateur": "Émilie Girard",
+                            "cout": 300,
+                            "nombreHeures": 110,
+                            "image": "/public/images/photoSQL1.jpg"
+                          }
+                        ]
+                      }, {
+                        "mois": "Decembre",
+                        "cours": [
+                          {
+                            "id": "sql235",
+                            "titre": "SQL pour la Business Intelligence",
+                            "description": "Ce cours avancé sur SQL pour la Business Intelligence vous fournira les compétences nécessaires pour concevoir et mettre en œuvre des solutions de BI efficaces à l'aide de SQL Server, Power BI, Tableau et d'autres outils de BI populaires. Vous explorerez des techniques pour extraire, transformer et charger des données à partir de sources hétérogènes, ainsi que des stratégies pour modéliser des entrepôts de données et créer des rapports interactifs. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la BI et serez en mesure d'aider les organisations à prendre des décisions basées sur des données exploitables.",
+                            "formateur": "Lucas Martin",
+                            "cout": 320,
+                            "nombreHeures": 120,
+                            "image": "/public/images/photoSQL2.jpg"
+                          },
+                          {
+                            "id": "sql236",
+                            "titre": "SQL pour la Sécurité des Données",
+                            "description": "Ce cours avancé sur SQL pour la sécurité des données vous fournira les compétences nécessaires pour protéger les bases de données SQL contre les menaces de sécurité telles que les attaques par injection SQL, les accès non autorisés et les fuites de données. Vous explorerez des techniques pour configurer des mesures de sécurité telles que l'authentification, l'autorisation et le chiffrement des données, ainsi que des stratégies pour détecter et répondre aux incidents de sécurité. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurisation des bases de données SQL et serez en mesure de garantir l'intégrité et la confidentialité des données sensibles.",
+                            "formateur": "Sophie Dupont",
+                            "cout": 330,
+                            "nombreHeures": 125,
+                            "image": "/public/images/photoSQL3.jpg"
+                          },
+                          {
+                            "id": "sql237",
+                            "titre": "SQL pour l'Intégration de Données",
+                            "description": "Ce cours avancé sur SQL pour l'intégration de données vous fournira les compétences nécessaires pour créer des flux de données automatisés et fiables à l'aide de SQL Server Integration Services (SSIS), Apache Kafka, et d'autres outils d'intégration de données. Vous explorerez des techniques pour extraire, transformer et charger des données à grande échelle, ainsi que des stratégies pour gérer les flux de données en temps réel et en batch. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour l'intégration de données et serez en mesure de garantir la disponibilité et la qualité des données dans les environnements complexes.",
+                            "formateur": "Nicolas Dubois",
+                            "cout": 340,
+                            "nombreHeures": 130,
+                            "image": "/public/images/photoSQL4.jpg"
+                          },
+                          {
+                            "id": "sql238",
+                            "titre": "SQL pour les Applications Cloud-Natives",
+                            "description": "Ce cours avancé sur SQL pour les applications cloud-natives vous fournira les compétences nécessaires pour concevoir et déployer des applications modernes basées sur des microservices à l'aide de SQL Server, Amazon Aurora, et d'autres bases de données cloud natives. Vous explorerez des techniques pour partitionner des données, gérer la cohérence et la disponibilité des données dans des environnements distribués, ainsi que des stratégies pour intégrer des bases de données SQL dans des architectures cloud natives telles que Kubernetes. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour les applications cloud natives et serez en mesure de créer des solutions évolutives et résilientes dans le cloud.",
+                            "formateur": "Julie Lambert",
+                            "cout": 350,
+                            "nombreHeures": 135,
+                            "image": "/public/images/photoSQL5.jpg"
+                          }
+                        ]
+                      },
+                      {
+                        "mois": "Janvier",
+                        "cours": [
+                          {
+                            "id": "sql231",
+                            "titre": "Gestion Avancée de Bases de Données",
+                            "description": "Ce cours avancé sur la gestion avancée de bases de données vous fournira les compétences nécessaires pour gérer efficacement des bases de données SQL de grande taille. Vous explorerez des techniques avancées pour optimiser les performances, gérer la réplication des données et assurer la haute disponibilité des bases de données critiques. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la gestion avancée de bases de données et serez en mesure de répondre aux exigences croissantes des applications de données modernes.",
+                            "formateur": "Martin Dubois",
+                            "cout": 300,
+                            "nombreHeures": 80,
+                            "image": "/public/images/photoSQL6.jpg"
+                          },
+                          {
+                            "id": "sql232",
+                            "titre": "SQL NoSQL Integration",
+                            "description": "Ce cours avancé sur l'intégration SQL NoSQL vous fournira les compétences nécessaires pour intégrer efficacement des bases de données SQL et NoSQL dans des environnements d'entreprise. Vous explorerez des techniques pour synchroniser les données entre des systèmes relationnels et non relationnels, ainsi que des meilleures pratiques pour la gestion de la cohérence des données et des performances. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'intégration SQL NoSQL et serez en mesure de tirer parti de la diversité des technologies de base de données.",
+                            "formateur": "Laura Gagnon",
+                            "cout": 280,
+                            "nombreHeures": 70,
+                            "image": "/public/images/photoSQL7.jpg"
+                          },
+                          {
+                            "id": "sql233",
+                            "titre": "SQL Performance Tuning",
+                            "description": "Ce cours avancé sur l'optimisation des performances SQL vous fournira les compétences nécessaires pour identifier et résoudre les goulots d'étranglement de performance dans les bases de données SQL. Vous explorerez des techniques pour analyser les requêtes, concevoir des index efficaces et optimiser la configuration du serveur pour améliorer les performances globales. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans l'optimisation des performances SQL et serez en mesure de garantir des performances optimales pour vos applications critiques.",
+                            "formateur": "Jeanne Lefebvre",
+                            "cout": 320,
+                            "nombreHeures": 90,
+                            "image": "/public/images/photoSQL8.jpg"
+                          },
+                          {
+                            "id": "sql234",
+                            "titre": "SQL Avancé pour les Développeurs",
+                            "description": "Ce cours avancé sur SQL pour les développeurs vous fournira les compétences nécessaires pour maîtriser les fonctionnalités avancées de SQL pour le développement d'applications. Vous explorerez des sujets tels que les procédures stockées, les déclencheurs, les fonctions définies par l'utilisateur et les requêtes récursives, ce qui vous permettra de développer des applications robustes et évolutives. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour le développement d'applications et serez en mesure de créer des solutions logicielles puissantes et hautement performantes.",
+                            "formateur": "David Lambert",
+                            "cout": 350,
+                            "nombreHeures": 100,
+                            "image": "/public/images/photoSQL10.jpg"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  { "prixSynchrone": "100",
+                  "coursSynchrones": [
+                      {
+                          "mois": "Fevrier",
+                          "cours": [
+                              {
+                                  "id": "sqlSynchrone1",
+                                  "titre": "SQL Fondamental : Maîtriser les Bases des Bases",
+                                  "formateur": "Jean Dupont",
+                                  "description": "Ce cours est une introduction complète à SQL, le langage standard pour la gestion de bases de données relationnelles. Vous apprendrez les fondamentaux de SQL, y compris la création de bases de données, les requêtes SELECT, l'insertion, la mise à jour et la suppression de données. Que vous soyez débutant en SQL ou que vous souhaitiez rafraîchir vos connaissances, ce cours est parfait pour vous.",
+                                  "sessions": [
+                                      {
+                                          "numeroCours": 1,
+                                          "date": "2024-03-10",
+                                          "heureDebut": "09:00",
+                                          "heureFin": "11:00",
+                                          "nombreHeures": 2,
+                                          "nombreJoursCours": 1
+                                      },
+                                      {
+                                          "numeroCours": 2,
+                                          "date": "2024-03-17",
+                                          "heureDebut": "09:00",
+                                          "heureFin": "11:00",
+                                          "nombreHeures": 2,
+                                          "nombreJoursCours": 1
+                                      }
+                                  ],
+                                  "image": "/public/images/photoSQL9.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Mars",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone2",
+                                    "titre": "SQL Avancé : Optimisation des Requêtes et Manipulation de Données Complexes",
+                                    "formateur": "Sophie Martin",
+                                    "lieu": "CENTRE BROOKE & CO",
+                                    "description": "Ce cours avancé de SQL vous apprendra les techniques d'optimisation des requêtes, la manipulation de données complexes et les meilleures pratiques pour gérer des bases de données volumineuses. Vous explorerez des sujets avancés tels que les jointures multiples, les fonctions analytiques, les déclencheurs et les procédures stockées. Grâce à ce cours, vous serez en mesure de tirer le meilleur parti de vos bases de données et d'améliorer les performances de vos applications.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-04-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-04-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL8.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Avril",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone3",
+                                    "titre": "Conception de Bases de Données Relationnelles avec SQL : Du Modèle Conceptuel au Modèle Physique",
+                                    "formateur": "Maxime Lefebvre",
+                                    "description": "Ce cours vous guidera à travers les étapes de conception d'une base de données relationnelle à l'aide de SQL. Vous apprendrez à modéliser une base de données depuis le modèle conceptuel jusqu'au modèle physique, en passant par les étapes de normalisation et de dénormalisation. Grâce à des exemples pratiques et des exercices, vous acquerrez une compréhension approfondie de la conception de bases de données relationnelles.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-05-10",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-05-17",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL7.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Mai",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone4",
+                                    "titre": "SQL pour l'Analyse de Données : Manipulation et Transformation de Données",
+                                    "formateur": "Alicia Dupuis",
+                                    "description": "Ce cours vous apprendra à utiliser SQL pour l'analyse de données. Vous découvrirez comment manipuler et transformer des données à l'aide de requêtes SQL, en explorant des techniques telles que les agrégations, les regroupements et les jointures avancées. Avec ce cours, vous serez en mesure d'extraire des informations précieuses à partir de vos bases de données et de les utiliser pour prendre des décisions stratégiques.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-06-10",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-06-17",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL6.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Juin",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone5",
+                                    "titre": "SQL pour les Développeurs : Intégration dans les Applications Web et Mobiles",
+                                    "formateur": "Pierre Moreau",
+                                    "description": "Dans ce cours, vous apprendrez à intégrer SQL dans les applications web et mobiles. Vous explorerez des techniques pour communiquer avec une base de données SQL à partir de différentes plateformes de développement, notamment en utilisant des frameworks tels que Django, Flask, et Express.js. Avec ce cours, vous serez en mesure de créer des applications robustes et évolutives en intégrant SQL dans votre stack technologique.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-07-05",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-07-12",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL5.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Juillet",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone6",
+                                    "titre": "Administration de Bases de Données SQL : Gestion et Maintenance",
+                                    "formateur": "Claire Lambert",
+                                    "description": "Ce cours vous enseignera les compétences nécessaires pour administrer des bases de données SQL. Vous apprendrez à installer, configurer et maintenir des serveurs de bases de données SQL, ainsi qu'à gérer les utilisateurs, les autorisations et les sauvegardes. Grâce à des études de cas pratiques, vous développerez une expertise en administration de bases de données SQL.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-08-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-08-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL4.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Aout",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone7",
+                                    "titre": "SQL NoSQL : Comparaison des Bases de Données Relationnelles et Non-Relationnelles",
+                                    "formateur": "Marc Dubois",
+                                    "description": "Dans ce cours, vous explorerez les différences entre les bases de données SQL et NoSQL. Vous apprendrez les caractéristiques, les avantages et les inconvénients des bases de données relationnelles et non-relationnelles, ainsi que les cas d'utilisation appropriés pour chacune. Avec une compréhension approfondie des deux types de bases de données, vous serez en mesure de choisir la solution la plus adaptée à vos besoins.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-09-05",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-09-12",
+                                            "heureDebut": "09:00",
+                                            "heureFin": "11:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL3.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Septembre",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone8",
+                                    "titre": "SQL pour l'Intelligence Artificielle : Extraction et Manipulation de Données pour les Modèles d'IA",
+                                    "formateur": "Lucie Martin",
+                                    "description": "Ce cours vous apprendra à utiliser SQL pour l'intelligence artificielle. Vous découvrirez comment extraire, manipuler et préparer des données à partir de bases de données SQL pour les modèles d'IA, en utilisant des techniques telles que l'agrégation, le nettoyage de données et la création de jeux de données d'entraînement. Avec ce cours, vous serez en mesure de contribuer efficacement à des projets d'intelligence artificielle en utilisant SQL comme outil de base.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-10-05",
+                                            "heureDebut": "13:00",
+                                            "heureFin": "15:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-10-12",
+                                            "heureDebut": "13:00",
+                                            "heureFin": "15:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL2.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Octobre",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone9",
+                                    "titre": "SQL dans le Cloud: Bases de Données SQL sur les Plateformes Cloud",
+                                    "formateur": "Thomas Rousseau",
+                                    "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-11-05",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-11-12",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL1.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Novembre",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone10",
+                                    "titre": "SQL Spatial : Gestion de Données Géospatiales",
+                                    "formateur": "Julie Lambert",
+                                    "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-12-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-12-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL10.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Decembre",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone11",
+                                    "titre": "SQL dans le Cloud : Déploiement et Gestion de Bases de Données SQL sur les Plateformes Cloud",
+                                    "formateur": "Thomas Rousseau",
+                                    "description": "Dans ce cours, vous apprendrez à déployer et à gérer des bases de données SQL dans le cloud. Vous explorerez les services de base de données cloud proposés par les principaux fournisseurs, tels que AWS RDS, Google Cloud SQL et Microsoft Azure SQL Database. Avec des démonstrations pratiques, vous développerez les compétences nécessaires pour utiliser efficacement des bases de données SQL dans un environnement cloud.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2024-11-05",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2024-11-12",
+                                            "heureDebut": "10:00",
+                                            "heureFin": "12:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL1.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "mois": "Janvier",
+                            "cours": [
+                                {
+                                    "id": "sqlSynchrone12",
+                                    "titre": "SQL Spatial : Gestion et Analyse de Données Géospatiales",
+                                    "formateur": "Jermaine Lertt",
+                                    "description": "Ce cours vous guidera à travers la gestion et l'analyse de données géospatiales avec SQL. Vous découvrirez comment stocker, interroger et analyser des données géospatiales telles que des coordonnées, des formes et des distances. Avec des exemples concrets, vous apprendrez à utiliser SQL pour répondre à des questions complexes liées à l'emplacement et à la géographie.",
+                                    "sessions": [
+                                        {
+                                            "numeroCours": 1,
+                                            "date": "2025-01-05",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        },
+                                        {
+                                            "numeroCours": 2,
+                                            "date": "2025-01-12",
+                                            "heureDebut": "14:00",
+                                            "heureFin": "16:00",
+                                            "nombreHeures": 2,
+                                            "nombreJoursCours": 1
+                                        }
+                                    ],
+                                    "image": "/public/images/photoSQL10.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+],
+[
+    {
+        "coursAsynchrones": [
+            {
+                "mois": "Fevrier",
+                "cours": [
+                    {
+                        "id": "pyAvance",
+                        "titre": "Python Avancé : Maîtrise des Concepts Avancés et des Bonnes Pratiques",
+                        "description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des concepts avancés tels que la programmation orientée objet, les décorateurs, les générateurs et la manipulation avancée de données. En combinant théorie et pratique, vous développerez des compétences solides pour écrire un code Python efficace, maintenable et évolutif.",
+                        "formateur": "Emma Dubois",
+                        "cout": 150,
+                        "nombreHeures": 28,
+                        "image": "/public/images/photoPYTHON1.jpg"
+                    },
+                    {
+                        "id": "pyDataScience",
+                        "titre": "Science des Données avec Python",
+                        "description": "Explorez les fondements de la science des données avec Python dans ce cours spécialisé. Vous découvrirez les bibliothèques populaires telles que Pandas, NumPy et Matplotlib pour manipuler, analyser et visualiser des données. En appliquant ces outils à des cas d'utilisation réels, vous développerez des compétences précieuses pour extraire des informations significatives à partir de grandes quantités de données.",
+                        "formateur": "Antoine Martin",
+                        "cout": 160,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    },
+                    {
+                        "id": "pyWebScraping",
+                        "titre": "Web Scraping avec Python",
+                        "description": "Apprenez à extraire des données à partir de sites web avec Python dans ce cours spécialisé. Vous découvrirez les bibliothèques telles que BeautifulSoup et Scrapy pour récupérer des informations à partir de pages web, puis vous apprendrez à nettoyer et à analyser les données extraites. En pratiquant avec des exemples concrets, vous développerez des compétences pour automatiser le processus d'extraction de données sur le web.",
+                        "formateur": "Lucie Dupont",
+                        "cout": 140,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON3.jpg"
+                    },
+                    {
+                        "id": "pyMachineLearning",
+                        "titre": "Apprentissage Automatique avec Python",
+                        "description": "Découvrez les bases de l'apprentissage automatique avec Python dans ce cours spécialisé. Vous explorerez les algorithmes populaires tels que les arbres de décision, les SVM et les réseaux neuronaux, et vous apprendrez à les appliquer à des tâches telles que la classification et la prédiction. En pratiquant avec des ensembles de données réels, vous développerez des compétences pour construire et évaluer des modèles d'apprentissage automatique efficaces.",
+                        "formateur": "Pierre Lefevre",
+                        "cout": 170,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON4.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Mars",
+                "cours": [
+                    {
+                        "id": "pyDjango",
+                        "titre": "Développement Web avec Django : Création d'Applications Web Puissantes",
+                        "description": "Apprenez à créer des applications web puissantes avec Django dans ce cours pratique. Vous découvrirez les principes de base de Django, y compris la création de modèles, les vues, les URLs et les templates. En utilisant Django REST Framework, vous apprendrez également à créer des API RESTful pour votre application. À la fin de ce cours, vous serez en mesure de développer des applications web robustes et évolutives avec Django.",
+                        "formateur": "Louis Martin",
+                        "cout": 160,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON5.jpg"
+                    },
+                    {
+                        "id": "pyAnalyse",
+                        "titre": "Python pour l'Analyse de Données : Pandas, NumPy et Matplotlib",
+                        "description": "Explorez l'analyse de données avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser des bibliothèques telles que Pandas, NumPy et Matplotlib pour manipuler, analyser et visualiser des données. En appliquant ces outils à des cas d'utilisation réels, vous développerez des compétences précieuses pour explorer et comprendre les données.",
+                        "formateur": "Manon Dupont",
+                        "cout": 170,
+                        "nombreHeures": 27,
+                        "image": "/public/images/photoPYTHON9.jpg"
+                    },
+                    {
+                        "id": "pyIA",
+                        "titre": "Python pour l'Intelligence Artificielle",
+                        "description": "Découvrez comment utiliser Python pour l'intelligence artificielle dans ce cours spécialisé. Vous explorerez les bibliothèques populaires telles que TensorFlow, Keras et scikit-learn pour construire des modèles d'apprentissage automatique et des réseaux neuronaux. En appliquant ces techniques à des problèmes d'intelligence artificielle réels, vous développerez des compétences pour concevoir et mettre en œuvre des solutions d'IA avec Python.",
+                        "formateur": "Maxime Lambert",
+                        "cout": 180,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    },
+                    {
+                        "id": "pyAuto",
+                        "titre": "Python pour l'Automatisation des Tâches",
+                        "description": "Apprenez à automatiser des tâches avec Python dans ce cours pratique. Vous découvrirez comment utiliser des bibliothèques telles que Selenium, BeautifulSoup et pyautogui pour automatiser des tâches courantes telles que le web scraping, les tests logiciels et la manipulation de fichiers. En développant des scripts d'automatisation concrets, vous gagnerez en efficacité et en productivité dans vos projets.",
+                        "formateur": "Sophie Martin",
+                        "cout": 160,
+                        "nombreHeures": 20,
+                        "image": "/public/images/photoPYTHON10.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Avril",
+                "cours": [
+                    {
+                        "id": "pyAutoLearn",
+                        "titre": "Python pour l'Apprentissage Automatique : Introduction à Scikit-Learn",
+                        "description": "Découvrez les fondamentaux de l'apprentissage automatique avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Scikit-Learn pour mettre en œuvre des algorithmes d'apprentissage supervisé et non supervisé. En appliquant ces techniques à des ensembles de données réels, vous serez en mesure de créer des modèles d'apprentissage automatique pour résoudre divers problèmes.",
+                        "formateur": "Théo Leroy",
+                        "cout": 180,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON6.jpg"
+                    },
+                    {
+                        "id": "pyNLP",
+                        "titre": "Python pour le Traitement du Langage Naturel (NLP) : Introduction à NLTK",
+                        "description": "Découvrez le traitement du langage naturel avec Python dans ce cours spécialisé. Vous explorerez les bases du traitement du langage naturel en utilisant NLTK, y compris le prétraitement de texte, l'extraction d'entités et l'analyse de sentiments. Que vous soyez passionné par le traitement du langage naturel ou que vous souhaitiez ajouter des compétences en NLP à votre boîte à outils, ce cours vous fournira une introduction complète.",
+                        "formateur": "Louis Durand",
+                        "cout": 190,
+                        "nombreHeures": 26,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    },
+                    {
+                        "id": "pyPnd",
+                        "titre": "Python pour l'Analyse de Données : Introduction à Pandas",
+                        "description": "Explorez l'analyse de données avec Python en utilisant la bibliothèque Pandas dans ce cours spécialisé. Vous découvrirez comment manipuler et analyser des données tabulaires, nettoyer des données, créer des visualisations et effectuer des opérations avancées telles que le regroupement et l'agrégation. En acquérant ces compétences, vous serez en mesure de mener des analyses de données approfondies et de prendre des décisions éclairées.",
+                        "formateur": "Sophie Dubois",
+                        "cout": 170,
+                        "nombreHeures": 28,
+                        "image": "/public/images/photoPYTHON1.jpg"
+                    },
+                    {
+                        "id": "pyVisu",
+                        "titre": "Python pour la Visualisation de Données : Introduction à Matplotlib et Seaborn",
+                        "description": "Découvrez comment créer des visualisations de données percutantes avec Python dans ce cours spécialisé. Vous explorerez les bibliothèques de visualisation de données Matplotlib et Seaborn, apprendrez à créer des graphiques statiques et interactifs, des tracés de surface et des diagrammes de dispersion. En maîtrisant ces techniques, vous serez en mesure de communiquer efficacement des insights à partir de vos données.",
+                        "formateur": "Lucas Martin",
+                        "cout": 180,
+                        "nombreHeures": 32,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Mai",
+                "cours": [
+                    {
+                        "id": "pyFlsk",
+                        "titre": "Développement Web Asynchrone avec Python : Introduction à Flask et aiohttp",
+                        "description": "Apprenez à créer des applications web asynchrones avec Python dans ce cours pratique. Vous découvrirez les bases de Flask et aiohttp, deux frameworks web populaires pour le développement asynchrone en Python. En utilisant des techniques telles que l'asynchronisme et les coroutines, vous serez en mesure de créer des applications web performantes et réactives.",
+                        "formateur": "Julie Lefebvre",
+                        "cout": 200,
+                        "nombreHeures": 23,
+                        "image": "/public/images/photoPYTHON3.jpg"
+                    },
+                    {
+                        "id": "pyDckr",
+                        "titre": "Déploiement d'Applications Web Python avec Docker",
+                        "description": "Découvrez comment déployer vos applications web Python de manière efficace et reproductible avec Docker dans ce cours spécialisé. Vous explorerez les concepts fondamentaux de Docker, y compris la création de conteneurs, la gestion des images et le déploiement sur des clusters de conteneurs. En combinant des démonstrations pratiques et des études de cas, vous serez en mesure de créer des environnements de déploiement robustes et évolutifs pour vos projets Python.",
+                        "formateur": "Antoine Durand",
+                        "cout": 220,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON4.jpg"
+                    },
+                    {
+                        "id": "pySecu",
+                        "titre": "Sécurité des Applications Web Python : Prévention des Vulnérabilités",
+                        "description": "Ce cours avancé sur la sécurité des applications web Python vous fournira les compétences nécessaires pour protéger vos applications contre les menaces de sécurité courantes. Vous explorerez les vulnérabilités telles que les injections SQL, les attaques par force brute et les failles de sécurité de session, ainsi que les meilleures pratiques pour les prévenir. En combinant des exemples concrets et des exercices pratiques, vous développerez une expertise approfondie dans la sécurisation de vos applications web Python.",
+                        "formateur": "Sophie Martin",
+                        "cout": 240,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON5.jpg"
+                    },
+                    {
+                        "id": "pySelnm",
+                        "titre": "Tests Automatisés des Applications Web Python avec Selenium",
+                        "description": "Apprenez à automatiser les tests de vos applications web Python avec Selenium dans ce cours spécialisé. Vous découvrirez comment configurer Selenium, écrire des scripts de test et exécuter des tests automatisés pour garantir la qualité et la fiabilité de vos applications web. En acquérant ces compétences, vous serez en mesure d'accélérer le processus de développement et de livraison de vos projets Python.",
+                        "formateur": "Pierre Dubois",
+                        "cout": 200,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON6.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Juin",
+                "cours": [
+                    {
+                        "id": "pyData",
+                        "titre": "Python pour la Science des Données : Introduction à Pandas et Matplotlib",
+                        "description": "Plongez dans la science des données avec Python dans ce cours spécialisé. Vous apprendrez à manipuler des données avec Pandas, visualiser des données avec Matplotlib et explorer des ensembles de données réels. En appliquant ces compétences à des problèmes du monde réel, vous serez en mesure d'extraire des informations précieuses à partir de données.",
+                        "formateur": "Léo Bernard",
+                        "cout": 210,
+                        "nombreHeures": 29,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    },
+                    {
+                        "id": "pyDevFlask",
+                        "titre": "Développement Web avec Flask : Création d'Applications Web Python",
+                        "description": "Apprenez à créer des applications web Python avec Flask dans ce cours pratique. Vous explorerez les bases de Flask, y compris la création de routes, la gestion des templates et l'intégration de bases de données. En combinant des exemples pratiques et des projets, vous serez en mesure de développer des applications web dynamiques et évolutives avec Flask.",
+                        "formateur": "Lucie Martin",
+                        "cout": 180,
+                        "nombreHeures": 26,
+                        "image": "/public/images/photoPYTHON8.jpg"
+                    },
+                    {
+                        "id": "pyAtmt",
+                        "titre": "Python pour l'Automatisation des Tâches : Introduction à Automate",
+                        "description": "Découvrez comment automatiser les tâches répétitives avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Automate pour créer des scripts Python qui automatisent des tâches telles que la manipulation de fichiers, l'envoi d'e-mails et la gestion de données. En appliquant ces compétences, vous serez en mesure d'accroître votre productivité et d'éliminer les tâches fastidieuses.",
+                        "formateur": "Julien Dupuis",
+                        "cout": 190,
+                        "nombreHeures": 28,
+                        "image": "/public/images/photoPYTHON9.jpg"
+                    },
+                    {
+                        "id": "pyBknd",
+                        "titre": "Python pour les Développeurs Backend : Introduction à Django",
+                        "description": "Explorez le développement backend avec Python dans ce cours spécialisé. Vous découvrirez les bases de Django, y compris la création de modèles, les vues et la gestion des URL. En combinant la théorie avec des projets pratiques, vous serez en mesure de créer des applications web backend robustes et évolutives avec Django.",
+                        "formateur": "Maxime Lambert",
+                        "cout": 200,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON10.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Juillet",
+                "cours": [
+                    {
+                        "id": "pyCld",
+                        "titre": "Python et le Cloud : Développement d'Applications Cloud-Natives avec Flask et AWS",
+                        "description": "Découvrez comment créer des applications cloud-natives avec Python dans ce cours avancé. Vous utiliserez Flask pour créer des API web et AWS pour déployer et gérer vos applications dans le cloud. En combinant ces outils, vous serez en mesure de créer des applications évolutives et résilientes dans le cloud.",
+                        "formateur": "Charlotte Roy",
+                        "cout": 220,
+                        "nombreHeures": 28,
+                        "image": "/public/images/photoPYTHON1.jpg"
+                    },
+                    {
+                        "id": "pyGPtfm",
+                        "titre": "Python pour l'Analyse de Données sur le Cloud : Introduction à Google Cloud Platform",
+                        "description": "Explorez l'analyse de données sur le cloud avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser les services de Google Cloud Platform (GCP) pour analyser et visualiser des données à grande échelle. En appliquant ces compétences, vous serez en mesure de tirer parti des fonctionnalités du cloud pour l'analyse de données.",
+                        "formateur": "Alexandre Martin",
+                        "cout": 230,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    },
+                    {
+                        "id": "pyApch",
+                        "titre": "Python pour le Traitement Big Data : Introduction à Apache Spark",
+                        "description": "Découvrez comment traiter de grands ensembles de données avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Apache Spark pour effectuer des analyses et des traitements sur des ensembles de données distribués. En appliquant ces techniques, vous serez en mesure de traiter efficacement le big data avec Python.",
+                        "formateur": "Julie Dupuis",
+                        "cout": 240,
+                        "nombreHeures": 32,
+                        "image": "/public/images/photoPYTHON3.jpg"
+                    },
+                    {
+                        "id": "pyAppCnnct",
+                        "titre": "Python pour l'IoT : Développement d'Applications Connectées",
+                        "description": "Explorez le développement d'applications IoT avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour interagir avec des capteurs, collecter des données et contrôler des appareils connectés. En appliquant ces compétences, vous serez en mesure de créer des solutions IoT innovantes avec Python.",
+                        "formateur": "Sophie Lefebvre",
+                        "cout": 250,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON4.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Aout",
+                "cours": [
+                    {
+                        "id": "pyTskAuto",
+                        "titre": "Python pour l'Automatisation des Tâches : Création de Scripts Efficaces",
+                        "description": "Apprenez à automatiser des tâches avec Python dans ce cours pratique. Vous découvrirez comment créer des scripts Python pour automatiser des processus courants tels que la manipulation de fichiers, l'envoi d'e-mails et l'interaction avec des API. Avec ces compétences, vous serez en mesure d'optimiser votre productivité et de simplifier vos workflows.",
+                        "formateur": "Maxime Renault",
+                        "cout": 230,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON5.jpg"
+                    },
+                    {
+                        "id": "pyImg",
+                        "titre": "Python pour le Traitement de l'Image : Introduction à OpenCV",
+                        "description": "Explorez le traitement d'images avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque OpenCV pour effectuer des opérations telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces techniques, vous serez en mesure de développer des applications de vision par ordinateur avec Python.",
+                        "formateur": "Julien Lambert",
+                        "cout": 240,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON6.jpg"
+                    },
+                    {
+                        "id": "py2d",
+                        "titre": "Python pour le Développement de Jeux : Création de Jeux 2D avec Pygame",
+                        "description": "Découvrez comment créer des jeux 2D avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Pygame pour développer des jeux d'arcade, des puzzles et des simulations. En appliquant ces compétences, vous serez en mesure de créer vos propres jeux avec Python.",
+                        "formateur": "Étienne Leclerc",
+                        "cout": 250,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    },
+                    {
+                        "id": "pyInfo",
+                        "titre": "Python pour la Sécurité Informatique : Analyse de Vulnérabilités et Tests d'Intrusion",
+                        "description": "Explorez la sécurité informatique avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour analyser des vulnérabilités, effectuer des tests d'intrusion et développer des outils de sécurité. En appliquant ces compétences, vous serez en mesure de renforcer la sécurité de vos systèmes informatiques.",
+                        "formateur": "Sophie Dubois",
+                        "cout": 260,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoPYTHON8.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Septembre",
+                "cours": [
+                    {
+                        "id": "pyDtbs",
+                        "titre": "Python et les Bases de Données : Utilisation de SQLite et SQLAlchemy",
+                        "description": "Découvrez comment travailler avec des bases de données en Python dans ce cours spécialisé. Vous utiliserez SQLite pour la gestion de bases de données relationnelles et SQLAlchemy pour interagir avec des bases de données via Python. En combinant ces outils, vous serez en mesure de créer et de manipuler des bases de données efficacement avec Python.",
+                        "formateur": "Gabriel Girard",
+                        "cout": 240,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON9.jpg"
+                    },
+                    {
+                        "id": "pyPtst",
+                        "titre": "Python pour l'Automatisation des Tests : Introduction à pytest",
+                        "description": "Apprenez à automatiser les tests avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque pytest pour écrire et exécuter des tests unitaires et d'intégration de manière efficace. En appliquant ces compétences, vous serez en mesure de garantir la qualité de votre code Python et d'automatiser le processus de test.",
+                        "formateur": "Sophie Laurent",
+                        "cout": 250,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON10.jpg"
+                    },
+                    {
+                        "id": "pyRappt",
+                        "titre": "Python pour la Génération de Rapports Automatisés : Utilisation de Jinja2",
+                        "description": "Découvrez comment générer des rapports automatisés avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Jinja2 pour créer des modèles de rapports dynamiques et à automatiser le processus de génération de rapports à partir de données. En appliquant ces compétences, vous serez en mesure de créer des rapports personnalisés et évolutifs avec Python.",
+                        "formateur": "David Martin",
+                        "cout": 260,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON1.jpg"
+                    },
+                    {
+                        "id": "pyOpncv",
+                        "titre": "Python pour le Traitement d'Images : Introduction à OpenCV",
+                        "description": "Explorez le traitement d'images avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque OpenCV pour effectuer des opérations telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces compétences, vous serez en mesure de manipuler et d'analyser des images de manière avancée avec Python.",
+                        "formateur": "Marie Dupuis",
+                        "cout": 270,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Octobre",
+                "cours": [
+                    {
+                        "id": "pyFdt",
+                        "titre": "Python et l'Intelligence Artificielle (IA) : Fondamentaux et Applications",
+                        "description": "Explorez le domaine de l'intelligence artificielle (IA) avec Python dans ce cours avancé. Vous découvrirez les concepts fondamentaux de l'IA, y compris l'apprentissage machine, le traitement du langage naturel (NLP) et la vision par ordinateur, tout en apprenant à implémenter des solutions d'IA avec Python. Grâce à des projets pratiques et des études de cas d'utilisation réels, vous serez en mesure de créer des modèles d'IA pour résoudre divers problèmes.",
+                        "formateur": "Sophie Martin",
+                        "cout": 250,
+                        "nombreHeures": 28,
+                        "image": "/public/images/photoPYTHON3.jpg"
+                    },
+                    {
+                        "id": "pyRobt",
+                        "titre": "Python pour la Robotique : Introduction à ROS (Robot Operating System)",
+                        "description": "Découvrez comment utiliser Python pour la robotique dans ce cours spécialisé. Vous explorerez les bases de ROS (Robot Operating System) et apprendrez à contrôler des robots en utilisant Python. En combinant ces compétences, vous serez en mesure de créer et de programmer des robots autonomes et intelligents.",
+                        "formateur": "Lucas Lambert",
+                        "cout": 260,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON4.jpg"
+                    },
+                    {
+                        "id": "pyRealTm",
+                        "titre": "Python pour les Applications Web en Temps Réel : Introduction à Flask-SocketIO",
+                        "description": "Apprenez à créer des applications web en temps réel avec Python dans ce cours spécialisé. Vous découvrirez Flask-SocketIO, une extension de Flask pour la création d'applications web en temps réel, et apprendrez à développer des fonctionnalités de chat, de notifications en temps réel et d'autres applications interactives. En appliquant ces compétences, vous serez en mesure de créer des applications web modernes et réactives.",
+                        "formateur": "Manon Dupuis",
+                        "cout": 270,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON5.jpg"
+                    },
+                    {
+                        "id": "pyADN",
+                        "titre": "Python pour l'Analyse de Séquences Génomiques : Utilisation de Biopython",
+                        "description": "Plongez dans l'analyse de séquences génomiques avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Biopython, une bibliothèque Python pour la bioinformatique, pour manipuler et analyser des données de séquences génomiques. En appliquant ces compétences, vous serez en mesure de contribuer à la recherche en génomique et de résoudre des problèmes dans des domaines tels que la génétique et la biologie moléculaire.",
+                        "formateur": "Camille Leclerc",
+                        "cout": 280,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON6.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Novembre",
+                "cours": [
+                    {
+                        "id": "pySeAp",
+                        "titre": "Python et la Sécurité : Gestion des Vulnérabilités et Sécurité des Applications",
+                        "description": "Découvrez les bonnes pratiques de sécurité en Python dans ce cours spécialisé. Vous apprendrez à identifier et à gérer les vulnérabilités de sécurité courantes dans les applications Python. En appliquant ces techniques, vous serez en mesure de renforcer la sécurité de vos applications Python.",
+                        "formateur": "Alexandre Dubois",
+                        "cout": 260,
+                        "nombreHeures": 25,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    },
+                    {
+                        "id": "pyOb",
+                        "titre": "Python pour l'Internet des Objets (IoT) : Contrôle de Dispositifs Connectés",
+                        "description": "Explorez l'Internet des objets (IoT) avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour contrôler des dispositifs connectés, collecter des données à partir de capteurs et interagir avec des appareils IoT. En appliquant ces compétences, vous serez en mesure de créer des solutions innovantes dans le domaine de l'IoT.",
+                        "formateur": "Éric Martin",
+                        "cout": 270,
+                        "nombreHeures": 30,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    },
+                    {
+                        "id": "pyFin",
+                        "titre": "Python pour les Finances : Analyse de Données Financières et Modélisation",
+                        "description": "Plongez dans l'analyse financière avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Python pour analyser des données financières, créer des modèles financiers et prendre des décisions éclairées en matière d'investissement. En appliquant ces compétences, vous serez en mesure d'améliorer votre compréhension des marchés financiers et de prendre des décisions plus informées.",
+                        "formateur": "Sophie Lefebvre",
+                        "cout": 280,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON8.jpg"
+                    },
+                    {
+                        "id": "pyDe",
+                        "titre": "Python pour l'Apprentissage Profond (Deep Learning) : Introduction à TensorFlow",
+                        "description": "Découvrez le domaine de l'apprentissage profond avec Python dans ce cours spécialisé. Vous apprendrez les bases de l'apprentissage profond en utilisant TensorFlow, l'une des bibliothèques les plus populaires pour le développement d'algorithmes d'apprentissage profond. En appliquant ces compétences, vous serez en mesure de créer et de former des modèles d'apprentissage profond pour résoudre des problèmes complexes.",
+                        "formateur": "Julien Dubois",
+                        "cout": 290,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoPYTHON9.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Decembre",
+                "cours": [
+                    {
+                        "id": "pySig",
+                        "titre": "Python et le Traitement du Signal : Introduction à SciPy",
+                        "description": "Découvrez le traitement du signal avec Python dans ce cours spécialisé. Vous explorerez les fonctionnalités de base de la bibliothèque SciPy pour le traitement du signal, y compris le filtrage, la transformée de Fourier et la convolution. En appliquant ces techniques à des signaux réels, vous serez en mesure de résoudre des problèmes de traitement du signal avec Python.",
+                        "formateur": "Laura Bernard",
+                        "cout": 270,
+                        "nombreHeures": 29,
+                        "image": "/public/images/photoPYTHON10.jpg"
+                    },
+                    {
+                        "id": "pyRbtS",
+                        "titre": "Python pour la Robotique : Contrôle de Robots avec ROS",
+                        "description": "Plongez dans le domaine de la robotique avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python avec Robot Operating System (ROS) pour contrôler des robots, simuler des environnements robotiques et développer des applications robotiques avancées. En appliquant ces compétences, vous serez en mesure de créer et de programmer des robots pour diverses applications.",
+                        "formateur": "Lucas Martin",
+                        "cout": 280,
+                        "nombreHeures": 32,
+                        "image": "/public/images/photoPYTHON1.jpg"
+                    },
+                    {
+                        "id": "pyVsCPT",
+                        "titre": "Python pour la Vision par Ordinateur : Introduction à OpenCV",
+                        "description": "Explorez la vision par ordinateur avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque OpenCV pour effectuer des tâches de traitement d'images telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces techniques à des images réelles, vous serez en mesure de développer des applications de vision par ordinateur avec Python.",
+                        "formateur": "Camille Dubois",
+                        "cout": 290,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON2.jpg"
+                    },
+                    {
+                        "id": "pyAsynchrone16",
+                        "titre": "Python et l'Analyse de Réseaux Sociaux : Utilisation de NetworkX",
+                        "description": "Découvrez l'analyse de réseaux sociaux avec Python dans ce cours spécialisé. Vous explorerez les bases de l'analyse de réseaux sociaux en utilisant la bibliothèque NetworkX pour créer, analyser et visualiser des graphes de réseaux sociaux. En appliquant ces compétences à des données de réseaux sociaux réels, vous serez en mesure d'extraire des informations précieuses sur les structures de réseau et les interactions sociales.",
+                        "formateur": "Emma Lefevre",
+                        "cout": 300,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoPYTHON3.jpg"
+                    }
+                ]
+            },
+            {
+                "mois": "Janvier",
+                "cours": [
+                    {
+                        "id": "pyPygm",
+                        "titre": "Python et les Jeux Vidéo : Création de Jeux 2D avec Pygame",
+                        "description": "Explorez le monde du développement de jeux vidéo avec Python dans ce cours spécialisé. Vous apprendrez à créer des jeux 2D interactifs en utilisant la bibliothèque Pygame, en explorant des concepts tels que les sprites, les collisions et les événements utilisateur. Avec des projets pratiques et des exemples de jeux réels, vous serez en mesure de créer vos propres jeux 2D avec Python.",
+                        "formateur": "Antoine Lefebvre",
+                        "cout": 280,
+                        "nombreHeures": 31,
+                        "image": "/public/images/photoPYTHON4.jpg"
+                    },
+                    {
+                        "id": "pySlium",
+                        "titre": "Python pour l'Automatisation des Tests : Introduction à Selenium",
+                        "description": "Découvrez comment automatiser les tests avec Python dans ce cours spécialisé. Vous utiliserez la bibliothèque Selenium pour automatiser les tests d'applications web, en explorant des concepts tels que la localisation d'éléments, l'interaction avec des formulaires et l'exécution de tests sur différents navigateurs. Avec ces compétences, vous pourrez améliorer l'efficacité et la qualité de vos processus de test.",
+                        "formateur": "Lucie Martin",
+                        "cout": 290,
+                        "nombreHeures": 35,
+                        "image": "/public/images/photoPYTHON5.jpg"
+                    },
+                    {
+                        "id": "pyBkchn",
+                        "titre": "Python pour la Blockchain : Introduction à Web3.py",
+                        "description": "Explorez la technologie de la blockchain avec Python dans ce cours spécialisé. Vous apprendrez à interagir avec des contrats intelligents Ethereum et à développer des applications décentralisées (dApps) en utilisant la bibliothèque Web3.py. En appliquant ces compétences, vous serez en mesure de créer des applications innovantes basées sur la blockchain avec Python.",
+                        "formateur": "Théo Martin",
+                        "cout": 300,
+                        "nombreHeures": 40,
+                        "image": "/public/images/photoPYTHON6.jpg"
+                    },
+                    {
+                        "id": "pyQtlib",
+                        "titre": "Python et la Finance Quantitative : Introduction à QuantLib",
+                        "description": "Découvrez la finance quantitative avec Python dans ce cours spécialisé. Vous explorerez les bases de l'analyse financière et de la modélisation quantitative en utilisant la bibliothèque QuantLib. En appliquant ces techniques à des données financières réelles, vous serez en mesure d'analyser et de modéliser efficacement les marchés financiers avec Python.",
+                        "formateur": "Marie Martin",
+                        "cout": 310,
+                        "nombreHeures": 45,
+                        "image": "/public/images/photoPYTHON7.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "prixSynchrone": "100",
+		"coursSynchrones": [
+			{
+                "mois": "Fevrier",
+                "cours": [
+                    {
+                "id": "pySynchrone1",
+                "titre": "Introduction à Python : Les Fondamentaux du Langage",
+                "formateur": "Marie Dubois",
+                "description": "Découvrez les fondamentaux du langage Python lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Python, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Python et vous préparer à des concepts plus avancés.",
+                "sessions": [
+                    {
+                        "numeroCours": 1,
+                        "date": "2024-02-15",
+                        "heureDebut": "10:00",
+                        "heureFin": "12:00",
+                        "nombreHeures": 2,
+                        "nombreJoursCours": 1
+                    },
+                    {
+                        "numeroCours": 2,
+                        "date": "2024-02-22",
+                        "heureDebut": "10:00",
+                        "heureFin": "12:00",
+                        "nombreHeures": 2,
+                        "nombreJoursCours": 1
+                    }
+                ],
+                "image": "/public/images/photoPYTHON1.jpg"
+            }
+        ]
+    },{
+        "mois": "Mars",
+        "cours": [
+            {
+        "id": "pySynchrone2",
+        "titre": "Python Avancé : Maîtrisez les Techniques de Programmation",
+        "formateur": "Jean Martin",
+        "description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des sujets avancés tels que la programmation orientée objet, la manipulation de fichiers, les expressions régulières et la gestion des erreurs. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide des concepts avancés de Python.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-03-05",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-03-12",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON9.jpg"
+    }
+    ]
+},
+    
+    {
+        "mois": "Avril",
+        "cours": [
+            {
+        "id": "pySynchrone3",
+        "titre": "Python pour l'Analyse de Données : Introduction à Pandas et Matplotlib",
+        "formateur": "Sophie Lefevre",
+        "description": "Apprenez à utiliser Python pour l'analyse de données dans ce cours spécialisé. Vous découvrirez comment manipuler des données avec Pandas, effectuer des opérations de traitement et de nettoyage, et créer des visualisations avec Matplotlib. Que vous soyez débutant en analyse de données ou que vous souhaitiez approfondir vos compétences en Python, ce cours vous fournira les outils nécessaires pour analyser efficacement les données.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-04-10",
+                "heureDebut": "09:00",
+                "heureFin": "11:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-04-17",
+                "heureDebut": "09:00",
+                "heureFin": "11:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON10.jpg"
+   }
+    ]
+},
+    
+    {
+        "mois": "Mai",
+        
+        "cours": [
+            {
+        "id": "pySynchrone4",
+        "titre": "Développement Web avec Django : Construisez des Applications Web Puissantes",
+        "formateur": "Thomas Robert",
+        "lieu": "CENTRE BROOKE & CO",
+        "description": "Plongez dans le développement web avec Django dans ce cours pratique. Vous apprendrez à utiliser Django pour créer des applications web puissantes et dynamiques. Explorez les fonctionnalités de Django telles que la création de modèles, les vues, les formulaires et l'authentification utilisateur. À la fin de ce cours, vous serez en mesure de créer vos propres applications web avec Django.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-05-15",
+                "heureDebut": "13:00",
+                "heureFin": "15:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-05-22",
+                "heureDebut": "13:00",
+                "heureFin": "15:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON1.jpg"
+   }
+    ]
+},
+    {
+        "mois": "Juin",
+        
+        "cours": [
+            {
+        "id": "pySynchrone5",
+        "titre": "Python pour l'Intelligence Artificielle : Introduction à TensorFlow",
+        "formateur": "Emma Garcia",
+        "lieu": "CENTRE BROOKE & CO",
+        "description": "Explorez l'intelligence artificielle avec Python dans ce cours spécialisé. Vous découvrirez les bases de l'apprentissage automatique avec TensorFlow, y compris la création de réseaux de neurones, l'entraînement de modèles et l'évaluation de performances. Que vous soyez intéressé par l'intelligence artificielle ou que vous souhaitiez ajouter des compétences en apprentissage automatique à votre arsenal, ce cours vous fournira les connaissances nécessaires pour commencer.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-06-05",
+                "heureDebut": "10:00",
+                "heureFin": "12:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-06-12",
+                "heureDebut": "10:00",
+                "heureFin": "12:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON3.jpg"
+    }
+    ]
+},
+    {
+        "mois": "Juillet",
+        "cours": [
+            {
+        "id": "pySynchrone6",
+        "titre": "Python pour le Traitement du Langage Naturel (NLP) : Introduction à NLTK",
+        "formateur": "Louis Durand",
+        "description": "Découvrez le traitement du langage naturel avec Python dans ce cours spécialisé. Vous explorerez les bases du traitement du langage naturel en utilisant NLTK, y compris le prétraitement de texte, l'extraction d'entités et l'analyse de sentiments. Que vous soyez passionné par le traitement du langage naturel ou que vous souhaitiez ajouter des compétences en NLP à votre boîte à outils, ce cours vous fournira une introduction complète.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-07-10",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-07-17",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON4.jpg"
+   }
+    ]
+},
+    {
+        "mois": "Aout",
+        
+        "cours": [
+            {
+        "id": "pySynchrone7",
+        "titre": "Python pour le Développement Web Full Stack : Flask et React",
+        "formateur": "Antoine Dupuis",
+        "lieu": "CENTRE BROOKE & CO",
+        "description": "Découvrez le développement web full stack avec Python dans ce cours complet. Vous apprendrez à créer des applications web modernes en utilisant Flask pour le backend et React pour le frontend. Explorez les concepts de routage, de gestion des états et de persistance des données pour construire des applications web réactives et évolutives.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-08-05",
+                "heureDebut": "09:00",
+                "heureFin": "11:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-08-12",
+                "heureDebut": "09:00",
+                "heureFin": "11:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON5.jpg"
+   }
+    ]
+},
+    {
+        "mois": "Septembre",
+    
+        "cours": [
+            {
+        "id": "pySynchrone8",
+        "titre": "Python pour l'Automatisation des Tâches : Scripts et Bots",
+        "formateur": "Camille Lefebvre",
+        "lieu": "CENTRE BROOKE & CO",
+        "description": "Automatisez vos tâches quotidiennes avec Python dans ce cours pratique. Vous apprendrez à créer des scripts et des bots pour automatiser des processus tels que le traitement de fichiers, l'envoi d'e-mails et l'interaction avec des API. Que vous souhaitiez simplifier des tâches répétitives ou développer des solutions d'automatisation avancées, ce cours vous fournira les compétences nécessaires pour automatiser efficacement.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-09-10",
+                "heureDebut": "13:00",
+                "heureFin": "15:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-09-17",
+                "heureDebut": "13:00",
+                "heureFin": "15:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON6.jpg"
+    }
+    ]
+},
+    {
+        "mois": "Octobre",
+        "cours": [
+            {
+        "id": "pySynchrone9",
+        "titre": "Python pour la Visualisation de Données : Matplotlib et Seaborn",
+        "formateur": "Julien Blanc",
+        "description": "Explorez la visualisation de données avec Python dans ce cours spécialisé. Vous découvrirez comment créer des graphiques et des visualisations attrayants à l'aide de Matplotlib et Seaborn. Ce cours couvre les techniques de visualisation de base ainsi que des stratégies avancées pour représenter visuellement des données complexes.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-10-05",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-10-12",
+                "heureDebut": "14:00",
+                "heureFin": "16:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON7.jpg"
+    }
+    ]
+},
+    {
+        "mois": "Novembre",
+        "cours": [
+            {
+        "id": "pySynchrone10",
+        "titre": "Python et Sécurité Informatique",
+        "formateur": "Benjamin Musil",
+        "description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+        "sessions": [
+            {
+                "numeroCours": 1,
+                "date": "2024-11-05",
+                "heureDebut": "10:00",
+                "heureFin": "12:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            },
+            {
+                "numeroCours": 2,
+                "date": "2024-11-12",
+                "heureDebut": "10:00",
+                "heureFin": "12:00",
+                "nombreHeures": 2,
+                "nombreJoursCours": 1
+            }
+        ],
+        "image": "/public/images/photoPYTHON8.jpg"
+   }
+    ]
+},
+    {
+        "mois": "Decembre",
+        "cours": [
+            {"id": "pySynchrone11",
+            "titre": "Python pour la Sécurité Informatique : Scripting et Pentesting",
+            "formateur": "Nick Moroder",
+            "description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-12-05",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-12-09",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/public/images/photoPYTHON10.jpg"
+       }
+    ]
+},
+        {
+            "mois": "Janvier",
+            "cours": [
+                {"id": "pySynchrone12",
+                "titre": "Python : Scripting et Pentesting",
+                "formateur": "Nicolas Moreau",
+                "description": "Découvrez comment utiliser Python pour la sécurité informatique dans ce cours spécialisé. Vous apprendrez à créer des scripts pour automatiser des tâches de sécurité telles que la collecte d'informations, l'analyse de vulnérabilités et les tests de pénétration. Ce cours vous fournira les compétences nécessaires pour renforcer la sécurité de vos systèmes informatiques.",
+                "sessions": [
+                    {
+                        "numeroCours": 1,
+                        "date": "2024-01-05",
+                        "heureDebut": "10:00",
+                        "heureFin": "12:00",
+                        "nombreHeures": 2,
+                        "nombreJoursCours": 1
+                    },
+                    {
+                        "numeroCours": 2,
+                        "date": "2025-01-09",
+                        "heureDebut": "10:00",
+                        "heureFin": "12:00",
+                        "nombreHeures": 2,
+                        "nombreJoursCours": 1
+                    }
+                ],
+               "image": "/public/images/photoPYTHON3.jpg"
+        }
+    ]
+			}
+		]
+	}
+
+   ]
+
+
+
+]

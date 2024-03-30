@@ -26,7 +26,7 @@
             console.log('Données récupérées:', data); // Ajout d'un log pour afficher les données récupérées
     
             // Récupération du prix unique pour tous les cours synchrones
-            const prixSynchrone = data[1].prixSynchrone; 
+            const prixSynchrone = data[1].prixSynchrone;
     
             // Vider le conteneur des cours
             const containerId = isAsynchrone ? 'coursAsynchronesContainer' : 'coursSynchronesContainer';
@@ -44,6 +44,9 @@
                         // Passer prixSynchrone à la fonction creerVignetteCoursSynchrone
                         const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c, prixSynchrone);
                         container.appendChild(vignetteCours);
+    
+                        // Faire défiler la page vers le bas pour afficher la vignette synchrone
+                        vignetteCours.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     });
                 } else {
                     console.error('Aucun cours disponible pour le mois sélectionné.');
@@ -55,7 +58,6 @@
             console.error('Erreur lors du traitement des données:', error);
         }
     }
-    
    
 
     function createOrResetModal(cours, isSynchrone) {
@@ -393,5 +395,62 @@
     });
 
 
+// Fonction pour rechercher et afficher les résultats dans le menu déroulant
+async function rechercherEtAfficherResultats() {
+    try {
+        // Récupérer le terme de recherche depuis le champ de saisie
+        var termeRecherche = document.getElementById('searchInput').value.toLowerCase();
+        console.log('Terme de recherche saisi :', termeRecherche);
 
+        // Réinitialiser le menu déroulant des résultats
+        var menuResultats = document.getElementById('resultatsDropdown');
+        menuResultats.innerHTML = ''; // Effacer le contenu existant du menu déroulant
+
+        // Vérifier si les données JSON sont disponibles
+        if (!coursData) {
+            console.error('Les données JSON ne sont pas disponibles.');
+            return;
+        }
+
+        // Stocker les titres des cours correspondant au terme de recherche
+        var coursTrouves = [];
+
+        // Parcourir les données JSON et chercher les correspondances
+        for (var i = 0; i < coursData.length; i++) {
+            var coursMois = coursData[i].cours;
+            for (var j = 0; j < coursMois.length; j++) {
+                var coursTitre = coursMois[j].titre.toLowerCase();
+                var coursDescription = coursMois[j].description.toLowerCase();
+                // Vérifier si le terme de recherche est présent dans le titre ou la description du cours
+                if (coursTitre.includes(termeRecherche) || coursDescription.includes(termeRecherche)) {
+                    coursTrouves.push(coursMois[j].titre); // Ajouter le titre du cours trouvé
+                    console.log('Cours trouvé:', coursMois[j].titre);
+                }
+            }
+        }
+
+        // Vérifier s'il y a des résultats
+        if (coursTrouves.length > 0) {
+            // Créer et ajouter des options pour chaque titre de cours trouvé
+            coursTrouves.forEach(function(titreCours) {
+                var option = document.createElement('option');
+                option.value = titreCours.toLowerCase(); // La valeur est le titre du cours en minuscules
+                option.textContent = titreCours; // Le texte est le titre du cours
+                menuResultats.appendChild(option); // Ajouter l'option au menu déroulant
+            });
+        } else {
+            // Afficher un message d'erreur s'il n'y a pas de résultats
+            var erreurMessage = document.createElement('option');
+            erreurMessage.textContent = 'Aucun résultat trouvé';
+            erreurMessage.disabled = true; // Rendre l'option non sélectionnable
+            menuResultats.appendChild(erreurMessage); // Ajouter l'option au menu déroulant
+            console.log('Aucun résultat trouvé pour le terme de recherche :', termeRecherche);
+        }
+
+        // Afficher le menu déroulant des résultats
+        menuResultats.style.display = 'block';
+    } catch (error) {
+        console.error('Erreur lors de la recherche et de l\'affichage des résultats :', error);
+    }
+}
 

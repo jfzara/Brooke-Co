@@ -25,7 +25,7 @@
             console.log('Données récupérées:', data); // Ajout d'un log pour afficher les données récupérées
     
             // Récupération du prix unique pour tous les cours synchrones
-            const prixSynchrone = data[1].prixSynchrone; 
+            const prixSynchrone = data[1].prixSynchrone;
     
             // Vider le conteneur des cours
             const containerId = isAsynchrone ? 'coursAsynchronesContainer' : 'coursSynchronesContainer';
@@ -43,6 +43,9 @@
                         // Passer prixSynchrone à la fonction creerVignetteCoursSynchrone
                         const vignetteCours = isAsynchrone ? creerVignetteCoursAsynchrone(c) : creerVignetteCoursSynchrone(c, prixSynchrone);
                         container.appendChild(vignetteCours);
+    
+                        // Faire défiler la page vers le bas pour afficher la vignette synchrone
+                        vignetteCours.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     });
                 } else {
                     console.error('Aucun cours disponible pour le mois sélectionné.');

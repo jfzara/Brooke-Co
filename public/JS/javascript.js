@@ -5,6 +5,9 @@ var url = 'coursJS.json';
 
 localStorage.clear();
 
+
+
+
 // Fonction pour récupérer les données JSON
 async function recupererDonneesJSON() {
     try {
@@ -18,6 +21,10 @@ async function recupererDonneesJSON() {
         return []; // Retourner un tableau vide en cas d'erreur
     }
 }
+
+
+
+
 
 async function recupererEtAfficherCours(selectedMonth, isAsynchrone) {
     try {
@@ -120,7 +127,41 @@ function createOrResetModal(cours, isSynchrone) {
     modal.style.display = 'block';
 }
 
+function searchInJSON(searchTerm) {
+    if (!coursData) {
+        console.error('Le fichier JSON n\'a pas été chargé.');
+        return;
+    }
+ 
+    const searchTermLowercase = searchTerm.toLowerCase();
+    
 
+    const searchResults = [];
+    for (const mois of coursData) {
+        for (const cours of mois.coursAsynchrones) {
+            for (const coursAsynchrone of cours.cours) {
+                if (coursAsynchrone.titre.toLowerCase().includes(searchTermLowercase)) {
+                    searchResults.push(coursAsynchrone);
+                }
+            }
+        }
+        for (const cours of mois.coursSynchrones) {
+            for (const coursSynchrones of cours.cours) {
+                if (coursSynchrones.titre.toLowerCase().includes(searchTermLowercase)) {
+                    searchResults.push(coursSynchrones);
+                }
+            }
+        }
+    }
+
+    if (searchResults.length > 0) {
+        console.log('Résultats de la recherche :', searchResults);
+       
+    } else {
+        console.log('Aucun résultat trouvé pour la recherche :', searchTerm);
+        alert('Aucun résultat trouvé pour la recherche : ' + searchTerm);
+    }
+}
 
 // Fonction pour ajouter un cours au panier
 function addToCart(cours, addToCartButton, panierMessage) {
@@ -394,4 +435,68 @@ document.getElementById('moisListeSynchrone').addEventListener('change', functio
 
 
 
+async function test() {
+    try {
+        const data = await recupererDonneesJSON(); // Récupération des données JSON
+        console.log('Données récupérées:', data); // Affichage des données récupérées dans la console
 
+        // Vérification si des cours asynchrones sont disponibles
+        if (data && data[0] && data[0].coursAsynchrones && data[0].coursAsynchrones.length > 0) {
+            const premierCoursAsynchrone = data[0].coursAsynchrones[0].cours[0];
+            const titrePremierCoursAsynchrone = premierCoursAsynchrone.titre;
+            const idPremierCoursAsynchrone = premierCoursAsynchrone.id; // Ajout du console log de l'ID du cours
+            console.log('Titre du premier cours asynchrone:', titrePremierCoursAsynchrone);
+            console.log('ID du premier cours asynchrone:', idPremierCoursAsynchrone);
+
+            // Récupérer le terme de recherche saisi par l'utilisateur et le normaliser
+            const termeRecherche = document.getElementById('searchInput').value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            console.log('Terme de recherche saisi:', termeRecherche);
+
+            // Normaliser le titre du premier cours asynchrone
+            const titreNormalise = titrePremierCoursAsynchrone.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+
+            // Vérifier si le terme de recherche est présent dans le titre du premier cours
+            if (titreNormalise.includes(termeRecherche)) {
+                const dropdownMenu = document.getElementById('dropdownMenu');
+
+                // Créer le lien correspondant
+                const lienElement = document.createElement('a');
+                lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+                lienElement.textContent = titrePremierCoursAsynchrone;
+                lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+
+                // Ajouter l'élément lien au menu déroulant
+                dropdownMenu.appendChild(lienElement);
+
+                // Afficher le dropdown
+                dropdownMenu.style.display = 'block'; // Assurez-vous que le dropdown soit en display block
+            } else {
+                console.log('Le terme de recherche n\'est pas présent dans le titre du premier cours.');
+            }
+        } else {
+            console.error('Aucun cours asynchrone disponible.');
+        }
+    } catch (error) {
+        console.error('Erreur lors de la récupération des données:', error);
+    }
+}
+// Gestionnaire d'événements pour l'événement click du bouton de recherche
+document.getElementById('searchButton').addEventListener('click', function(event) {
+    event.preventDefault(); // Pour empêcher le comportement par défaut du lien
+    if (document.getElementById('searchInput').value.length >= 3) {
+        test();
+    } else {
+        alert('Veuillez saisir au minimum 3 lettres.');
+    }
+});
+
+// Gestionnaire d'événements pour l'événement keypress du champ de saisie pour détecter la touche Entrée
+document.getElementById('searchInput').addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        if (this.value.length >= 3) {
+            test();
+        } else {
+            alert('Veuillez saisir au minimum 3 lettres.');
+        }
+    }
+});

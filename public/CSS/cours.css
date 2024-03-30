@@ -10,7 +10,6 @@ nav {
 }
 
 .navbar a {
-    color: white;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -686,11 +685,53 @@ body > main > section:nth-child(5) > div.entete_bloc {
     }
 
 
+  
+
+#dropdownMenu{
+    position: relative;
+    top: -1px;
+    height: 12rem;
+    overflow-y: auto;
+}
+
+#searchBarContainer {
+    position: relative;
+    width: 450px;
+    height: 12rem;
+    right: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar {
+    width: 100%;
+   
+}
+
+#searchInput {
+    width: 88%;
+    background-color: white;
+    width: 450px;
+}
+
+#searchButton {
+    width: 40px; 
+    position: relative;
+    right: 33px;
+    top: 0;
+}
 
 
-    .blur-background {
-        filter: blur(5px); /* Réglez le niveau de flou selon vos préférences */
-    }
+.visible-link {
+    display: block;
+    color: blue;
+    text-decoration: underline; 
+    cursor: pointer; 
+    margin-right: 10px; 
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
