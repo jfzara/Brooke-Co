@@ -480,6 +480,8 @@ async function test() {
         console.error('Erreur lors de la récupération des données:', error);
     }
 }
+
+
 // Gestionnaire d'événements pour l'événement click du bouton de recherche
 document.getElementById('searchButton').addEventListener('click', function(event) {
     event.preventDefault(); // Pour empêcher le comportement par défaut du lien

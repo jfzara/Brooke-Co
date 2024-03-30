@@ -690,8 +690,9 @@ body > main > section:nth-child(5) > div.entete_bloc {
 #dropdownMenu{
     position: relative;
     top: -1px;
-    height: 12rem;
-    overflow-y: auto;
+    width: 450px;
+    max-height: 6rem;
+    overflow-y: auto; 
 }
 
 #searchBarContainer {
@@ -706,8 +707,10 @@ body > main > section:nth-child(5) > div.entete_bloc {
 }
 
 #searchBar {
-    width: 100%;
-   
+    width: 450px;
+   position:absolute;
+   top: 0vh;
+   right: 0vw;
 }
 
 #searchInput {
