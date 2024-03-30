@@ -56,6 +56,8 @@
         }
     }
     
+   
+
     function createOrResetModal(cours, isSynchrone) {
         var modal = document.querySelector('.modal');
         var modalContent = modal.querySelector('.modal-content');
@@ -82,7 +84,7 @@
     
         // Bouton "Ajouter au panier"
         var addToCartButton = document.createElement('button');
-        addToCartButton.textContent = 'Ajouter au panier pour s\'inscrire';
+        addToCartButton.textContent = 'Acheter';
         addToCartButton.classList.add('add-to-cart');
         addToCartButton.addEventListener('click', function () {
             addToCart(cours, addToCartButton, panierMessage); // Passez la référence du message de panier
@@ -118,6 +120,8 @@
         modal.style.display = 'block';
     }
     
+
+
     // Fonction pour ajouter un cours au panier
     function addToCart(cours, addToCartButton, panierMessage) {
         // Vérifier si le cours a déjà été acheté

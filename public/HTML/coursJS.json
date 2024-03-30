@@ -348,7 +348,7 @@
 						"formateur": "Laura Tremblay",
 						"cout": 150,
 						"nombreHeures": 25,
-						"image": "/public/images/photoJS5.jpg.jpg"
+						"image": "/public/images/photoJS5.jpg"
 					},
 					{
 						"id": "jsWebpack",
@@ -440,6 +440,15 @@
 						"cout": 160,
 						"nombreHeures": 35,
 						"image": "/public/images/photoJS4.jpg"
+					},
+					{
+						"id": "jsSecurity",
+						"titre": "Sécurité JavaScript avancée",
+						"description": "Ce cours avancé sur la sécurité JavaScript vous fournira les compétences nécessaires pour sécuriser vos applications web JavaScript contre les attaques potentielles. Vous apprendrez les bonnes pratiques pour prévenir les attaques courantes telles que les injections de code, les attaques XSS et CSRF, ainsi que les vulnérabilités de sécurité liées aux dépendances et aux API. En appliquant des stratégies de sécurité avancées et en réalisant des audits de sécurité, vous pourrez renforcer la sécurité de vos applications JavaScript.",
+						"formateur": "Antoine Dupont",
+						"cout": 170,
+						"nombreHeures": 40,
+						"image": "/public/images/photoJS5.jpg"
 					}
 				]
 			},
