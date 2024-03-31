@@ -435,7 +435,7 @@ document.getElementById('moisListeSynchrone').addEventListener('change', functio
 
 
 
-async function chargerDonneesTousLesCours() {
+async function recupererDonneesTousLesCours() {
     // Charger les données depuis TousLesCours.json
     const response = await fetch('TousLesCours.json');
     const data = await response.json();
@@ -447,7 +447,8 @@ async function chargerDonneesTousLesCours() {
 }
 
 
-async function test() {
+
+async function afficherCoursDropDown() {
     try {
         const data = await recupererDonneesJSON(); // Récupération des données JSON
         console.log('Données récupérées:', data); // Affichage des données récupérées dans la console
@@ -529,6 +530,56 @@ async function test() {
         console.error('Erreur lors de la récupération des données:', error);
     }
 }
+
+
+
+function afficherCours(cours, mois, type, dropdownMenu) {
+    const titreCours = cours.titre;
+    const texteElement = titreCours + ' (' + mois + ')';
+
+    // Créer le lien correspondant
+    const lienElement = document.createElement('a');
+    lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+    lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+    lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+    lienElement.classList.add(type); // Ajout de la classe spécifique au type de cours
+
+    // Ajouter l'élément lien au menu déroulant
+    dropdownMenu.appendChild(lienElement);
+}
+
+
+
+
+
+function afficherCours(cours, mois, type) {
+    const titreCours = cours.titre;
+    const texteElement = titreCours + ' (' + mois + ' - ' + type.toUpperCase() + ')';
+
+    // Normaliser le titre du cours
+    const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+
+    // Vérifier si le terme de recherche est présent dans le titre du cours
+    if (titreNormalise.includes(termeRecherche)) {
+        // Créer le lien correspondant
+        const lienElement = document.createElement('a');
+        lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+        lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+        lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+        lienElement.classList.add(type); // Ajout de la classe spécifique au type de cours
+
+        // Ajouter l'élément lien au menu déroulant
+        dropdownMenu.appendChild(lienElement);
+    }
+}
+
+
+
+
+
+
+
+
 function afficherCours(cours, moisCours, typeCoursString) {
     const titreCours = cours.titre;
     const moisString = moisCours + (typeCoursString === 'synchrone' ? ' (SYNCHRONE)' : ' (ASYNCHRONE)'); // Ajout du mois du cours avec la mention "SYNCHRONE" ou "ASYNCHRONE"
@@ -562,7 +613,7 @@ function afficherCours(cours, moisCours, typeCoursString) {
 document.getElementById('searchButton').addEventListener('click', function(event) {
     event.preventDefault(); // Pour empêcher le comportement par défaut du lien
     if (document.getElementById('searchInput').value.length >= 3) {
-        test();
+        afficherCoursDropDown();
     } else {
         alert('Veuillez saisir au minimum 3 lettres.');
     }
@@ -572,7 +623,7 @@ document.getElementById('searchButton').addEventListener('click', function(event
 document.getElementById('searchInput').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
         if (this.value.length >= 3) {
-            test();
+            afficherCoursDropDown();
         } else {
             alert('Veuillez saisir au minimum 3 lettres.');
         }
