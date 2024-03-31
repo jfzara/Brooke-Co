@@ -435,51 +435,127 @@ document.getElementById('moisListeSynchrone').addEventListener('change', functio
 
 
 
+async function chargerDonneesTousLesCours() {
+    // Charger les données depuis TousLesCours.json
+    const response = await fetch('TousLesCours.json');
+    const data = await response.json();
+
+    // Afficher les données récupérées dans la console
+    console.log('Données chargées depuis TousLesCours.json:', data);
+
+    return data;
+}
+
+
 async function test() {
     try {
         const data = await recupererDonneesJSON(); // Récupération des données JSON
         console.log('Données récupérées:', data); // Affichage des données récupérées dans la console
 
-        // Vérification si des cours asynchrones sont disponibles
-        if (data && data[0] && data[0].coursAsynchrones && data[0].coursAsynchrones.length > 0) {
-            const premierCoursAsynchrone = data[0].coursAsynchrones[0].cours[0];
-            const titrePremierCoursAsynchrone = premierCoursAsynchrone.titre;
-            const idPremierCoursAsynchrone = premierCoursAsynchrone.id; // Ajout du console log de l'ID du cours
-            console.log('Titre du premier cours asynchrone:', titrePremierCoursAsynchrone);
-            console.log('ID du premier cours asynchrone:', idPremierCoursAsynchrone);
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        dropdownMenu.innerHTML = ''; // Nettoyer le contenu précédent du menu déroulant
 
-            // Récupérer le terme de recherche saisi par l'utilisateur et le normaliser
-            const termeRecherche = document.getElementById('searchInput').value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
-            console.log('Terme de recherche saisi:', termeRecherche);
+        // Récupérer le terme de recherche saisi par l'utilisateur et le normaliser
+        const termeRecherche = document.getElementById('searchInput').value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+        console.log('Terme de recherche saisi:', termeRecherche);
 
-            // Normaliser le titre du premier cours asynchrone
-            const titreNormalise = titrePremierCoursAsynchrone.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+        // Parcourir tous les mois des cours synchrones
+        data[1].coursSynchrones.forEach(mois => {
+            // Parcourir tous les cours du mois
+            mois.cours.forEach(cours => {
+                const titreCours = cours.titre;
+                const moisCours = mois.mois + ' (SYNCHRONE)'; // Ajout du mois du cours avec la mention "SYNCHRONE"
+                const idCours = cours.id;
+                const typeCours = 'synchrone'; // Les cours synchrones sont toujours de type synchrone
 
-            // Vérifier si le terme de recherche est présent dans le titre du premier cours
-            if (titreNormalise.includes(termeRecherche)) {
-                const dropdownMenu = document.getElementById('dropdownMenu');
+                // Normaliser le titre du cours
+                const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 
-                // Créer le lien correspondant
-                const lienElement = document.createElement('a');
-                lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
-                lienElement.textContent = titrePremierCoursAsynchrone;
-                lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+                // Vérifier si le terme de recherche est présent dans le titre du cours
+                if (titreNormalise.includes(termeRecherche)) {
+                    // Créer le texte à afficher (titre du cours + mois)
+                    const texteElement = titreCours + ' (' + moisCours + ')';
 
-                // Ajouter l'élément lien au menu déroulant
-                dropdownMenu.appendChild(lienElement);
+                    // Créer le lien correspondant
+                    const lienElement = document.createElement('a');
+                    lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+                    lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+                    lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+                    lienElement.classList.add(typeCours); // Ajout de la classe spécifique au type de cours
 
-                // Afficher le dropdown
-                dropdownMenu.style.display = 'block'; // Assurez-vous que le dropdown soit en display block
-            } else {
-                console.log('Le terme de recherche n\'est pas présent dans le titre du premier cours.');
-            }
+                    // Ajouter l'élément lien au menu déroulant
+                    dropdownMenu.appendChild(lienElement);
+                }
+            });
+        });
+
+        // Parcourir tous les mois des cours asynchrones
+        data[0].coursAsynchrones.forEach(mois => {
+            // Parcourir tous les cours du mois
+            mois.cours.forEach(cours => {
+                const titreCours = cours.titre;
+                const moisCours = mois.mois + ' (ASYNCHRONE)'; // Ajout du mois du cours avec la mention "ASYNCHRONE"
+                const idCours = cours.id;
+                const typeCours = 'asynchrone'; // Les cours asynchrones sont toujours de type asynchrone
+
+                // Normaliser le titre du cours
+                const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+
+                // Vérifier si le terme de recherche est présent dans le titre du cours
+                if (titreNormalise.includes(termeRecherche)) {
+                    // Créer le texte à afficher (titre du cours + mois)
+                    const texteElement = titreCours + ' (' + moisCours + ')';
+
+                    // Créer le lien correspondant
+                    const lienElement = document.createElement('a');
+                    lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+                    lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+                    lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+                    lienElement.classList.add(typeCours); // Ajout de la classe spécifique au type de cours
+
+                    // Ajouter l'élément lien au menu déroulant
+                    dropdownMenu.appendChild(lienElement);
+                }
+            });
+        });
+
+        // Afficher le dropdown si des résultats ont été trouvés
+        if (dropdownMenu.children.length > 0) {
+            dropdownMenu.style.display = 'block'; // Assurez-vous que le dropdown soit en display block
         } else {
-            console.error('Aucun cours asynchrone disponible.');
+            console.log('Aucun cours trouvé correspondant à votre recherche.');
         }
     } catch (error) {
         console.error('Erreur lors de la récupération des données:', error);
     }
 }
+function afficherCours(cours, moisCours, typeCoursString) {
+    const titreCours = cours.titre;
+    const moisString = moisCours + (typeCoursString === 'synchrone' ? ' (SYNCHRONE)' : ' (ASYNCHRONE)'); // Ajout du mois du cours avec la mention "SYNCHRONE" ou "ASYNCHRONE"
+    
+    // Normaliser le titre du cours
+    const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+
+    // Vérifier si le terme de recherche est présent dans le titre du cours
+    if (titreNormalise.includes(termeRecherche)) {
+        // Créer le texte à afficher (titre du cours + mois)
+        const texteElement = titreCours + ' (' + moisString + ')';
+
+        // Créer le lien correspondant
+        const lienElement = document.createElement('a');
+        lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+        lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+        lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+        lienElement.classList.add(typeCoursString); // Ajout de la classe spécifique au type de cours
+
+        // Ajouter l'élément lien au menu déroulant
+        dropdownMenu.appendChild(lienElement);
+    }
+}
+
+
+
+
 
 
 // Gestionnaire d'événements pour l'événement click du bouton de recherche

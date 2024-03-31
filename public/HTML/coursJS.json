@@ -503,10 +503,10 @@
 				"cours": [
 					{
 						"id": "pySynchrone1",
-						"titre": "Introduction à Python : Les Fondamentaux du Langage",
+						"titre": "Introduction à Javascript : Les Fondamentaux du Langage",
 						"formateur": "Marie Dubois",
 						"lieu": "CENTRE BROOKE & CO",
-						"description": "Découvrez les fondamentaux du langage Python lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Python, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Python et vous préparer à des concepts plus avancés.",
+						"description": "Découvrez les fondamentaux du langage Javascript lors de ce cours d'introduction. Vous explorerez les bases de la syntaxe Javascript, les types de données, les structures de contrôle et les fonctions. Ce cours vous fournira les compétences de base nécessaires pour commencer à programmer en Javascript et vous préparer à des concepts plus avancés.",
 						"sessions": [
 							{
 								"numeroCours": 1,

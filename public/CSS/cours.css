@@ -735,6 +735,27 @@ body > main > section:nth-child(5) > div.entete_bloc {
     margin-right: 10px; 
 }
 
+.asynchrone {
+    color: blue; 
+}
+
+#titreBlocAsynchrone{
+    color: blue;
+}
+
+
+
+.synchrone {  
+    color: rgb(175, 7, 175);
+}
+
+#titreBlocSynchrone{
+    color: rgb(175, 7, 175);
+}
+
+
+
+
 
 /* Media Queries */
 @media (max-width: 768px) {
