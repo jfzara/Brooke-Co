@@ -395,62 +395,198 @@
     });
 
 
-// Fonction pour rechercher et afficher les résultats dans le menu déroulant
-async function rechercherEtAfficherResultats() {
-    try {
-        // Récupérer le terme de recherche depuis le champ de saisie
-        var termeRecherche = document.getElementById('searchInput').value.toLowerCase();
-        console.log('Terme de recherche saisi :', termeRecherche);
 
-        // Réinitialiser le menu déroulant des résultats
-        var menuResultats = document.getElementById('resultatsDropdown');
-        menuResultats.innerHTML = ''; // Effacer le contenu existant du menu déroulant
-
-        // Vérifier si les données JSON sont disponibles
-        if (!coursData) {
-            console.error('Les données JSON ne sont pas disponibles.');
-            return;
+    async function recupererDonneesTousLesCours() {
+        // Charger les données depuis TousLesCours.json
+        const response = await fetch('TousLesCours.json');
+        const data = await response.json();
+    
+        // Afficher les données récupérées dans la console
+        console.log('Données chargées depuis TousLesCours.json:', data);
+    
+        return data;
+    }
+    
+    
+    
+    async function afficherCoursDropDown() {
+        try {
+            const data = await recupererDonneesJSON(); // Récupération des données JSON
+            console.log('Données récupérées:', data); // Affichage des données récupérées dans la console
+    
+            const dropdownMenu = document.getElementById('dropdownMenu');
+            dropdownMenu.innerHTML = ''; // Nettoyer le contenu précédent du menu déroulant
+    
+            // Récupérer le terme de recherche saisi par l'utilisateur et le normaliser
+            const termeRecherche = document.getElementById('searchInput').value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+            console.log('Terme de recherche saisi:', termeRecherche);
+    
+            // Parcourir tous les mois des cours synchrones
+            data[1].coursSynchrones.forEach(mois => {
+                // Parcourir tous les cours du mois
+                mois.cours.forEach(cours => {
+                    const titreCours = cours.titre;
+                    const moisCours = mois.mois + ' (SYNCHRONE)'; // Ajout du mois du cours avec la mention "SYNCHRONE"
+                    const idCours = cours.id;
+                    const typeCours = 'synchrone'; // Les cours synchrones sont toujours de type synchrone
+    
+                    // Normaliser le titre du cours
+                    const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    
+                    // Vérifier si le terme de recherche est présent dans le titre du cours
+                    if (titreNormalise.includes(termeRecherche)) {
+                        // Créer le texte à afficher (titre du cours + mois)
+                        const texteElement = titreCours + ' (' + moisCours + ')';
+    
+                        // Créer le lien correspondant
+                        const lienElement = document.createElement('a');
+                        lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+                        lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+                        lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+                        lienElement.classList.add(typeCours); // Ajout de la classe spécifique au type de cours
+    
+                        // Ajouter l'élément lien au menu déroulant
+                        dropdownMenu.appendChild(lienElement);
+                    }
+                });
+            });
+    
+            // Parcourir tous les mois des cours asynchrones
+            data[0].coursAsynchrones.forEach(mois => {
+                // Parcourir tous les cours du mois
+                mois.cours.forEach(cours => {
+                    const titreCours = cours.titre;
+                    const moisCours = mois.mois + ' (ASYNCHRONE)'; // Ajout du mois du cours avec la mention "ASYNCHRONE"
+                    const idCours = cours.id;
+                    const typeCours = 'asynchrone'; // Les cours asynchrones sont toujours de type asynchrone
+    
+                    // Normaliser le titre du cours
+                    const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    
+                    // Vérifier si le terme de recherche est présent dans le titre du cours
+                    if (titreNormalise.includes(termeRecherche)) {
+                        // Créer le texte à afficher (titre du cours + mois)
+                        const texteElement = titreCours + ' (' + moisCours + ')';
+    
+                        // Créer le lien correspondant
+                        const lienElement = document.createElement('a');
+                        lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+                        lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+                        lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+                        lienElement.classList.add(typeCours); // Ajout de la classe spécifique au type de cours
+    
+                        // Ajouter l'élément lien au menu déroulant
+                        dropdownMenu.appendChild(lienElement);
+                    }
+                });
+            });
+    
+            // Afficher le dropdown si des résultats ont été trouvés
+            if (dropdownMenu.children.length > 0) {
+                dropdownMenu.style.display = 'block'; // Assurez-vous que le dropdown soit en display block
+            } else {
+                console.log('Aucun cours trouvé correspondant à votre recherche.');
+            }
+        } catch (error) {
+            console.error('Erreur lors de la récupération des données:', error);
         }
-
-        // Stocker les titres des cours correspondant au terme de recherche
-        var coursTrouves = [];
-
-        // Parcourir les données JSON et chercher les correspondances
-        for (var i = 0; i < coursData.length; i++) {
-            var coursMois = coursData[i].cours;
-            for (var j = 0; j < coursMois.length; j++) {
-                var coursTitre = coursMois[j].titre.toLowerCase();
-                var coursDescription = coursMois[j].description.toLowerCase();
-                // Vérifier si le terme de recherche est présent dans le titre ou la description du cours
-                if (coursTitre.includes(termeRecherche) || coursDescription.includes(termeRecherche)) {
-                    coursTrouves.push(coursMois[j].titre); // Ajouter le titre du cours trouvé
-                    console.log('Cours trouvé:', coursMois[j].titre);
-                }
+    }
+    
+    
+    
+    function afficherCours(cours, mois, type, dropdownMenu) {
+        const titreCours = cours.titre;
+        const texteElement = titreCours + ' (' + mois + ')';
+    
+        // Créer le lien correspondant
+        const lienElement = document.createElement('a');
+        lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+        lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+        lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+        lienElement.classList.add(type); // Ajout de la classe spécifique au type de cours
+    
+        // Ajouter l'élément lien au menu déroulant
+        dropdownMenu.appendChild(lienElement);
+    }
+    
+    
+    
+    
+    
+    function afficherCours(cours, mois, type) {
+        const titreCours = cours.titre;
+        const texteElement = titreCours + ' (' + mois + ' - ' + type.toUpperCase() + ')';
+    
+        // Normaliser le titre du cours
+        const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    
+        // Vérifier si le terme de recherche est présent dans le titre du cours
+        if (titreNormalise.includes(termeRecherche)) {
+            // Créer le lien correspondant
+            const lienElement = document.createElement('a');
+            lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+            lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+            lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+            lienElement.classList.add(type); // Ajout de la classe spécifique au type de cours
+    
+            // Ajouter l'élément lien au menu déroulant
+            dropdownMenu.appendChild(lienElement);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    function afficherCours(cours, moisCours, typeCoursString) {
+        const titreCours = cours.titre;
+        const moisString = moisCours + (typeCoursString === 'synchrone' ? ' (SYNCHRONE)' : ' (ASYNCHRONE)'); // Ajout du mois du cours avec la mention "SYNCHRONE" ou "ASYNCHRONE"
+        
+        // Normaliser le titre du cours
+        const titreNormalise = titreCours.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+    
+        // Vérifier si le terme de recherche est présent dans le titre du cours
+        if (titreNormalise.includes(termeRecherche)) {
+            // Créer le texte à afficher (titre du cours + mois)
+            const texteElement = titreCours + ' (' + moisString + ')';
+    
+            // Créer le lien correspondant
+            const lienElement = document.createElement('a');
+            lienElement.href = 'javascript.html'; // Remplacer par le lien approprié
+            lienElement.textContent = texteElement; // Utilisation du texte avec titre et mois
+            lienElement.classList.add('visible-link'); // Ajout de la classe visible-link
+            lienElement.classList.add(typeCoursString); // Ajout de la classe spécifique au type de cours
+    
+            // Ajouter l'élément lien au menu déroulant
+            dropdownMenu.appendChild(lienElement);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    // Gestionnaire d'événements pour l'événement click du bouton de recherche
+    document.getElementById('searchButton').addEventListener('click', function(event) {
+        event.preventDefault(); // Pour empêcher le comportement par défaut du lien
+        if (document.getElementById('searchInput').value.length >= 3) {
+            afficherCoursDropDown();
+        } else {
+            alert('Veuillez saisir au minimum 3 lettres.');
+        }
+    });
+    
+    // Gestionnaire d'événements pour l'événement keypress du champ de saisie pour détecter la touche Entrée
+    document.getElementById('searchInput').addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+            if (this.value.length >= 3) {
+                afficherCoursDropDown();
+            } else {
+                alert('Veuillez saisir au minimum 3 lettres.');
             }
         }
-
-        // Vérifier s'il y a des résultats
-        if (coursTrouves.length > 0) {
-            // Créer et ajouter des options pour chaque titre de cours trouvé
-            coursTrouves.forEach(function(titreCours) {
-                var option = document.createElement('option');
-                option.value = titreCours.toLowerCase(); // La valeur est le titre du cours en minuscules
-                option.textContent = titreCours; // Le texte est le titre du cours
-                menuResultats.appendChild(option); // Ajouter l'option au menu déroulant
-            });
-        } else {
-            // Afficher un message d'erreur s'il n'y a pas de résultats
-            var erreurMessage = document.createElement('option');
-            erreurMessage.textContent = 'Aucun résultat trouvé';
-            erreurMessage.disabled = true; // Rendre l'option non sélectionnable
-            menuResultats.appendChild(erreurMessage); // Ajouter l'option au menu déroulant
-            console.log('Aucun résultat trouvé pour le terme de recherche :', termeRecherche);
-        }
-
-        // Afficher le menu déroulant des résultats
-        menuResultats.style.display = 'block';
-    } catch (error) {
-        console.error('Erreur lors de la recherche et de l\'affichage des résultats :', error);
-    }
-}
-
+    });

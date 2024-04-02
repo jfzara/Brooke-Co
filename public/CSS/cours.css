@@ -756,12 +756,185 @@ body > main > section:nth-child(5) > div.entete_bloc {
 
 
 
-
-/* Media Queries */
+/* Media Queries pour les écrans de taille moyenne (768px et moins) */
 @media (max-width: 768px) {
-   
+    header {
+        padding-inline: 33px;
+    }
+
+
+    .nav-item {
+        text-decoration: none;
+        display: inline-block; 
+        margin: 0 10px; 
+        width:fit-content;
+    
+    }
+
+    body > header > nav > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+   #navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+#navbarNavAltMarkup{
+    position: relative;
+    left: 7%;
+}
+
+#searchBar{
+    position: relative;
+    left: 9%;
+
+}
+
+
+
+
+#cartItems{
+    position: relative;
+    right: -98%;
+}
+
+#dropdownMenu{
+
+    width: 80vw;
+}
+    .container-fluid {
+        width: 89%;
+    }
+
+    .vignette_asynchrone {
+        width: 42vw;
+     
+    }
+
+    .fond_photo {
+
+        height: auto;
+        overflow: hidden;
+    }
+
 }
 
 @media (max-width: 576px) {
-   
+    header {
+        padding-inline: 33px;
+    }
+
+    .nav-item {
+        text-decoration: none;
+        display: inline-block; 
+        margin: 0 10px; 
+        width: fit-content;
+    }
+
+    body > header > nav > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #navbar-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        left: -3vw;
+    }
+
+    #navbarNavAltMarkup {
+        position: relative;
+        left: 7%;
+    }
+
+    #searchBar {
+        position: relative;
+        left: 9%;
+    }
+
+    #searchInput {
+        width: 74vw;
+    }
+
+    .navbar-brand {
+        position: relative;
+        left: -5vw;
+    }
+
+    .navbar-toggler{
+        text-decoration: none;
+        position: relative;
+        left: -6%;
+    }
+
+    #cartItems {
+        position: relative;
+        right: -98%;
+    }
+
+    #dropdownMenu {
+        width: 80vw;
+    }
+
+    .container-fluid {
+        width: 89%;
+    }
+
+
+    #moisListeAsynchrone, #moisListeSynchrone{
+        width: auto;
+    }
+
+    .vignette_asynchrone {
+        width: 87vw;
+    }
+
+    .fond_photo {
+        height: 23vh;
+        overflow: hidden;
+        width: auto;
+    }
+
+    .entete_bloc {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        border: 1px solid #edededdb;
+        margin-top: 30px;
+        padding-top: 20px;
+        padding-inline: 6vw;
+        padding-bottom: 20px;
+    }
+
+    .vignette_asynchrone, .vignette_synchrone   {
+        width: 89vw;
+    }
+
+    .fond_photo {
+        height: auto;
+        overflow: hidden;
+    }
+    #coursAsynchronesContainer > article:nth-child(4){
+margin-bottom: 10vh;
+
+    }
+
+    #titreBlocSsynchrone{
+        width: 100vw;
+    }
+
 }
