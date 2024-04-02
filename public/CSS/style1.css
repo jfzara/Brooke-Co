@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Barre de navigation */.navbar {     background-color: #ffffff;     padding: 0.5rem 1rem; } /* Conteneur fluide */.container-fluid {     display: flex;     justify-content: space-between;     align-items: center; } /* Logo de la barre de navigation */.navbar-brand {     margin-right: 2rem; } /* Bouton de basculement (toggle) de la barre de navigation */.navbar-toggler {     border: none; } /* Contenu de la barre de navigation lorsqu'elle est réduite */.navbar-collapse {     justify-content: flex-end; } /* Liens de navigation dans la barre de navigation */.navbar-nav .nav-item .nav-link {     margin-right: 1rem;     color: #000000; } /* Zone de recherche */#searchBarContainer {     position: relative; } /* Formulaire de recherche */#searchBar {     display: flex;     align-items: center; } /* Champ de saisie de recherche */#searchInput {     width: 200px;     padding: 0.375rem 0.75rem;     border: 1px solid #ced4da;     border-radius: 0.25rem;     margin-right: 0.5rem; } /* Bouton de recherche */#searchButton {     background-color: #6f42c1;     border: none;     color: #ffffff;     padding: 0.375rem 0.75rem;     border-radius: 0.25rem; } /* Menu déroulant de la zone de recherche */#dropdownMenu {     position: absolute;     top: 100%;     left: 0;     z-index: 1000;     display: none;     background-color: #ffffff;     border: 1px solid rgba(0, 0, 0, 0.15);     border-radius: 0.25rem; } /* Éléments du panier */#cartItems {     display: flex;     align-items: center; } /* Nombre d'articles dans le panier */#cartItemCount {     margin-left: 0.5rem;     background-color: #6f42c1;     color: #ffffff;     padding: 0.25rem 0.5rem;     border-radius: 0.25rem; }
+
+/* Style pour le conteneur de la carte */
+#map {
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    width: 100%;
+}
+
+/* Styles pour la section de contact */
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    color: #333;
+}
+
+.contact-info p {
+    color: #666;
+}
+
+/* Styles pour le formulaire */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.icon-img {
+    width: 50px; /* Largeur de l'icône */
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+    margin-right: 10px; /* Marge à droite pour espacement */
+    border-radius: 50%; /* Pour arrondir les coins et créer un effet d'icône */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Ombre légère */
+}
+.payment-icons img {
+    width: 100px; /* Ajustez la largeur des icônes */
+    height: auto; /* Hauteur automatique pour maintenir le ratio */
+    margin: 10px; /* Marge autour des icônes */
+}
+/* Styles for PayPal payment section */
+#paypal-payment {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#paypal-payment h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#paypal-payment p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#paypal-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#paypal-button:hover {
+    background-color: #0056b3;
+}
+#paypal-payment img {
+    display: block;
+    float: left; /* Alignement à gauche */
+    margin-right: 10px; /* Marge à droite pour l'espace entre l'image et le texte */
+    margin-bottom: 20px; /* Marge en bas pour un espacement visuel */
+    max-width: 100px; /* Largeur maximale de l'image */
+    height: auto; /* Hauteur ajustée automatiquement */
+}
+/* Ajoutez votre style CSS ici */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+/* CSS pour la section de remerciement */
+#purchase-confirmation {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Ajout de styles pour centrer uniquement le bouton "Payer" */
+.centered-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .row {
+    text-align: center;
+    }
+     
+    footer .col-md-4 {
+    margin-bottom: 1rem;
+    }
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+ gmp-map {
+    height: 100%;
+  }
+  
