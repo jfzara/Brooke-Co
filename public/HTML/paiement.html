@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <title>Page de Paiement</title>
+ 
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon">
+ 
+  <!-- Google Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style1.css">
+ 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=Ade9Nr452ziYEjJBGYVlsi9mnTTogpHuYO2Yd-3G6A8FgCR9qnV4tVOw41YkfDwFdnaP_DjAkC7SMmuT&currency=USD"></script>
+</head>
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+   
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo de Brooke" class="navbar-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="nav-item nav-link active" href="#">Accueil</a>
+                        <a class="nav-item nav-link" href="mysql.html">MySQL</a>
+                        <a class="nav-item nav-link" href="javascript.html">JavaScript</a>
+                        <a class="nav-item nav-link" href="python.html">Python</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
+                    <div id="searchBarContainer">
+                        <form id="searchBar" class="d-flex" role="search">
+                            <input id="searchInput" class="form-control me-2" type="search" placeholder="Rechercher"
+                                aria-label="Search" autocomplete="off">
+                                <a href="#" class="btn btn-outline-violet" id="searchButton">
+                                    <i class="fas fa-search"></i>
+                                </a>
+                        </form>
+   
+                        <div id="dropdownMenu" class="dropdown-menu" aria-labelledby="searchInput">
+   
+                        </div>
+                    </div>
+   
+                    <div class="nav-item" id="cartItems">
+                        <a class="nav-link" href="panier.html"><i class="bi bi-cart3"></i></a>
+                        <div id="cartItemCount">0</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<div id="paypal-button-container"></div>
+
+<script>
+    // Initialiser le bouton PayPal
+    paypal.Buttons({
+        createOrder: function(data, actions) {
+            // Cette fonction est appelée lorsqu'un utilisateur clique sur le bouton PayPal
+            // Ici, vous devez définir les détails de la commande à créer
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '215.00' // Montant de la transaction
+                    }
+                }]
+            });
+        },
+        onApprove: function(data, actions) {
+            // Cette fonction est appelée lorsque l'utilisateur approuve le paiement
+            // Vous pouvez exécuter des actions supplémentaires ici, comme finaliser la transaction du côté du serveur
+            return actions.order.capture().then(function(details) {
+                // Afficher un message de succès ou rediriger l'utilisateur vers une page de confirmation
+                alert('Paiement réussi ! ID de commande : ' + details.id);
+            });
+        },
+        onError: function(err) {
+            // Cette fonction est appelée en cas d'erreur lors du paiement
+            // Vous pouvez afficher un message d'erreur à l'utilisateur ou journaliser l'erreur côté serveur
+            console.error('Une erreur s\'est produite lors du paiement : ', err);
+        }
+    }).render('#paypal-button-container');
+</script>
+
+
+<div id="purchase-list" class="hidden">
+    <p>Voici la liste des cours que vous avez achetés :</p>
+    <ul id="items-list">
+    </ul>
+</div>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-white pt-4 pb-4">
+    <div class="container">
+        <div class="row">
+            <!-- Colonne des cours -->
+            <div class="col-md-4">
+                <h5>Cours</h5>
+                <ul class="list-unstyled">
+                    <li><a href="mysql.html" class="text-white">MySQL</a></li>
+                    <li><a href="javascript.html" class="text-white">JavaScript</a></li>
+                    <li><a href="python.html" class="text-white">Python</a></li>
+                </ul>
+            </div>
+            <!-- Colonne de l'entreprise -->
+            <div class="col-md-4">
+                <h5>Entreprise</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">À propos de nous</a></li>
+                    <li><a href="#" class="text-white">Nouveautés</a></li>
+                </ul>
+            </div>
+            <!-- Colonne social -->
+            <div class="col-md-4">
+                <h5>Social</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Twitter</a></li>
+                    <li><a href="#" class="text-white">LinkedIn</a></li>
+                    <li><a href="#" class="text-white">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Réseaux sociaux icônes -->
+        <div class="text-center mt-3">
+            <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+
+            <a href="#" class="text-white me-2"><i class="bi-linkedin"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi-github"></i></a>
+            <a href="#" class="text-white"><i class="bi-meta"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- Ajout du script JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
