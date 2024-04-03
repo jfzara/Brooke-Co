@@ -1,0 +1,558 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(198, 0, 152);
+}
+
+/* Styles pour les sections asynchrones et synchrones */
+.bloc {
+    width: 100%;
+    height: 45%;
+}
+
+/* Style pour le calendrier */
+.form-control {
+  
+    width: 30%;
+   
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    position: relative;
+    left: 11%;
+}
+.choisir_mois{
+    font-weight: 500;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.reseaux_sociaux a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.cours_synchrones{
+    margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+/* Style pour la vignette asynchrone */
+.vignette_asynchrone {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.photo_play {
+    width: 100%;
+    height: 148px;
+    background-color: #ddddddb5;
+    position: relative;
+    overflow: hidden;
+}
+.photo_play svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    cursor: pointer;
+}
+
+
+.titre_cours,
+.formateur,
+.duree {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.vignette_asynchrone:hover, .vignette_synchrone:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.fond_photo {
+    width: 100%;
+    height: 100%;
+    background-image: url('/Images/JS/photoJS1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Styles pour la section "En ligne" et "En présentiel" */
+.entete_bloc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border: 1px solid #edededdb;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.entete_bloc div {
+    display: flex;
+    align-items: center;
+}
+
+.entete_bloc p {
+    margin: 0;
+    margin-left: 5px;
+}
+
+/* Styles pour les icônes */
+.bi {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Styles pour les indications supplémentaires */
+.entete_bloc table {
+    width: 100%;
+    border-spacing: 10px; /* Espace entre les colonnes */
+}
+.entete_lieu{
+font-weight: 500;
+}
+.entete_bloc td {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.entete_bloc img {
+    width: 50px; 
+    height: 50px;
+}
+.adresse{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.vignette_synchrone {
+    width: 31%; 
+
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden; 
+    border: 1px solid  #edededdb;
+}
+
+
+
+.vignette_synchrone h2 {
+    background-color: #fff; /* Fond blanc pour l'en-tête */
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px; /* Ajout de padding pour espacement */
+    text-align: center;
+}
+
+.vignette_synchrone > div p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+
+.vignette_synchrone .entete svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+
+
+
+.vignette_synchrone .zoom, .geolocolisation {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.nom_cours{
+    font-weight: 600;
+    padding-top: 10px;
+    background-color: #edededdb;
+    text-align: center;
+}
+
+.zoom_en_ligne{
+    display: flex;
+    align-items: center;
+    background-color: #edededdb;
+}
+
+.savoir_plus {
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in;
+}
+
+ .savoir_plus:hover {
+    background-color: #fe3fe5;
+}
+
+.image_cours_synchrone img{
+    vertical-align: middle;
+    width: 102%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.infos_cours_synchrone{
+  
+    padding: 0;
+    margin: 0;
+}
+.formateur{
+    font-weight: 500;
+}
+
+h2 {
+    color: #1c1d1f;
+}
+@media (max-width: 768px) {
+      
+      .hero-container, .carousel-caption, .navbar-nav {
+    width: 100%; 
+    padding: 0.5rem; 
+}
+.carousel-item {
+height: 50vh; 
+}
+.navbar-toggler {
+    float: right; 
+}
+
+.navbar-collapse {
+    clear: both; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+width: 35px; 
+height: 35px;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+font-size: 14px; 
+}
+
+.card {
+width: 100%; 
+}
+}
+
+
+@media (max-width: 576px) {
+.carousel-item {
+height: 40vh; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+width: 30px; 
+height: 30px;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+font-size: 12px; 
+}
+
+.hero-container,
+.carousel-caption {
+padding: 0.5rem;
+width: 95%; 
+}
+
+.card {
+margin-bottom: 1rem; 
+}
+
+
+footer .row {
+text-align: center;
+}
+
+footer .col-md-4 {
+margin-bottom: 1rem;
+}
+}
+body, h1, h2, h3, h4, h5, h6 {
+font-family: 'Open Sans', sans-serif; 
+}
+
+.navbar-brand, .nav-link {
+font-weight: bold; 
+}
+
+.card {
+border: none; 
+box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.btn-primary {
+background-color:#a435f0; 
+
+}
+.btn-outline-violet {
+color: #6f42c1; 
+border-color: #6f42c1; 
+}
+
+.btn-outline-violet:hover {
+color: #fff; 
+background-color: #6f42c1; 
+border-color: #6f42c1; 
+}
+
+
+
+.btn-primary {
+color: white; 
+}
+
+footer {
+background-color: #1c1d1f; 
+padding: 2rem 0; 
+}
+
+footer a {
+color: #FFC107; 
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+background-color: rgba(0, 0, 0, 0.5); 
+border-radius: 50%;
+width: 45px; 
+height: 45px; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+opacity: 1; 
+position: absolute; 
+top: 50%; 
+transform: translateY(-50%); 
+}
+
+
+.carousel-control-prev {
+left: 10px; 
+}
+
+.carousel-control-next {
+right: 10px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+color: white; 
+font-size: 12px; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-image: none;
+}
+
+
+.carousel-item {
+height: 23rem; 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
+
+
+body {
+    width: 100%;
+overflow-x: hidden; 
+ 
+}
+
+.hero-section {
+  height: 25rem;
+  width: 100%; 
+  margin: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+}
+
+.hero-container {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 1.25rem;
+  width: 80%; 
+  margin: 0 auto; 
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.hero-section h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.0313rem;
+  color: #1c1d1f;
+  width: 80%;
+}
+
+.hero-section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #1c1d1f;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-logo {
+        height: 80px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-logo {
+        height: 60px; 
+    }
+}
+
+.navbar-logo {
+height: 80px; 
+width: auto; 
+}
+
+
+.popover-container {
+display: none; 
+position: absolute;
+transform: translateX(100%); 
+left: 100%; 
+top: 0; 
+z-index: 1050; 
+width: 250px; 
+background-color: #fff; 
+border-radius: .25rem; 
+padding: .5rem; 
+box-shadow: 0 5px 10px rgba(0,0,0,.2); 
+}
+
+
+.card-container {
+position: relative;
+}
+
+.image-timer-container {
+position: relative;
+width: 100%;
+}
+
+.timer-bar {
+position: absolute;
+top: 10px; 
+right: 10px; 
+background-color: #fff; 
+color: #000; 
+padding: 2px 5px;
+border-radius: 10px; 
+box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+font-size: 0.8em; 
+font-weight: bold;
+}
+
+.card-img-top {
+width: 100%;
+height: auto;
+}
+
+.navbar .bi-cart3 {
+font-size: 1.5rem; 
+margin-right: 0.5rem;
+}
+
+
+.navbar a.nav-item {
+align-items: center;
+display: flex;
+}
+
+
+#searchIcon{
+    position: relative;
+    right: 12%;
+    height: 100%;
+}

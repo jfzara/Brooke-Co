@@ -1,0 +1,44 @@
+{
+    "coursPromotion": [
+      {
+        "id": "sql219",
+        "titre": "Analyse de Données en SQL",
+        "description": "Ce cours avancé sur l'analyse de données en SQL vous fournira les compétences nécessaires pour effectuer des analyses avancées et des requêtes complexes sur de grands ensembles de données. Vous explorerez des sujets tels que les fonctions d'agrégation avancées, les fenêtres de données et les opérations d'analyse, ce qui vous permettra de découvrir des insights précieux à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse de données en SQL et serez en mesure de prendre des décisions éclairées basées sur les données.",
+        "formateur": "Élodie Moreau",
+        "cout": 210,
+        "nombreHeures": 65,
+        "pourcentagePromo": 10,
+        "prixApresPromo": 189
+      },
+      {
+        "id": "sql220",
+        "titre": "SQL pour la Science des Données",
+        "description": "Ce cours avancé sur SQL pour la science des données vous fournira les compétences nécessaires pour analyser, manipuler et visualiser des données volumineuses à l'aide de SQL. Vous explorerez des techniques avancées pour effectuer des analyses statistiques, créer des modèles prédictifs et générer des visualisations de données dynamiques, ce qui vous permettra de découvrir des insights significatifs à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la science des données et serez en mesure de tirer parti de la puissance de SQL dans votre travail d'analyse de données.",
+        "formateur": "Alexandre Laurent",
+        "cout": 220,
+        "nombreHeures": 70,
+        "pourcentagePromo": 15,
+        "prixApresPromo": 187
+      },
+      {
+        "id": "sql222",
+        "titre": "Administration Avancée de SQL Server",
+        "description": "Ce cours avancé sur l'administration de SQL Server vous fournira les compétences nécessaires pour gérer et optimiser efficacement les instances de SQL Server dans des environnements de production. Vous explorerez des sujets tels que la surveillance des performances, la gestion de la haute disponibilité et la résolution des problèmes courants rencontrés dans SQL Server. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans l'administration de SQL Server et serez en mesure de garantir le bon fonctionnement de vos bases de données.",
+        "formateur": "Louis Dupont",
+        "cout": 240,
+        "nombreHeures": 80,
+        "pourcentagePromo": 10,
+        "prixApresPromo": 216
+      },
+      {
+        "id": "sql231",
+        "titre": "Gestion Avancée de Bases de Données",
+        "description": "Ce cours avancé sur la gestion avancée de bases de données vous fournira les compétences nécessaires pour gérer efficacement des bases de données SQL de grande taille. Vous explorerez des techniques avancées pour optimiser les performances, gérer la réplication des données et assurer la haute disponibilité des bases de données critiques. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la gestion avancée de bases de données et serez en mesure de répondre aux exigences croissantes des applications de données modernes.",
+        "formateur": "Martin Dubois",
+        "cout": 300,
+        "nombreHeures": 80,
+        "pourcentagePromo": 20,
+        "prixApresPromo": 240
+      }
+    ]
+  }

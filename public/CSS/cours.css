@@ -753,7 +753,9 @@ body > main > section:nth-child(5) > div.entete_bloc {
     color: rgb(175, 7, 175);
 }
 
-
+#iconePanier{
+border: 1px red solid;
+}
 
 
 /* Media Queries pour les écrans de taille moyenne (768px et moins) */

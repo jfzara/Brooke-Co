@@ -1,0 +1,446 @@
+{
+	"coursMois": [
+		{
+			"mois": "Février",
+			"cours": [
+				{
+					"id": "sql201",
+					"titre": "SQL pour Développeurs Web",
+					"formateur": "Marie Dubois",
+					"description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+					"cout": 120,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql202",
+					"titre": "SQL pour Développeurs Web",
+					"formateur": "Marie Dubois",
+					"description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+					"cout": 120,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql203",
+					"titre": "SQL pour Développeurs Web",
+					"formateur": "Marie Dubois",
+					"description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+					"cout": 120,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql204",
+					"titre": "SQL pour Développeurs Web",
+					"formateur": "Marie Dubois",
+					"description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+					"cout": 120,
+					"nombreHeures": 30
+				}
+			]
+		},
+		{
+			"mois": "Mars",
+			"cours": [
+				{
+					"id": "sql205",
+					"titre": "Introduction à SQL",
+					"description": "Ce cours d'introduction à SQL vous fournira les bases essentielles pour travailler avec des bases de données relationnelles. Vous explorerez la syntaxe SQL de base, y compris les instructions SELECT, INSERT, UPDATE et DELETE, ainsi que les concepts de base tels que les clés primaires, les clés étrangères et les contraintes. Avec des exemples pratiques et des exercices interactifs, vous développerez une solide compréhension de SQL et serez prêt à construire et à manipuler des bases de données relationnelles.",
+					"formateur": "Jean Martin",
+					"cout": 110,
+					"nombreHeures": 25
+				},
+				{
+					"id": "sql206",
+					"titre": "Jointures en SQL",
+					"description": "Ce cours approfondi sur les jointures en SQL vous permettra de maîtriser les techniques avancées pour combiner des données à partir de plusieurs tables dans une seule requête SQL. Vous explorerez différents types de jointures, y compris INNER JOIN, LEFT JOIN, RIGHT JOIN et FULL JOIN, ainsi que des techniques de filtrage et de tri avancées. En combinant des explications théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les jointures en SQL et serez en mesure de manipuler efficacement des ensembles de données complexes.",
+					"formateur": "Sophie Durand",
+					"cout": 130,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql207",
+					"titre": "Gestion des Transactions en SQL",
+					"description": "Ce cours avancé sur la gestion des transactions en SQL vous fournira les compétences nécessaires pour gérer efficacement les transactions dans les bases de données relationnelles. Vous apprendrez à utiliser les instructions COMMIT, ROLLBACK et SAVEPOINT pour garantir l'intégrité et la cohérence des données dans un environnement transactionnel. En explorant des scénarios réels et des cas d'utilisation pratiques, vous développerez une expertise approfondie dans la gestion des transactions en SQL et serez en mesure de concevoir des applications robustes et fiables.",
+					"formateur": "Philippe Lefebvre",
+					"cout": 140,
+					"nombreHeures": 35
+				},
+				{
+					"id": "sql208",
+					"titre": "Procédures Stockées en SQL",
+					"description": "Ce cours avancé sur les procédures stockées en SQL vous plongera dans les techniques avancées pour créer et gérer des procédures stockées dans les bases de données relationnelles. Vous explorerez la syntaxe SQL pour définir des procédures stockées, ainsi que des concepts avancés tels que les paramètres d'entrée et de sortie, les variables locales et les instructions de contrôle de flux. Avec des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans les procédures stockées en SQL et serez en mesure de les utiliser pour améliorer l'efficacité et la sécurité de vos applications.",
+					"formateur": "Émilie Blanchard",
+					"cout": 150,
+					"nombreHeures": 40
+				}
+			]
+		},
+		{
+			"mois": "Avril",
+			"cours": [
+				{
+					"id": "sql209",
+					"titre": "Vues en SQL",
+					"description": "Ce cours avancé sur les vues en SQL vous fournira les compétences nécessaires pour créer, gérer et utiliser des vues dans les bases de données relationnelles. Vous explorerez la syntaxe SQL pour créer des vues, ainsi que des techniques avancées telles que la mise à jour et la suppression de données à travers des vues. En combinant des exemples pratiques et des démonstrations en direct, vous développerez une expertise approfondie dans les vues en SQL et serez en mesure d'optimiser la gestion de vos données à l'aide de vues.",
+					"formateur": "Lucie Girard",
+					"cout": 130,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql210",
+					"titre": "Optimisation des Performances en SQL",
+					"description": "Ce cours avancé sur l'optimisation des performances en SQL vous fournira les compétences nécessaires pour améliorer les performances de vos requêtes SQL et de vos bases de données relationnelles. Vous apprendrez à utiliser des techniques telles que les index, les vues matérialisées et la normalisation/dénormalisation pour optimiser la structure et le fonctionnement de vos bases de données. En explorant des cas d'utilisation réels et des stratégies éprouvées, vous développerez une expertise approfondie dans l'optimisation des performances en SQL et serez en mesure de maximiser l'efficacité de vos bases de données.",
+					"formateur": "Thierry Bouchard",
+					"cout": 140,
+					"nombreHeures": 35
+				},
+				{
+					"id": "sql211",
+					"titre": "Indexation en SQL",
+					"description": "Ce cours avancé sur l'indexation en SQL vous plongera dans les techniques avancées pour créer et gérer des index dans les bases de données relationnelles. Vous explorerez les différents types d'index, y compris les index uniques, les index composites et les index filtrés, ainsi que des stratégies avancées pour optimiser les performances de vos requêtes SQL. Avec des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie dans l'indexation en SQL et serez en mesure de maximiser l'efficacité de vos bases de données.",
+					"formateur": "Paul Martin",
+					"cout": 150,
+					"nombreHeures": 40
+				},
+				{
+					"id": "sql212",
+					"titre": "Normalisation des Bases de Données",
+					"description": "Ce cours avancé sur la normalisation des bases de données vous fournira les compétences nécessaires pour concevoir des bases de données relationnelles efficaces et normalisées. Vous explorerez les différentes formes de la normalisation, y compris la première, la deuxième et la troisième forme normale, ainsi que des techniques pour résoudre les anomalies de mise à jour et de suppression. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la normalisation des bases de données et serez en mesure de concevoir des schémas de bases de données robustes et évolutifs.",
+					"formateur": "Marie Dupont",
+					"cout": 160,
+					"nombreHeures": 45
+				}
+			]
+		},
+		{
+			"mois": "Mai",
+			"cours": [
+				{
+					"id": "sql213",
+					"titre": "SQL Avancé",
+					"description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de requête de bases de données. Vous explorerez des sujets tels que les fonctions d'agrégation, les opérations de fenêtrage et les requêtes récursives, ce qui vous permettra de résoudre des problèmes complexes et d'optimiser les performances de vos requêtes SQL. En combinant des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie en SQL et serez en mesure de manipuler efficacement de grandes quantités de données.",
+					"formateur": "Thomas Lefèvre",
+					"cout": 160,
+					"nombreHeures": 45
+				},
+				{
+					"id": "sql214",
+					"titre": "Frameworks SQL",
+					"description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+					"formateur": "Lucas Mercier",
+					"cout": 150,
+					"nombreHeures": 40
+				},
+				{
+					"id": "sql215",
+					"titre": "Test en SQL",
+					"description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+					"formateur": "Julie Renault",
+					"cout": 170,
+					"nombreHeures": 45
+				},
+				{
+					"id": "sql216",
+					"titre": "Sécurité en SQL",
+					"description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+					"formateur": "Nicolas Lambert",
+					"cout": 180,
+					"nombreHeures": 50
+				}
+			]
+		},
+		{
+			"mois": "Juin",
+			"cours": [
+				{
+					"id": "sql217",
+					"titre": "SQL pour Développeurs Web",
+					"description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+					"formateur": "Marie Dubois",
+					"cout": 120,
+					"nombreHeures": 25
+				},
+				{
+					"id": "sql218",
+					"titre": "Frameworks SQL",
+					"description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+					"formateur": "Lucas Mercier",
+					"cout": 130,
+					"nombreHeures": 30
+				},
+				{
+					"id": "sql219",
+					"titre": "Test en SQL",
+					"description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+					"formateur": "Julie Renault",
+					"cout": 140,
+					"nombreHeures": 35
+				},
+				{
+					"id": "sql220",
+					"titre": "Sécurité en SQL",
+					"description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+					"formateur": "Nicolas Lambert",
+					"cout": 150,
+					"nombreHeures": 40
+				}
+			]
+		},
+		{
+			"mois": "Juillet",
+			"cours": [
+				{
+					"id": "sql221",
+					"titre": "SQL Avancé",
+					"description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de requête de bases de données. Vous explorerez des sujets tels que les fonctions d'agrégation, les opérations de fenêtrage et les requêtes récursives, ce qui vous permettra de résoudre des problèmes complexes et d'optimiser les performances de vos requêtes SQL. En combinant des exemples pratiques et des exercices interactifs, vous développerez une expertise approfondie en SQL et serez en mesure de manipuler efficacement de grandes quantités de données.",
+					"formateur": "Thomas Lefèvre",
+					"cout": 160,
+					"nombreHeures": 45
+				},
+				{
+					"id": "sql222",
+					"titre": "Frameworks SQL",
+					"description": "Ce cours approfondi sur les frameworks SQL vous fournira une introduction complète aux principaux frameworks tels que Hibernate, Sequelize et Django ORM. Vous explorerez les concepts fondamentaux de chaque framework, y compris la gestion des modèles de données, les requêtes complexes et les migrations de schéma, ce qui vous permettra de choisir le bon framework pour vos projets de bases de données. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks SQL et serez prêt à les utiliser dans vos propres projets.",
+					"formateur": "Lucas Mercier",
+					"cout": 150,
+					"nombreHeures": 40
+				},
+				{
+					"id": "sql223",
+					"titre": "Test en SQL",
+					"description": "Ce cours complet sur les tests en SQL vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos bases de données relationnelles. Vous explorerez des frameworks de test populaires tels que tSQLt et utPLSQL, ainsi que des techniques avancées telles que les tests de performance et les tests de régression, ce qui vous permettra de garantir la qualité et la fiabilité de vos bases de données. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en SQL et serez prêt à intégrer des tests dans votre processus de développement.",
+					"formateur": "Julie Renault",
+					"cout": 170,
+					"nombreHeures": 45
+				},
+				{
+					"id": "sql224",
+					"titre": "Sécurité en SQL",
+					"description": "Ce cours avancé sur la sécurité en SQL vous fournira les compétences nécessaires pour protéger vos bases de données relationnelles contre les menaces de sécurité courantes. Vous apprendrez à mettre en œuvre des stratégies de sécurité telles que l'authentification, l'autorisation et le cryptage des données, ainsi que des techniques avancées telles que l'audit des bases de données et la détection des intrusions. En combinant des démonstrations pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurité en SQL et serez en mesure de sécuriser efficacement vos bases de données.",
+					"formateur": "Nicolas Lambert",
+					"cout": 180,
+					"nombreHeures": 50
+				}
+			]
+		},
+		{
+			"mois": "Août",
+			"cours": [
+				{
+					"id": "sql225",
+					"titre": "SQL dans le Cloud",
+					"description": "Ce cours avancé sur SQL dans le cloud vous fournira les compétences nécessaires pour déployer, gérer et optimiser des bases de données relationnelles dans des environnements cloud tels que Amazon RDS, Azure SQL Database et Google Cloud SQL. Vous explorerez les différentes offres de services cloud pour les bases de données relationnelles, ainsi que des techniques avancées telles que la sauvegarde et la restauration, la réplication des données et le dimensionnement automatique. En combinant des démonstrations en direct et des études de cas réels, vous développerez une expertise approfondie dans SQL dans le cloud et serez en mesure de tirer parti des avantages du cloud pour vos bases de données.",
+					"formateur": "Charlotte Dubois",
+					"cout": 190,
+					"nombreHeures": 55
+				},
+				{
+					"id": "sql226",
+					"titre": "Migration vers SQL",
+					"description": "Ce cours avancé sur la migration vers SQL vous fournira les compétences nécessaires pour migrer des bases de données relationnelles vers SQL Server, PostgreSQL, MySQL ou d'autres systèmes de gestion de bases de données SQL. Vous explorerez les meilleures pratiques pour la planification et l'exécution de migrations de bases de données, ainsi que des outils et des techniques pour minimiser les temps d'arrêt et assurer la cohérence des données. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la migration vers SQL et serez en mesure de gérer efficacement les migrations de bases de données.",
+					"formateur": "Antoine Rousseau",
+					"cout": 200,
+					"nombreHeures": 60
+				},
+				{
+					"id": "sql227",
+					"titre": "Analyse de Données en SQL",
+					"description": "Ce cours avancé sur l'analyse de données en SQL vous fournira les compétences nécessaires pour effectuer des analyses avancées et des requêtes complexes sur de grands ensembles de données. Vous explorerez des sujets tels que les fonctions d'agrégation avancées, les fenêtres de données et les opérations d'analyse, ce qui vous permettra de découvrir des insights précieux à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse de données en SQL et serez en mesure de prendre des décisions éclairées basées sur les données.",
+					"formateur": "Élodie Moreau",
+					"cout": 210,
+					"nombreHeures": 65
+				},
+				{
+					"id": "sql228",
+					"titre": "SQL pour la Science des Données",
+					"description": "Ce cours avancé sur SQL pour la science des données vous fournira les compétences nécessaires pour analyser, manipuler et visualiser des données volumineuses à l'aide de SQL. Vous explorerez des techniques avancées pour effectuer des analyses statistiques, créer des modèles prédictifs et générer des visualisations de données dynamiques, ce qui vous permettra de découvrir des insights significatifs à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la science des données et serez en mesure de tirer parti de la puissance de SQL dans votre travail d'analyse de données.",
+					"formateur": "Alexandre Laurent",
+					"cout": 220,
+					"nombreHeures": 70
+				}
+			]
+		},
+		{
+					"mois": "Septembre",
+					"cours": [
+						{
+							"id": "sql217",
+							"titre": "SQL dans le Cloud",
+							"description": "Ce cours avancé sur SQL dans le cloud vous fournira les compétences nécessaires pour déployer, gérer et optimiser des bases de données relationnelles dans des environnements cloud tels que Amazon RDS, Azure SQL Database et Google Cloud SQL. Vous explorerez les différentes offres de services cloud pour les bases de données relationnelles, ainsi que des techniques avancées telles que la sauvegarde et la restauration, la réplication des données et le dimensionnement automatique. En combinant des démonstrations en direct et des études de cas réels, vous développerez une expertise approfondie dans SQL dans le cloud et serez en mesure de tirer parti des avantages du cloud pour vos bases de données.",
+							"formateur": "Charlotte Dubois",
+							"cout": 190,
+							"nombreHeures": 55
+						},
+						{
+							"id": "sql218",
+							"titre": "Migration vers SQL",
+							"description": "Ce cours avancé sur la migration vers SQL vous fournira les compétences nécessaires pour migrer des bases de données relationnelles vers SQL Server, PostgreSQL, MySQL ou d'autres systèmes de gestion de bases de données SQL. Vous explorerez les meilleures pratiques pour la planification et l'exécution de migrations de bases de données, ainsi que des outils et des techniques pour minimiser les temps d'arrêt et assurer la cohérence des données. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la migration vers SQL et serez en mesure de gérer efficacement les migrations de bases de données.",
+							"formateur": "Antoine Rousseau",
+							"cout": 200,
+							"nombreHeures": 60
+						},
+						{
+							"id": "sql219",
+							"titre": "Analyse de Données en SQL",
+							"description": "Ce cours avancé sur l'analyse de données en SQL vous fournira les compétences nécessaires pour effectuer des analyses avancées et des requêtes complexes sur de grands ensembles de données. Vous explorerez des sujets tels que les fonctions d'agrégation avancées, les fenêtres de données et les opérations d'analyse, ce qui vous permettra de découvrir des insights précieux à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse de données en SQL et serez en mesure de prendre des décisions éclairées basées sur les données.",
+							"formateur": "Élodie Moreau",
+							"cout": 210,
+							"nombreHeures": 65
+						},
+						{
+							"id": "sql220",
+							"titre": "SQL pour la Science des Données",
+							"description": "Ce cours avancé sur SQL pour la science des données vous fournira les compétences nécessaires pour analyser, manipuler et visualiser des données volumineuses à l'aide de SQL. Vous explorerez des techniques avancées pour effectuer des analyses statistiques, créer des modèles prédictifs et générer des visualisations de données dynamiques, ce qui vous permettra de découvrir des insights significatifs à partir de vos données. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la science des données et serez en mesure de tirer parti de la puissance de SQL dans votre travail d'analyse de données.",
+							"formateur": "Alexandre Laurent",
+							"cout": 220,
+							"nombreHeures": 70
+						}
+					]
+				},
+				{
+					"mois": "Octobre",
+					"cours": [
+					  {
+						"id": "sql221",
+						"titre": "Sécurité des Bases de Données",
+						"description": "Ce cours avancé sur la sécurité des bases de données vous fournira les compétences nécessaires pour concevoir, mettre en œuvre et maintenir des stratégies de sécurité robustes pour vos bases de données SQL. Vous explorerez les meilleures pratiques pour protéger les données sensibles, gérer les autorisations d'accès et détecter les menaces potentielles à la sécurité. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurisation des bases de données et serez en mesure de garantir l'intégrité et la confidentialité de vos données.",
+						"formateur": "Sophie Martin",
+						"cout": 230,
+						"nombreHeures": 75
+					  },
+					  {
+						"id": "sql222",
+						"titre": "Administration Avancée de SQL Server",
+						"description": "Ce cours avancé sur l'administration de SQL Server vous fournira les compétences nécessaires pour gérer et optimiser efficacement les instances de SQL Server dans des environnements de production. Vous explorerez des sujets tels que la surveillance des performances, la gestion de la haute disponibilité et la résolution des problèmes courants rencontrés dans SQL Server. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans l'administration de SQL Server et serez en mesure de garantir le bon fonctionnement de vos bases de données.",
+						"formateur": "Louis Dupont",
+						"cout": 240,
+						"nombreHeures": 80
+					  },
+					  {
+						"id": "sql223",
+						"titre": "Data Warehousing avec SQL",
+						"description": "Ce cours avancé sur le data warehousing avec SQL vous fournira les compétences nécessaires pour concevoir, implémenter et gérer des entrepôts de données à l'aide de SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données relationnelles. Vous explorerez des concepts clés tels que la modélisation dimensionnelle, l'extraction, la transformation et le chargement des données (ETL) et la création de rapports analytiques. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans le data warehousing avec SQL et serez en mesure de fournir des solutions de business intelligence efficaces.",
+						"formateur": "Julien Garcia",
+						"cout": 250,
+						"nombreHeures": 85
+					  },
+					  {
+						"id": "sql224",
+						"titre": "SQL Avancé : Performance et Optimisation",
+						"description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour optimiser les performances de vos requêtes SQL et améliorer l'efficacité de vos bases de données. Vous explorerez des techniques avancées telles que l'indexation efficace, l'optimisation des requêtes et la gestion de la mémoire et des ressources. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances SQL et serez en mesure de garantir des performances optimales pour vos applications et services.",
+						"formateur": "Pauline Leroux",
+						"cout": 260,
+						"nombreHeures": 90
+					  }
+					]
+				  }, {
+					"mois": "Novembre",
+					"cours": [
+					  {
+						"id": "sql225",
+						"titre": "SQL pour l'Analyse de Big Data",
+						"description": "Ce cours avancé sur SQL pour l'analyse de Big Data vous fournira les compétences nécessaires pour interroger et analyser des ensembles de données massives à l'aide de SQL. Vous explorerez des techniques pour travailler avec des données distribuées, des bases de données NoSQL et des outils d'analyse de Big Data tels que Apache Hadoop et Spark. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour l'analyse de Big Data et serez en mesure d'extraire des insights précieux à partir de vos données volumineuses.",
+						"formateur": "Thomas Lefebvre",
+						"cout": 270,
+						"nombreHeures": 95
+					  },
+					  {
+						"id": "sql226",
+						"titre": "SQL Avancé : Fonctions Temporaires",
+						"description": "Ce cours avancé sur SQL vous fournira les compétences nécessaires pour utiliser efficacement les fonctions temporaires pour traiter et analyser des données dans SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données. Vous explorerez des sujets tels que les tables temporaires, les variables de table et les fonctions de table en ligne, ce qui vous permettra de manipuler des ensembles de données de manière flexible et efficace. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation des fonctions temporaires en SQL et serez en mesure de résoudre des problèmes complexes de manipulation de données.",
+						"formateur": "Camille Renault",
+						"cout": 280,
+						"nombreHeures": 100
+					  },
+					  {
+						"id": "sql227",
+						"titre": "Développement Web avec SQL",
+						"description": "Ce cours avancé sur le développement web avec SQL vous fournira les compétences nécessaires pour intégrer des bases de données SQL dans des applications web dynamiques. Vous explorerez des techniques pour interagir avec des bases de données à partir de langages de programmation web tels que PHP, Python et JavaScript, ainsi que des frameworks populaires tels que Django et Express.js. En combinant des exemples pratiques et des projets de développement web réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour le développement web et serez en mesure de créer des applications web robustes et évolutives.",
+						"formateur": "Mathieu Blanc",
+						"cout": 290,
+						"nombreHeures": 105
+					  },
+					  {
+						"id": "sql228",
+						"titre": "SQL Spatial : Analyse Géospatiale",
+						"description": "Ce cours avancé sur SQL spatial vous fournira les compétences nécessaires pour analyser et visualiser des données géospatiales à l'aide de SQL Server, PostgreSQL ou d'autres systèmes de gestion de bases de données spatiales. Vous explorerez des techniques pour manipuler des données géographiques, effectuer des calculs de distance et créer des visualisations cartographiques interactives. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'analyse géospatiale avec SQL et serez en mesure de résoudre des problèmes complexes liés à la localisation et à la cartographie.",
+						"formateur": "Émilie Girard",
+						"cout": 300,
+						"nombreHeures": 110
+					  }
+					]
+				  }, {
+					"mois": "Décembre",
+					"cours": [
+					  {
+						"id": "sql235",
+						"titre": "SQL pour la Business Intelligence",
+						"description": "Ce cours avancé sur SQL pour la Business Intelligence vous fournira les compétences nécessaires pour concevoir et mettre en œuvre des solutions de BI efficaces à l'aide de SQL Server, Power BI, Tableau et d'autres outils de BI populaires. Vous explorerez des techniques pour extraire, transformer et charger des données à partir de sources hétérogènes, ainsi que des stratégies pour modéliser des entrepôts de données et créer des rapports interactifs. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour la BI et serez en mesure d'aider les organisations à prendre des décisions basées sur des données exploitables.",
+						"formateur": "Lucas Martin",
+						"cout": 320,
+						"nombreHeures": 120
+					  },
+					  {
+						"id": "sql236",
+						"titre": "SQL pour la Sécurité des Données",
+						"description": "Ce cours avancé sur SQL pour la sécurité des données vous fournira les compétences nécessaires pour protéger les bases de données SQL contre les menaces de sécurité telles que les attaques par injection SQL, les accès non autorisés et les fuites de données. Vous explorerez des techniques pour configurer des mesures de sécurité telles que l'authentification, l'autorisation et le chiffrement des données, ainsi que des stratégies pour détecter et répondre aux incidents de sécurité. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans la sécurisation des bases de données SQL et serez en mesure de garantir l'intégrité et la confidentialité des données sensibles.",
+						"formateur": "Sophie Dupont",
+						"cout": 330,
+						"nombreHeures": 125
+					  },
+					  {
+						"id": "sql237",
+						"titre": "SQL pour l'Intégration de Données",
+						"description": "Ce cours avancé sur SQL pour l'intégration de données vous fournira les compétences nécessaires pour créer des flux de données automatisés et fiables à l'aide de SQL Server Integration Services (SSIS), Apache Kafka, et d'autres outils d'intégration de données. Vous explorerez des techniques pour extraire, transformer et charger des données à grande échelle, ainsi que des stratégies pour gérer les flux de données en temps réel et en batch. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour l'intégration de données et serez en mesure de garantir la disponibilité et la qualité des données dans les environnements complexes.",
+						"formateur": "Nicolas Dubois",
+						"cout": 340,
+						"nombreHeures": 130
+					  },
+					  {
+						"id": "sql238",
+						"titre": "SQL pour les Applications Cloud-Natives",
+						"description": "Ce cours avancé sur SQL pour les applications cloud-natives vous fournira les compétences nécessaires pour concevoir et déployer des applications modernes basées sur des microservices à l'aide de SQL Server, Amazon Aurora, et d'autres bases de données cloud natives. Vous explorerez des techniques pour partitionner des données, gérer la cohérence et la disponibilité des données dans des environnements distribués, ainsi que des stratégies pour intégrer des bases de données SQL dans des architectures cloud natives telles que Kubernetes. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour les applications cloud natives et serez en mesure de créer des solutions évolutives et résilientes dans le cloud.",
+						"formateur": "Julie Lambert",
+						"cout": 350,
+						"nombreHeures": 135
+					  }
+					]
+				  },
+				  {
+					"mois": "Janvier",
+					"cours": [
+					  {
+						"id": "sql231",
+						"titre": "Gestion Avancée de Bases de Données",
+						"description": "Ce cours avancé sur la gestion avancée de bases de données vous fournira les compétences nécessaires pour gérer efficacement des bases de données SQL de grande taille. Vous explorerez des techniques avancées pour optimiser les performances, gérer la réplication des données et assurer la haute disponibilité des bases de données critiques. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans la gestion avancée de bases de données et serez en mesure de répondre aux exigences croissantes des applications de données modernes.",
+						"formateur": "Martin Dubois",
+						"cout": 300,
+						"nombreHeures": 80
+					  },
+					  {
+						"id": "sql232",
+						"titre": "SQL NoSQL Integration",
+						"description": "Ce cours avancé sur l'intégration SQL NoSQL vous fournira les compétences nécessaires pour intégrer efficacement des bases de données SQL et NoSQL dans des environnements d'entreprise. Vous explorerez des techniques pour synchroniser les données entre des systèmes relationnels et non relationnels, ainsi que des meilleures pratiques pour la gestion de la cohérence des données et des performances. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'intégration SQL NoSQL et serez en mesure de tirer parti de la diversité des technologies de base de données.",
+						"formateur": "Laura Gagnon",
+						"cout": 280,
+						"nombreHeures": 70
+					  },
+					  {
+						"id": "sql233",
+						"titre": "SQL Performance Tuning",
+						"description": "Ce cours avancé sur l'optimisation des performances SQL vous fournira les compétences nécessaires pour identifier et résoudre les goulots d'étranglement de performance dans les bases de données SQL. Vous explorerez des techniques pour analyser les requêtes, concevoir des index efficaces et optimiser la configuration du serveur pour améliorer les performances globales. En combinant des démonstrations pratiques et des conseils d'experts, vous développerez une expertise approfondie dans l'optimisation des performances SQL et serez en mesure de garantir des performances optimales pour vos applications critiques.",
+						"formateur": "Jeanne Lefebvre",
+						"cout": 320,
+						"nombreHeures": 90
+					  },
+					  {
+						"id": "sql234",
+						"titre": "SQL Avancé pour les Développeurs",
+						"description": "Ce cours avancé sur SQL pour les développeurs vous fournira les compétences nécessaires pour maîtriser les fonctionnalités avancées de SQL pour le développement d'applications. Vous explorerez des sujets tels que les procédures stockées, les déclencheurs, les fonctions définies par l'utilisateur et les requêtes récursives, ce qui vous permettra de développer des applications robustes et évolutives. En combinant des exemples pratiques et des études de cas réels, vous développerez une expertise approfondie dans l'utilisation de SQL pour le développement d'applications et serez en mesure de créer des solutions logicielles puissantes et hautement performantes.",
+						"formateur": "David Lambert",
+						"cout": 350,
+						"nombreHeures": 100
+					  }
+					]
+				  }
+				]
+			  }

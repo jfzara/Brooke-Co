@@ -1,0 +1,21 @@
+[
+	{
+	  "id": "python",
+	  "title": "Le Python de A à Z",
+	  "author": "Lukas Halim",
+	  "price": 120.99,
+	  "image": "/photos/python6.jpg",
+	  "rating": 4.3,
+	  "reviews": 162432
+	},
+	{
+	  "id": "javascript",
+	  "title": "Le JavaScript de A à Z",
+	  "author": "Lukas Halim",
+	  "price": 120.99,
+	  "image": "/photos/javascript6.jpg",
+	  "rating": 4.5,
+	  "reviews": 123456
+	}
+  ]
+  

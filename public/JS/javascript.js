@@ -3,8 +3,10 @@
 var url = 'coursJS.json';
 
 
-localStorage.clear();
-
+// Appeler la fonction updateCartCounter au chargement de la page
+window.onload = function() {
+    updateCartCounter();
+};
 
 
 
@@ -232,19 +234,24 @@ function addToCartLocalStorage(courseName) {
     localStorage.setItem('coursAchetes', JSON.stringify(cartItems));
 
     // Mettre à jour le nombre d'articles affiché dans la div du panier
-    updateCartItemCount();
+    updateCartCounter();
 }
 
 // Fonction pour mettre à jour le nombre d'articles affiché dans la div du panier
-function updateCartItemCount() {
-    // Récupérer le nombre d'articles depuis le Local Storage
-    const cartItems = localStorage.getItem('coursAchetes');
-    const itemCount = cartItems ? Object.values(JSON.parse(cartItems)).reduce((acc, val) => acc + val, 0) : 0;
+function updateCartCounter() {
+    // Récupérer les articles depuis le Local Storage
+    const cartItems = localStorage.getItem('cart');
+    const cart = cartItems ? JSON.parse(cartItems) : [];
+    
+    const purchasedItems = localStorage.getItem('coursAchetes');
+    const purchasedCart = purchasedItems ? JSON.parse(purchasedItems) : {};
 
-    // Mettre à jour le contenu de la div count du panier avec le nombre d'articles
-    document.getElementById('cartItemCount').innerText = itemCount;
+    // Calculer le nombre total d'articles
+    const totalItemCount = cart.length + Object.values(purchasedCart).reduce((acc, val) => acc + val, 0);
+
+    // Mettre à jour le contenu de la div count du panier avec le nombre total d'articles
+    document.getElementById('cartCounter').innerText = totalItemCount;
 }
-
 
 // Fonction pour récupérer l'URL de l'image du cours
 function getImageUrl(cours) {

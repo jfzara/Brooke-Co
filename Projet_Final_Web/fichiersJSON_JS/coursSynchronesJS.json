@@ -1,0 +1,254 @@
+{
+    "coursSynchrones": [
+        {
+            "id": "jsSynchrone1",
+            "titre": "Voyage à travers JavaScript : Exploration des Concepts Fondamentaux du Langage",
+            "formateur": "Maya Patel",
+            "description": "Explorez les concepts fondamentaux du langage JavaScript lors de ce voyage captivant. Ce cours vous emmène dans un périple au cœur de JavaScript, en couvrant les sujets essentiels tels que les variables, les fonctions, les boucles, les conditions, les objets et les tableaux. Vous découvrirez également les principes de base de la programmation orientée objet et de la manipulation du DOM. À la fin de ce cours, vous aurez acquis une compréhension solide des fondements de JavaScript et serez prêt à passer à des concepts plus avancés.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-03-15",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-03-22",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptJourney.jpg"
+        },
+        {
+            "id": "jsSynchrone2",
+            "titre": "JavaScript Interactif : Impliquez les Utilisateurs avec des Expériences Web Dynamiques",
+            "formateur": "Malik Khan",
+            "description": "Apprenez à créer des expériences web dynamiques et engageantes avec JavaScript interactif. Ce cours vous guide à travers les techniques avancées pour créer des interactions fluides sur vos sites web. Vous apprendrez à manipuler le DOM de manière interactive, à gérer les événements utilisateur et à créer des animations captivantes. En combinant théorie et pratique, vous développerez des compétences solides pour rendre vos applications web plus engageantes et interactives.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-04-05",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-04-12",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/interactiveJavaScript.jpg"
+        },
+        {
+            "id": "jsSynchrone3",
+            "titre": "JavaScript pour les Concepteurs Web : Améliorez Vos Compétences Frontend",
+            "formateur": "Avery Johnson",
+            "description": "Améliorez vos compétences en frontend avec ce cours JavaScript conçu spécialement pour les web designers. Ce cours se concentre sur l'intégration de JavaScript dans le processus de conception web. Vous apprendrez à créer des animations, des transitions et des effets visuels pour améliorer l'expérience utilisateur. De plus, vous découvrirez comment utiliser JavaScript pour optimiser la performance et l'accessibilité de vos sites web. À la fin de ce cours, vous serez en mesure de créer des designs web plus dynamiques et attrayants.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-05-10",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-05-17",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptWebDesigners.jpg"
+        },
+        {
+            "id": "jsSynchrone4",
+            "titre": "Astuces JavaScript : Trucs, Conseils et Meilleures Pratiques",
+            "formateur": "Dylan Nguyen",
+            "description": "Découvrez des astuces, des conseils et les meilleures pratiques pour maîtriser JavaScript. Ce cours aborde les astuces et les techniques avancées pour optimiser votre code JavaScript. Vous apprendrez des raccourcis utiles, des techniques de débogage efficaces et des modèles de conception éprouvés. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à améliorer votre productivité et à écrire un code JavaScript plus efficace et maintenable.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-06-15",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-06-22",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptHacks.jpg"
+        },
+        {
+            "id": "jsSynchrone5",
+            "titre": "Cours de JavaScript Avancé : Maîtrisez les Techniques de Programmation Avancées",
+            "formateur": "Hugo Garcia",
+            "description": "Plongez dans le monde avancé de JavaScript avec ce cours intensif. Vous explorerez des concepts avancés tels que les closures, les promises, l'asynchronisme et la programmation fonctionnelle. Grâce à des exemples pratiques et des exercices approfondis, vous développerez une compréhension solide de ces sujets. Que vous souhaitiez approfondir vos connaissances en JavaScript ou vous préparer à des entretiens techniques, ce cours vous fournira les compétences nécessaires pour réussir.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-07-05",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-07-12",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/advancedJavaScript.jpg"
+        },
+        {
+            "id": "jsSynchrone6",
+            "titre": "Développement Web Full Stack avec JavaScript : Du Frontend au Backend",
+            "formateur": "Sophie Martin",
+            "description": "Découvrez le développement web full stack avec JavaScript dans ce cours complet. Vous apprendrez à créer des applications web dynamiques en utilisant JavaScript à la fois pour le frontend et le backend. Explorez des frameworks populaires tels que React et Node.js, et apprenez à les intégrer pour construire des applications cohérentes et évolutives. Que vous soyez un débutant ou un développeur expérimenté, ce cours vous aidera à maîtriser le développement full stack avec JavaScript.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-08-05",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-08-12",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/fullStackJavaScript.jpg"
+        },
+        {
+            "id": "jsSynchrone7",
+            "titre": "Sécurité JavaScript : Meilleures Pratiques pour Protéger Vos Applications Web",
+            "formateur": "Eva Fernandez",
+            "description": "Apprenez les meilleures pratiques de sécurité pour protéger vos applications web JavaScript contre les attaques. Ce cours vous guidera à travers les vulnérabilités courantes et vous apprendra comment les prévenir, notamment en matière de gestion des entrées utilisateur, de protection contre les attaques XSS et CSRF, et de mise en œuvre de bonnes pratiques en matière d'authentification et d'autorisation. Protégez vos applications web et assurez la sécurité de vos utilisateurs grâce à ce cours essentiel.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-09-05",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-09-12",
+                    "heureDebut": "09:00",
+                    "heureFin": "11:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptSecurity.jpg"
+        },
+        {
+            "id": "jsSynchrone8",
+            "titre": "Développement de Jeux avec JavaScript : Créez des Expériences Ludiques et Captivantes",
+            "formateur": "Lucas Dupont",
+            "description": "Plongez dans le monde du développement de jeux avec JavaScript dans ce cours excitant. Vous apprendrez à utiliser des bibliothèques populaires telles que Phaser pour créer des jeux web captivants. Explorez les principes de base du développement de jeux, y compris la gestion des sprites, les collisions et les animations. Avec ce cours, vous serez en mesure de créer vos propres jeux web et d'offrir des expériences ludiques à vos utilisateurs.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-10-05",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-10-12",
+                    "heureDebut": "13:00",
+                    "heureFin": "15:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptGameDev.jpg"
+        },
+        {
+            "id": "jsSynchrone9",
+            "titre": "Optimisation des Performances JavaScript : Accélérez Vos Applications Web",
+            "formateur": "Nina Leroy",
+            "description": "Découvrez comment optimiser les performances de vos applications web JavaScript dans ce cours approfondi. Vous apprendrez les meilleures pratiques pour améliorer le chargement, l'exécution et l'efficacité de votre code JavaScript. Explorez des outils et des techniques pour mesurer et analyser les performances, ainsi que des stratégies pour réduire le temps de chargement, optimiser le rendu et minimiser l'utilisation de la mémoire. Optimisez vos applications web et offrez une expérience utilisateur fluide et réactive.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-11-05",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-11-12",
+                    "heureDebut": "10:00",
+                    "heureFin": "12:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptPerformance.jpg"
+        },
+        {
+            "id": "jsSynchrone10",
+            "titre": "JavaScript pour l'Internet des Objets (IoT) : Contrôlez le Monde Physique avec du Code",
+            "formateur": "Maxime Lefebvre",
+            "description": "Explorez les possibilités fascinantes de l'Internet des Objets (IoT) avec JavaScript dans ce cours innovant. Vous apprendrez à contrôler et à interagir avec des appareils physiques en utilisant JavaScript et des plateformes IoT populaires telles que Arduino et Raspberry Pi. Découvrez comment collecter des données, automatiser des tâches et créer des applications IoT interactives. Avec ce cours, vous serez en mesure de créer vos propres projets IoT et d'explorer les nombreuses applications de cette technologie.",
+            "sessions": [
+                {
+                    "numeroCours": 1,
+                    "date": "2024-12-05",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                },
+                {
+                    "numeroCours": 2,
+                    "date": "2024-12-12",
+                    "heureDebut": "14:00",
+                    "heureFin": "16:00",
+                    "nombreHeures": 2,
+                    "nombreJoursCours": 1
+                }
+            ],
+            "image": "/photos/javascriptIoT.jpg"
+        }
+    ]
+}

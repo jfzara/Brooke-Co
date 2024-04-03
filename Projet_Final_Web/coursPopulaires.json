@@ -1,0 +1,44 @@
+[
+    {
+        "id": "pyAvance",
+        "titre": "Python Avancé : Maîtrise des Concepts Avancés et des Bonnes Pratiques",
+        "description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des concepts avancés tels que la programmation orientée objet, les décorateurs, les générateurs et la manipulation avancée de données. En combinant théorie et pratique, vous développerez des compétences solides pour écrire un code Python efficace, maintenable et évolutif.",
+        "formateur": "Emma Dubois",
+        "cout": 150,
+        "nombreHeures": 28
+    },
+    {
+        "id": "pyDataScience",
+        "titre": "Science des Données avec Python",
+        "description": "Explorez les fondements de la science des données avec Python dans ce cours spécialisé. Vous découvrirez les bibliothèques populaires telles que Pandas, NumPy et Matplotlib pour manipuler, analyser et visualiser des données. En appliquant ces outils à des cas d'utilisation réels, vous développerez des compétences précieuses pour extraire des informations significatives à partir de grandes quantités de données.",
+        "formateur": "Antoine Martin",
+        "cout": 160,
+        "nombreHeures": 30
+    },
+    {
+        "id": "sql202",
+        "titre": "SQL pour Développeurs Web",
+        "formateur": "Marie Dubois",
+        "description": "Ce cours intensif sur SQL est conçu pour les développeurs web qui souhaitent maîtriser les concepts fondamentaux et avancés de la manipulation de bases de données relationnelles. Vous explorerez en profondeur les requêtes SQL, les jointures, les transactions et les procédures stockées, tout en acquérant une compréhension approfondie de la gestion des données dans le contexte du développement web. Grâce à des projets pratiques et des exercices stimulants, vous développerez vos compétences en SQL et serez prêt à intégrer des bases de données relationnelles dans vos applications web.",
+        "cout": 120,
+        "nombreHeures": 30
+    },
+    {
+        "id": "jsIntro",
+        "titre": "Introduction à JavaScript",
+        "description": "Ce cours d'introduction à JavaScript vous plongera dans les bases essentielles du langage de programmation le plus largement utilisé sur le web. Vous explorerez la syntaxe de base de JavaScript, y compris les variables, les opérateurs et les structures de contrôle, tout en apprenant comment créer des fonctions pour organiser votre code de manière efficace. En outre, vous découvrirez comment manipuler le DOM pour interagir avec les éléments HTML, ce qui vous permettra de rendre vos pages web plus dynamiques et réactives. Avec des exercices pratiques et des exemples concrets, vous consoliderez vos connaissances et serez prêt à passer à des concepts plus avancés.",
+        "formateur": "John Doe",
+        "cout": 120,
+        "nombreHeures": 25,
+        "image": "/photos/javaScript.jpg"
+    },
+    {
+        "id": "jsDOM",
+        "titre": "Manipulation du DOM",
+        "description": "Ce cours approfondi sur la manipulation du DOM vous permettra de maîtriser les techniques avancées pour interagir avec les éléments HTML de vos pages web en utilisant JavaScript. Vous apprendrez à accéder et à modifier les éléments DOM, à gérer les événements utilisateur et à créer des applications web dynamiques. En explorant des sujets tels que la création d'éléments dynamiques, la gestion des événements et la mise à jour du contenu en temps réel, vous développerez les compétences nécessaires pour créer des expériences utilisateur interactives et engageantes.",
+        "formateur": "Jane Smith",
+        "cout": 130,
+        "nombreHeures": 30,
+        "image": "/photos/javaScript.jpg"
+    }
+]

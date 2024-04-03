@@ -1,0 +1,440 @@
+{
+	"coursMois": [
+		{
+			"mois": "Février",
+			"cours": [
+				{
+					"id": "js201",
+					"titre": "JavaScript pour Développeurs Web",
+					"formateur": "Malik Khan",
+					"description": "Dans ce cours intensif sur JavaScript, destiné aux développeurs web, vous allez plonger dans les concepts fondamentaux et avancés de ce langage de programmation incontournable pour le web moderne. Vous explorerez en profondeur les fonctionnalités clés de JavaScript, y compris les variables, les fonctions, les boucles et les objets, tout en acquérant une compréhension approfondie de la manipulation du DOM, des événements et de la programmation orientée objet. À travers des projets pratiques et des exercices stimulants, vous développerez vos compétences en JavaScript et serez prêt à créer des applications web dynamiques et interactives.",
+					"cout": 120,
+					"nombreHeures": 30
+				},
+				{
+					"id": "react101",
+					"titre": "Introduction à React.js",
+					"formateur": "Sophie Leclerc",
+					"description": "Ce cours d'introduction à React.js vous permettra de découvrir l'une des bibliothèques JavaScript les plus populaires pour la création d'interfaces utilisateur interactives. Vous apprendrez les concepts fondamentaux de React.js, y compris les composants, les propriétés, l'état et le cycle de vie, tout en explorant comment créer des applications web modernes et réactives. Grâce à des exemples pratiques et des projets progressifs, vous maîtriserez les bases de React.js et serez prêt à intégrer cette technologie puissante dans vos projets.",
+					"cout": 140,
+					"nombreHeures": 35
+				},
+				{
+					"id": "nodejs101",
+					"titre": "Node.js pour Développeurs Backend",
+					"formateur": "Alexandre Dubois",
+					"description": "Ce cours sur Node.js est conçu pour les développeurs backend qui souhaitent construire des applications web évolutives et performantes. Vous explorerez les bases de Node.js, y compris la gestion des modules, les opérations d'entrée/sortie asynchrones et la création de serveurs web. En utilisant des frameworks populaires tels que Express.js, vous apprendrez à créer des API RESTful et à gérer les requêtes HTTP. Avec des projets pratiques et des exercices guidés, vous développerez vos compétences en développement backend avec Node.js.",
+					"cout": 150,
+					"nombreHeures": 40
+				},
+				{
+					"id": "angular101",
+					"titre": "Introduction à Angular",
+					"formateur": "Camille Lefebvre",
+					"description": "Ce cours d'introduction à Angular vous plongera dans le framework JavaScript développé par Google pour la création d'applications web dynamiques et évolutives. Vous découvrirez les concepts de base d'Angular, y compris les composants, les modules, les directives et le routage, tout en explorant comment structurer et organiser vos projets Angular de manière efficace. Grâce à des exemples pratiques et des exercices interactifs, vous développerez les compétences nécessaires pour créer des applications web modernes avec Angular.",
+					"cout": 130,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Mars",
+			"cours": [
+				{
+					"id": "jsIntro",
+					"titre": "Introduction à JavaScript",
+					"description": "Ce cours d'introduction à JavaScript vous plongera dans les bases essentielles du langage de programmation le plus largement utilisé sur le web. Vous explorerez la syntaxe de base de JavaScript, y compris les variables, les opérateurs et les structures de contrôle, tout en apprenant comment créer des fonctions pour organiser votre code de manière efficace. En outre, vous découvrirez comment manipuler le DOM pour interagir avec les éléments HTML, ce qui vous permettra de rendre vos pages web plus dynamiques et réactives. Avec des exercices pratiques et des exemples concrets, vous consoliderez vos connaissances et serez prêt à passer à des concepts plus avancés.",
+					"formateur": "John Doe",
+					"cout": 120,
+					"nombreHeures": 25
+				},
+				{
+					"id": "jsDOM",
+					"titre": "Manipulation du DOM",
+					"description": "Ce cours approfondi sur la manipulation du DOM vous permettra de maîtriser les techniques avancées pour interagir avec les éléments HTML de vos pages web en utilisant JavaScript. Vous apprendrez à accéder et à modifier les éléments DOM, à gérer les événements utilisateur et à créer des applications web dynamiques. En explorant des sujets tels que la création d'éléments dynamiques, la gestion des événements et la mise à jour du contenu en temps réel, vous développerez les compétences nécessaires pour créer des expériences utilisateur interactives et engageantes.",
+					"formateur": "Jane Smith",
+					"cout": 130,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsEvents",
+					"titre": "Gestion des événements",
+					"description": "Ce cours pratique sur la gestion des événements en JavaScript vous plongera dans les différentes techniques pour capturer et gérer les interactions utilisateur sur vos pages web. Vous apprendrez à attacher des écouteurs d'événements, à réagir aux clics de souris, aux pressions de touches et à d'autres actions utilisateur, tout en comprenant comment créer des applications web réactives et interactives. Grâce à des exemples concrets et des exercices pratiques, vous serez en mesure de maîtriser les bases de la gestion des événements en JavaScript et de les appliquer à vos propres projets.",
+					"formateur": "Alice Johnson",
+					"cout": 110,
+					"nombreHeures": 20
+				},
+				{
+					"id": "jsOO",
+					"titre": "Programmation orientée objet en JavaScript",
+					"description": "Ce cours avancé sur la programmation orientée objet (POO) en JavaScript vous permettra de comprendre et d'appliquer les principes fondamentaux de la POO dans le contexte du développement web. Vous explorerez la création de classes, l'héritage, le polymorphisme et d'autres concepts avancés de la POO, tout en apprenant à les mettre en œuvre dans vos propres projets JavaScript. Grâce à des exemples pratiques et des exercices interactifs, vous développerez une compréhension approfondie de la POO en JavaScript et serez en mesure de concevoir des applications web modulaires, flexibles et faciles à entretenir.",
+					"formateur": "Bob Williams",
+					"cout": 140,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Avril",
+			"cours": [
+				{
+					"id": "jsArrays",
+					"titre": "Travail avec les tableaux en JavaScript",
+					"description": "Ce cours approfondi sur la manipulation des tableaux en JavaScript vous fournira les compétences nécessaires pour travailler efficacement avec des collections de données dans vos applications web. Vous apprendrez les techniques avancées pour manipuler, trier, filtrer et transformer les tableaux, ce qui vous permettra de traiter efficacement les données et de créer des fonctionnalités interactives pour vos utilisateurs. En explorant des sujets tels que les méthodes de tableau intégrées, le tri personnalisé et la réduction, vous développerez une compréhension approfondie de la manipulation des tableaux en JavaScript.",
+					"formateur": "John Doe",
+					"cout": 130,
+					"nombreHeures": 25
+				},
+				{
+					"id": "jsStrings",
+					"titre": "Travail avec les chaînes en JavaScript",
+					"description": "Ce cours avancé sur la manipulation des chaînes en JavaScript vous plongera dans les techniques avancées pour manipuler et transformer les chaînes de caractères dans vos applications web. Vous apprendrez à rechercher des sous-chaînes, à découper et à remplacer des parties de chaînes, ce qui vous permettra de manipuler efficacement les données texte dans vos projets JavaScript. En explorant des sujets tels que les expressions régulières, les méthodes de chaîne intégrées et les techniques de recherche avancées, vous développerez une expertise approfondie dans la manipulation des chaînes en JavaScript.",
+					"formateur": "Jane Smith",
+					"cout": 140,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsRegex",
+					"titre": "Introduction aux expressions régulières en JavaScript",
+					"description": "Ce cours d'introduction aux expressions régulières en JavaScript vous fournira les compétences de base nécessaires pour utiliser cette puissante fonctionnalité de manipulation de texte dans vos projets web. Vous apprendrez à comprendre et à créer des expressions régulières pour valider, rechercher et manipuler des chaînes de caractères, ce qui vous permettra d'implémenter des fonctionnalités avancées dans vos applications JavaScript. En explorant des sujets tels que les métacaractères, les quantificateurs et les groupes de capture, vous développerez une compréhension approfondie des expressions régulières et de leur utilisation pratique.",
+					"formateur": "Alice Johnson",
+					"cout": 120,
+					"nombreHeures": 20
+				},
+				{
+					"id": "jsErrorHandling",
+					"titre": "Gestion des erreurs en JavaScript",
+					"description": "Ce cours avancé sur la gestion des erreurs en JavaScript vous fournira les compétences nécessaires pour anticiper, gérer et résoudre efficacement les erreurs dans vos applications web. Vous apprendrez à utiliser des techniques telles que les blocs try-catch, les gestionnaires d'erreurs et les promesses pour gérer les situations d'erreur courantes et garantir une expérience utilisateur fluide. En explorant des sujets tels que la gestion des exceptions, le débogage avancé et les meilleures pratiques de gestion des erreurs, vous développerez une expertise approfondie dans la gestion des erreurs en JavaScript.",
+					"formateur": "Bob Williams",
+					"cout": 150,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Mai",
+			"cours": [
+				{
+					"id": "jsAdvanced",
+					"titre": "JavaScript Avancé",
+					"description": "Ce cours avancé sur JavaScript vous fournira les compétences nécessaires pour maîtriser les concepts avancés de ce langage de programmation dynamique. Vous explorerez des sujets tels que la programmation fonctionnelle, la manipulation avancée du DOM et la gestion asynchrone avec async/await, ce qui vous permettra de développer des applications web performantes et évolutives. En combinant des projets pratiques et des exercices interactifs, vous développerez une expertise approfondie en JavaScript et serez en mesure de relever les défis de développement les plus complexes.",
+					"formateur": "Malik Khan",
+					"cout": 180,
+					"nombreHeures": 50
+				},
+				{
+					"id": "reactAdvanced",
+					"titre": "React.js Avancé",
+					"description": "Approfondissez vos connaissances de React.js avec ce cours avancé. Vous explorerez des concepts tels que les hooks, le contexte, le rendu côté serveur, et la gestion de l'état complexe dans les applications React. En combinant théorie et pratique, vous développerez des compétences avancées pour créer des interfaces utilisateur dynamiques et réactives avec React.js.",
+					"formateur": "Sophie Leclerc",
+					"cout": 190,
+					"nombreHeures": 55
+				},
+				{
+					"id": "nodejsAdvanced",
+					"titre": "Node.js Avancé",
+					"description": "Plongez dans les fonctionnalités avancées de Node.js avec ce cours approfondi. Vous explorerez des sujets tels que la gestion des événements, les streams, le clustering, et la sécurité dans les applications Node.js. Grâce à des exemples pratiques et des projets avancés, vous développerez des compétences solides pour créer des applications Node.js robustes et évolutives.",
+					"formateur": "Alexandre Dubois",
+					"cout": 200,
+					"nombreHeures": 60
+				},
+				{
+					"id": "angularAdvanced",
+					"titre": "Angular Avancé",
+					"description": "Approfondissez vos compétences en Angular avec ce cours avancé. Vous explorerez des sujets avancés tels que les modules, les services avancés, le routage avancé, et la gestion de la performance dans les applications Angular. En combinant théorie et pratique, vous développerez des compétences avancées pour concevoir des applications Angular complexes et performantes.",
+					"formateur": "Camille Lefebvre",
+					"cout": 210,
+					"nombreHeures": 65
+				}
+			]
+		},
+		{
+			"mois": "Juin",
+			"cours": [
+				{
+					"id": "jsFrameworks",
+					"titre": "Frameworks JavaScript",
+					"description": "Ce cours approfondi sur les frameworks JavaScript vous fournira une introduction complète aux principaux frameworks tels que React, Angular et Vue.js. Vous explorerez les concepts fondamentaux de chaque framework, y compris la création de composants réutilisables, la gestion de l'état de l'application et la navigation entre les vues, ce qui vous permettra de choisir le bon framework pour vos projets web. En combinant des exemples concrets et des projets pratiques, vous développerez une compréhension approfondie des frameworks JavaScript et serez prêt à les utiliser dans vos propres projets.",
+					"formateur": "Émilie Legrand",
+					"cout": 160,
+					"nombreHeures": 40
+				},
+				{
+					"id": "vuejsAdvanced",
+					"titre": "Vue.js Avancé",
+					"description": "Approfondissez vos connaissances de Vue.js avec ce cours avancé. Vous explorerez des concepts avancés tels que la composition API, les mixins, les directives personnalisées, et le routage avancé dans les applications Vue.js. En combinant théorie et pratique, vous développerez des compétences avancées pour construire des applications Vue.js robustes et évolutives.",
+					"formateur": "Julien Martin",
+					"cout": 180,
+					"nombreHeures": 45
+				},
+				{
+					"id": "reactNative",
+					"titre": "React Native : Développement d'Applications Mobiles",
+					"description": "Découvrez React Native dans ce cours pratique sur le développement d'applications mobiles. Vous apprendrez à créer des applications mobiles multiplateformes en utilisant React Native, en exploitant les composants React pour construire des interfaces utilisateur réactives et performantes. Grâce à des projets pratiques, vous développerez des compétences pour créer des applications mobiles professionnelles avec React Native.",
+					"formateur": "Théo Dupuis",
+					"cout": 190,
+					"nombreHeures": 50
+				},
+				{
+					"id": "angularMaterial",
+					"titre": "Angular Material : Conception d'Interfaces Utilisateur",
+					"description": "Apprenez à concevoir des interfaces utilisateur attrayantes avec Angular Material dans ce cours spécialisé. Vous découvrirez comment utiliser Angular Material pour créer des composants réactifs et esthétiques, en exploitant la puissance de Angular et des directives Material Design. En appliquant ces techniques à des cas d'utilisation réels, vous développerez des compétences pour concevoir des interfaces utilisateur modernes et intuitives.",
+					"formateur": "Léa Renault",
+					"cout": 170,
+					"nombreHeures": 40
+				}
+			]
+		},
+		{
+			"mois": "Juillet",
+			"cours": [
+				{
+					"id": "jsTesting",
+					"titre": "Test en JavaScript",
+					"description": "Ce cours complet sur les tests en JavaScript vous fournira les compétences nécessaires pour écrire des tests unitaires et d'intégration robustes pour vos applications web. Vous explorerez des frameworks de test populaires tels que Jest et Mocha, ainsi que des techniques avancées telles que les doubles de test et le mocking, ce qui vous permettra de garantir la qualité et la fiabilité de votre code JavaScript. En combinant des concepts théoriques et des exercices pratiques, vous développerez une expertise approfondie dans les tests en JavaScript et serez prêt à intégrer des tests dans votre processus de développement.",
+					"formateur": "John Doe",
+					"cout": 170,
+					"nombreHeures": 45
+				},
+				{
+					"id": "vuejsAdvanced",
+					"titre": "Vue.js Avancé",
+					"description": "Approfondissez vos connaissances de Vue.js avec ce cours avancé. Vous explorerez des concepts avancés tels que la composition API, les mixins, les directives personnalisées, et le routage avancé dans les applications Vue.js. En combinant théorie et pratique, vous développerez des compétences avancées pour construire des applications Vue.js robustes et évolutives.",
+					"formateur": "Julien Martin",
+					"cout": 180,
+					"nombreHeures": 45
+				},
+				{
+					"id": "reactNative",
+					"titre": "React Native : Développement d'Applications Mobiles",
+					"description": "Découvrez React Native dans ce cours pratique sur le développement d'applications mobiles. Vous apprendrez à créer des applications mobiles multiplateformes en utilisant React Native, en exploitant les composants React pour construire des interfaces utilisateur réactives et performantes. Grâce à des projets pratiques, vous développerez des compétences pour créer des applications mobiles professionnelles avec React Native.",
+					"formateur": "Théo Dupuis",
+					"cout": 190,
+					"nombreHeures": 50
+				},
+				{
+					"id": "angularMaterial",
+					"titre": "Angular Material : Conception d'Interfaces Utilisateur",
+					"description": "Apprenez à concevoir des interfaces utilisateur attrayantes avec Angular Material dans ce cours spécialisé. Vous découvrirez comment utiliser Angular Material pour créer des composants réactifs et esthétiques, en exploitant la puissance de Angular et des directives Material Design. En appliquant ces techniques à des cas d'utilisation réels, vous développerez des compétences pour concevoir des interfaces utilisateur modernes et intuitives.",
+					"formateur": "Léa Renault",
+					"cout": 170,
+					"nombreHeures": 40
+				}
+			]
+		},
+		{
+			"mois": "Août",
+			"cours": [
+				{
+					"id": "jsSecurity",
+					"titre": "Sécurité en JavaScript",
+					"description": "Ce cours avancé sur la sécurité en JavaScript vous fournira les compétences nécessaires pour protéger vos applications web contre les menaces de sécurité courantes. Vous explorerez les vulnérabilités courantes telles que les attaques XSS et CSRF, ainsi que les meilleures pratiques pour les prévenir, y compris l'authentification et l'autorisation. En combinant des études de cas réels et des exercices pratiques, vous développerez une expertise approfondie dans la sécurité en JavaScript et serez en mesure de concevoir des applications web robustes et sécurisées.",
+					"formateur": "Jane Smith",
+					"cout": 150,
+					"nombreHeures": 35
+				},
+				{
+					"id": "jsTesting",
+					"titre": "Tests en JavaScript",
+					"description": "Apprenez à écrire des tests efficaces pour vos applications JavaScript dans ce cours spécialisé. Vous découvrirez les principes fondamentaux du testing en JavaScript, y compris les outils et les frameworks les plus populaires tels que Jest et Mocha. En pratiquant des tests unitaires, des tests d'intégration et des tests de bout en bout, vous développerez des compétences pour assurer la qualité et la fiabilité de votre code JavaScript.",
+					"formateur": "Marc Dupont",
+					"cout": 160,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsPerformance",
+					"titre": "Optimisation des Performances en JavaScript",
+					"description": "Découvrez comment optimiser les performances de vos applications JavaScript dans ce cours avancé. Vous explorerez les techniques pour améliorer le temps de chargement, réduire le temps de rendu et optimiser l'utilisation des ressources du navigateur. En appliquant des méthodes de profilage et d'optimisation, vous développerez des compétences pour créer des applications web réactives et performantes.",
+					"formateur": "Antoine Martin",
+					"cout": 170,
+					"nombreHeures": 40
+				},
+				{
+					"id": "jsES6",
+					"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+					"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+					"formateur": "Sophie Lambert",
+					"cout": 180,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Septembre",
+			"cours": [
+				{
+					"id": "jsPerformance",
+					"titre": "Optimisation des performances en JavaScript",
+					"description": "Ce cours avancé sur l'optimisation des performances en JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez des techniques telles que la réduction du temps de chargement, l'optimisation du rendu et la gestion de la mémoire, ce qui vous permettra de créer des applications web rapides et réactives. En combinant des analyses de performances et des exercices pratiques, vous développerez une expertise approfondie dans l'optimisation des performances en JavaScript et serez en mesure d'optimiser efficacement vos projets web.",
+					"formateur": "Bob Williams",
+					"cout": 160,
+					"nombreHeures": 40
+				},
+				{
+					"id": "jsTesting",
+					"titre": "Tests en JavaScript",
+					"description": "Apprenez à écrire des tests efficaces pour vos applications JavaScript dans ce cours spécialisé. Vous découvrirez les principes fondamentaux du testing en JavaScript, y compris les outils et les frameworks les plus populaires tels que Jest et Mocha. En pratiquant des tests unitaires, des tests d'intégration et des tests de bout en bout, vous développerez des compétences pour assurer la qualité et la fiabilité de votre code JavaScript.",
+					"formateur": "Marc Dupont",
+					"cout": 160,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsPerformance",
+					"titre": "Optimisation des Performances en JavaScript",
+					"description": "Découvrez comment optimiser les performances de vos applications JavaScript dans ce cours avancé. Vous explorerez les techniques pour améliorer le temps de chargement, réduire le temps de rendu et optimiser l'utilisation des ressources du navigateur. En appliquant des méthodes de profilage et d'optimisation, vous développerez des compétences pour créer des applications web réactives et performantes.",
+					"formateur": "Antoine Martin",
+					"cout": 170,
+					"nombreHeures": 40
+				},
+				{
+					"id": "jsES6",
+					"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+					"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+					"formateur": "Sophie Lambert",
+					"cout": 180,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Octobre",
+			"cours": [
+				{
+					"id": "jsES6",
+					"titre": "Nouveautés ECMAScript 6 (ES6)",
+					"description": "Ce cours sur les nouveautés ECMAScript 6 (ES6) vous plongera dans les dernières fonctionnalités du langage JavaScript pour améliorer votre productivité et votre qualité de code. Vous explorerez des concepts tels que les variables let et const, les fonctions fléchées et les classes, ce qui vous permettra de moderniser vos projets JavaScript et d'adopter les meilleures pratiques de développement. En combinant des exemples de code et des exercices pratiques, vous développerez une expertise approfondie dans les fonctionnalités ES6 et serez en mesure de les appliquer dans vos projets actuels et futurs.",
+					"formateur": "Malik Khan",
+					"cout": 140,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsAnimations",
+					"titre": "Animations avec JavaScript et CSS",
+					"description": "Découvrez comment créer des animations fluides et interactives avec JavaScript et CSS dans ce cours spécialisé. Vous explorerez les techniques pour animer des éléments HTML, gérer les transitions et les transformations, ainsi que créer des animations basées sur des événements utilisateur. En pratiquant avec des exemples concrets, vous développerez des compétences pour rendre vos pages web plus attrayantes et dynamiques.",
+					"formateur": "Laura Tremblay",
+					"cout": 150,
+					"nombreHeures": 25
+				},
+				{
+					"id": "jsWebpack",
+					"titre": "Webpack : Gestion des Modules JavaScript",
+					"description": "Apprenez à gérer efficacement les modules JavaScript avec Webpack dans ce cours avancé. Vous découvrirez comment configurer et utiliser Webpack pour regrouper et optimiser votre code JavaScript, gérer les dépendances, et mettre en place des flux de production efficaces. En combinant des démonstrations pratiques et des exercices guidés, vous développerez des compétences pour simplifier et optimiser le processus de développement de vos applications web.",
+					"formateur": "Alexandre Bouchard",
+					"cout": 160,
+					"nombreHeures": 35
+				},
+				{
+					"id": "jsES6",
+					"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+					"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+					"formateur": "Sophie Lambert",
+					"cout": 180,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Novembre",
+			"cours": [
+				{
+					"id": "jsPackages",
+					"titre": "Gestion des packages JavaScript",
+					"description": "Ce cours sur la gestion des packages JavaScript vous fournira les compétences nécessaires pour gérer efficacement les dépendances de vos projets JavaScript. Vous explorerez des outils populaires tels que npm et yarn, ainsi que des techniques avancées telles que la gestion des versions et la résolution des conflits, ce qui vous permettra de maintenir vos projets JavaScript de manière efficace et organisée. En combinant des démonstrations en direct et des exercices pratiques, vous développerez une expertise approfondie dans la gestion des packages JavaScript et serez en mesure de gérer facilement les dépendances de vos projets.",
+					"formateur": "Émilie Legrand",
+					"cout": 130,
+					"nombreHeures": 25
+				},
+				{
+					"id": "jsAnimations",
+					"titre": "Animations avec JavaScript et CSS",
+					"description": "Découvrez comment créer des animations fluides et interactives avec JavaScript et CSS dans ce cours spécialisé. Vous explorerez les techniques pour animer des éléments HTML, gérer les transitions et les transformations, ainsi que créer des animations basées sur des événements utilisateur. En pratiquant avec des exemples concrets, vous développerez des compétences pour rendre vos pages web plus attrayantes et dynamiques.",
+					"formateur": "Laura Tremblay",
+					"cout": 150,
+					"nombreHeures": 25
+				},
+				{
+					"id": "jsWebpack",
+					"titre": "Webpack : Gestion des Modules JavaScript",
+					"description": "Apprenez à gérer efficacement les modules JavaScript avec Webpack dans ce cours avancé. Vous découvrirez comment configurer et utiliser Webpack pour regrouper et optimiser votre code JavaScript, gérer les dépendances, et mettre en place des flux de production efficaces. En combinant des démonstrations pratiques et des exercices guidés, vous développerez des compétences pour simplifier et optimiser le processus de développement de vos applications web.",
+					"formateur": "Alexandre Bouchard",
+					"cout": 160,
+					"nombreHeures": 35
+				},
+				{
+					"id": "jsES6",
+					"titre": "JavaScript ES6+ : Les Nouvelles Fonctionnalités",
+					"description": "Découvrez les nouvelles fonctionnalités de JavaScript ES6 et au-delà dans ce cours spécialisé. Vous explorerez des concepts avancés tels que les fonctions fléchées, les classes, les modules et les promesses, qui permettent d'écrire un code JavaScript plus moderne et plus concis. En pratiquant avec des exemples concrets, vous développerez des compétences pour tirer parti des fonctionnalités les plus récentes de JavaScript.",
+					"formateur": "Sophie Lambert",
+					"cout": 180,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Décembre",
+			"cours": [
+				{
+					"id": "jsDeployment",
+					"titre": "Déploiement d'applications JavaScript",
+					"description": "Ce cours sur le déploiement d'applications JavaScript vous fournira les compétences nécessaires pour déployer efficacement vos projets JavaScript sur des serveurs ou dans le cloud. Vous explorerez les différentes méthodes de déploiement, y compris l'hébergement sur des serveurs, le déploiement dans le cloud et la configuration des environnements de production, ce qui vous permettra de mettre en ligne vos projets en toute confiance. En combinant des démonstrations en direct et des études de cas pratiques, vous développerez une expertise approfondie dans le déploiement d'applications JavaScript et serez prêt à lancer vos projets sur le marché.",
+					"formateur": "John Doe",
+					"cout": 150,
+					"nombreHeures": 35
+				},
+				{
+					"id": "jsTesting",
+					"titre": "Tests Automatisés en JavaScript",
+					"description": "Apprenez à mettre en place des tests automatisés pour vos projets JavaScript dans ce cours spécialisé. Vous découvrirez les frameworks et les outils populaires tels que Jest et Mocha pour écrire et exécuter des tests unitaires et des tests d'intégration. En pratiquant avec des exemples concrets, vous développerez des compétences pour garantir la qualité et la fiabilité de votre code JavaScript.",
+					"formateur": "Sophie Martin",
+					"cout": 140,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsPerformance",
+					"titre": "Optimisation des Performances JavaScript",
+					"description": "Ce cours avancé sur l'optimisation des performances JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez les meilleures pratiques pour optimiser le chargement initial, réduire le temps de rendu et minimiser la consommation de mémoire, ce qui vous permettra de créer des expériences utilisateur rapides et réactives. En combinant des techniques avancées et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances JavaScript.",
+					"formateur": "Pauline Lefebvre",
+					"cout": 160,
+					"nombreHeures": 35
+				}
+			]
+		},
+		{
+			"mois": "Janvier",
+			"cours": [
+				{
+					"id": "jsFoundations",
+					"titre": "Fondations de JavaScript",
+					"description": "Ce cours sur les fondations de JavaScript vous fournira les bases essentielles pour démarrer avec ce langage de programmation dynamique. Vous explorerez des concepts tels que la syntaxe de base JavaScript, la manipulation de données et les structures de contrôle, ce qui vous permettra de créer des applications web simples mais fonctionnelles. En combinant des explications théoriques et des exercices pratiques, vous développerez une solide compréhension de JavaScript et serez prêt à progresser vers des concepts plus avancés.",
+					"formateur": "Malik Khan",
+					"cout": 100,
+					"nombreHeures": 20
+				},
+				{
+					"id": "jsDeployment",
+					"titre": "Déploiement d'applications JavaScript",
+					"description": "Ce cours sur le déploiement d'applications JavaScript vous fournira les compétences nécessaires pour déployer efficacement vos projets JavaScript sur des serveurs ou dans le cloud. Vous explorerez les différentes méthodes de déploiement, y compris l'hébergement sur des serveurs, le déploiement dans le cloud et la configuration des environnements de production, ce qui vous permettra de mettre en ligne vos projets en toute confiance. En combinant des démonstrations en direct et des études de cas pratiques, vous développerez une expertise approfondie dans le déploiement d'applications JavaScript et serez prêt à lancer vos projets sur le marché.",
+					"formateur": "John Doe",
+					"cout": 150,
+					"nombreHeures": 35
+				},
+				{
+					"id": "jsTesting",
+					"titre": "Tests Automatisés en JavaScript",
+					"description": "Apprenez à mettre en place des tests automatisés pour vos projets JavaScript dans ce cours spécialisé. Vous découvrirez les frameworks et les outils populaires tels que Jest et Mocha pour écrire et exécuter des tests unitaires et des tests d'intégration. En pratiquant avec des exemples concrets, vous développerez des compétences pour garantir la qualité et la fiabilité de votre code JavaScript.",
+					"formateur": "Sophie Martin",
+					"cout": 140,
+					"nombreHeures": 30
+				},
+				{
+					"id": "jsPerformance",
+					"titre": "Optimisation des Performances JavaScript",
+					"description": "Ce cours avancé sur l'optimisation des performances JavaScript vous fournira les compétences nécessaires pour améliorer les performances de vos applications web. Vous explorerez les meilleures pratiques pour optimiser le chargement initial, réduire le temps de rendu et minimiser la consommation de mémoire, ce qui vous permettra de créer des expériences utilisateur rapides et réactives. En combinant des techniques avancées et des études de cas réels, vous développerez une expertise approfondie dans l'optimisation des performances JavaScript.",
+					"formateur": "Pauline Lefebvre",
+					"cout": 160,
+					"nombreHeures": 35
+				}
+			]
+		}
+	]
+}

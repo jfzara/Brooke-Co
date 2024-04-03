@@ -1,0 +1,446 @@
+[
+	{
+		"mois": "Février 2024",
+		"cours": [
+			{
+				"id": "pyAvance",
+				"titre": "Python Avancé : Maîtrise des Concepts Avancés et des Bonnes Pratiques",
+				"description": "Approfondissez vos connaissances en Python avec ce cours avancé. Vous explorerez des concepts avancés tels que la programmation orientée objet, les décorateurs, les générateurs et la manipulation avancée de données. En combinant théorie et pratique, vous développerez des compétences solides pour écrire un code Python efficace, maintenable et évolutif.",
+				"formateur": "Emma Dubois",
+				"cout": 150,
+				"nombreHeures": 28
+			},
+			{
+				"id": "pyDataScience",
+				"titre": "Science des Données avec Python",
+				"description": "Explorez les fondements de la science des données avec Python dans ce cours spécialisé. Vous découvrirez les bibliothèques populaires telles que Pandas, NumPy et Matplotlib pour manipuler, analyser et visualiser des données. En appliquant ces outils à des cas d'utilisation réels, vous développerez des compétences précieuses pour extraire des informations significatives à partir de grandes quantités de données.",
+				"formateur": "Antoine Martin",
+				"cout": 160,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyWebScraping",
+				"titre": "Web Scraping avec Python",
+				"description": "Apprenez à extraire des données à partir de sites web avec Python dans ce cours spécialisé. Vous découvrirez les bibliothèques telles que BeautifulSoup et Scrapy pour récupérer des informations à partir de pages web, puis vous apprendrez à nettoyer et à analyser les données extraites. En pratiquant avec des exemples concrets, vous développerez des compétences pour automatiser le processus d'extraction de données sur le web.",
+				"formateur": "Lucie Dupont",
+				"cout": 140,
+				"nombreHeures": 25
+			},
+			{
+				"id": "pyMachineLearning",
+				"titre": "Apprentissage Automatique avec Python",
+				"description": "Découvrez les bases de l'apprentissage automatique avec Python dans ce cours spécialisé. Vous explorerez les algorithmes populaires tels que les arbres de décision, les SVM et les réseaux neuronaux, et vous apprendrez à les appliquer à des tâches telles que la classification et la prédiction. En pratiquant avec des ensembles de données réels, vous développerez des compétences pour construire et évaluer des modèles d'apprentissage automatique efficaces.",
+				"formateur": "Pierre Lefevre",
+				"cout": 170,
+				"nombreHeures": 35
+			}
+		]
+	},
+	{
+		"mois": "Mars 2024",
+		"cours": [
+			{
+				"id": "pyDjango",
+				"titre": "Développement Web avec Django : Création d'Applications Web Puissantes",
+				"description": "Apprenez à créer des applications web puissantes avec Django dans ce cours pratique. Vous découvrirez les principes de base de Django, y compris la création de modèles, les vues, les URLs et les templates. En utilisant Django REST Framework, vous apprendrez également à créer des API RESTful pour votre application. À la fin de ce cours, vous serez en mesure de développer des applications web robustes et évolutives avec Django.",
+				"formateur": "Louis Martin",
+				"cout": 160,
+				"nombreHeures": 25
+			},
+			{
+				"id": "pyAnalyse",
+				"titre": "Python pour l'Analyse de Données : Pandas, NumPy et Matplotlib",
+				"description": "Explorez l'analyse de données avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser des bibliothèques telles que Pandas, NumPy et Matplotlib pour manipuler, analyser et visualiser des données. En appliquant ces outils à des cas d'utilisation réels, vous développerez des compétences précieuses pour explorer et comprendre les données.",
+				"formateur": "Manon Dupont",
+				"cout": 170,
+				"nombreHeures": 27
+			},
+			{
+				"id": "pyIA",
+				"titre": "Python pour l'Intelligence Artificielle",
+				"description": "Découvrez comment utiliser Python pour l'intelligence artificielle dans ce cours spécialisé. Vous explorerez les bibliothèques populaires telles que TensorFlow, Keras et scikit-learn pour construire des modèles d'apprentissage automatique et des réseaux neuronaux. En appliquant ces techniques à des problèmes d'intelligence artificielle réels, vous développerez des compétences pour concevoir et mettre en œuvre des solutions d'IA avec Python.",
+				"formateur": "Maxime Lambert",
+				"cout": 180,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyAuto",
+				"titre": "Python pour l'Automatisation des Tâches",
+				"description": "Apprenez à automatiser des tâches avec Python dans ce cours pratique. Vous découvrirez comment utiliser des bibliothèques telles que Selenium, BeautifulSoup et pyautogui pour automatiser des tâches courantes telles que le web scraping, les tests logiciels et la manipulation de fichiers. En développant des scripts d'automatisation concrets, vous gagnerez en efficacité et en productivité dans vos projets.",
+				"formateur": "Sophie Martin",
+				"cout": 160,
+				"nombreHeures": 20
+			}
+		]
+	},
+	{
+		"mois": "Avril 2024",
+		"cours": [
+			{
+				"id": "pyAutoLearn",
+				"titre": "Python pour l'Apprentissage Automatique : Introduction à Scikit-Learn",
+				"description": "Découvrez les fondamentaux de l'apprentissage automatique avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Scikit-Learn pour mettre en œuvre des algorithmes d'apprentissage supervisé et non supervisé. En appliquant ces techniques à des ensembles de données réels, vous serez en mesure de créer des modèles d'apprentissage automatique pour résoudre divers problèmes.",
+				"formateur": "Théo Leroy",
+				"cout": 180,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyNLP",
+				"titre": "Python pour le Traitement du Langage Naturel (NLP) : Introduction à NLTK",
+				"description": "Découvrez le traitement du langage naturel avec Python dans ce cours spécialisé. Vous explorerez les bases du traitement du langage naturel en utilisant NLTK, y compris le prétraitement de texte, l'extraction d'entités et l'analyse de sentiments. Que vous soyez passionné par le traitement du langage naturel ou que vous souhaitiez ajouter des compétences en NLP à votre boîte à outils, ce cours vous fournira une introduction complète.",
+				"formateur": "Louis Durand",
+				"cout": 190,
+				"nombreHeures": 26
+			},
+			{
+				"id": "pyPnd",
+				"titre": "Python pour l'Analyse de Données : Introduction à Pandas",
+				"description": "Explorez l'analyse de données avec Python en utilisant la bibliothèque Pandas dans ce cours spécialisé. Vous découvrirez comment manipuler et analyser des données tabulaires, nettoyer des données, créer des visualisations et effectuer des opérations avancées telles que le regroupement et l'agrégation. En acquérant ces compétences, vous serez en mesure de mener des analyses de données approfondies et de prendre des décisions éclairées.",
+				"formateur": "Sophie Dubois",
+				"cout": 170,
+				"nombreHeures": 28
+			},
+			{
+				"id": "pyVisu",
+				"titre": "Python pour la Visualisation de Données : Introduction à Matplotlib et Seaborn",
+				"description": "Découvrez comment créer des visualisations de données percutantes avec Python dans ce cours spécialisé. Vous explorerez les bibliothèques de visualisation de données Matplotlib et Seaborn, apprendrez à créer des graphiques statiques et interactifs, des tracés de surface et des diagrammes de dispersion. En maîtrisant ces techniques, vous serez en mesure de communiquer efficacement des insights à partir de vos données.",
+				"formateur": "Lucas Martin",
+				"cout": 180,
+				"nombreHeures": 32
+			}
+		]
+	},
+	{
+		"mois": "Mai 2024",
+		"cours": [
+			{
+				"id": "pyFlsk",
+				"titre": "Développement Web Asynchrone avec Python : Introduction à Flask et aiohttp",
+				"description": "Apprenez à créer des applications web asynchrones avec Python dans ce cours pratique. Vous découvrirez les bases de Flask et aiohttp, deux frameworks web populaires pour le développement asynchrone en Python. En utilisant des techniques telles que l'asynchronisme et les coroutines, vous serez en mesure de créer des applications web performantes et réactives.",
+				"formateur": "Julie Lefebvre",
+				"cout": 200,
+				"nombreHeures": 23
+			},
+			{
+				"id": "pyDckr",
+				"titre": "Déploiement d'Applications Web Python avec Docker",
+				"description": "Découvrez comment déployer vos applications web Python de manière efficace et reproductible avec Docker dans ce cours spécialisé. Vous explorerez les concepts fondamentaux de Docker, y compris la création de conteneurs, la gestion des images et le déploiement sur des clusters de conteneurs. En combinant des démonstrations pratiques et des études de cas, vous serez en mesure de créer des environnements de déploiement robustes et évolutifs pour vos projets Python.",
+				"formateur": "Antoine Durand",
+				"cout": 220,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pySecu",
+				"titre": "Sécurité des Applications Web Python : Prévention des Vulnérabilités",
+				"description": "Ce cours avancé sur la sécurité des applications web Python vous fournira les compétences nécessaires pour protéger vos applications contre les menaces de sécurité courantes. Vous explorerez les vulnérabilités telles que les injections SQL, les attaques par force brute et les failles de sécurité de session, ainsi que les meilleures pratiques pour les prévenir. En combinant des exemples concrets et des exercices pratiques, vous développerez une expertise approfondie dans la sécurisation de vos applications web Python.",
+				"formateur": "Sophie Martin",
+				"cout": 240,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pySelnm",
+				"titre": "Tests Automatisés des Applications Web Python avec Selenium",
+				"description": "Apprenez à automatiser les tests de vos applications web Python avec Selenium dans ce cours spécialisé. Vous découvrirez comment configurer Selenium, écrire des scripts de test et exécuter des tests automatisés pour garantir la qualité et la fiabilité de vos applications web. En acquérant ces compétences, vous serez en mesure d'accélérer le processus de développement et de livraison de vos projets Python.",
+				"formateur": "Pierre Dubois",
+				"cout": 200,
+				"nombreHeures": 25
+			}
+		]
+	},
+	{
+		"mois": "Juin 2024",
+		"cours": [
+			{
+				"id": "pyData",
+				"titre": "Python pour la Science des Données : Introduction à Pandas et Matplotlib",
+				"description": "Plongez dans la science des données avec Python dans ce cours spécialisé. Vous apprendrez à manipuler des données avec Pandas, visualiser des données avec Matplotlib et explorer des ensembles de données réels. En appliquant ces compétences à des problèmes du monde réel, vous serez en mesure d'extraire des informations précieuses à partir de données.",
+				"formateur": "Léo Bernard",
+				"cout": 210,
+				"nombreHeures": 29
+			},
+			{
+				"id": "pyDevFlask",
+				"titre": "Développement Web avec Flask : Création d'Applications Web Python",
+				"description": "Apprenez à créer des applications web Python avec Flask dans ce cours pratique. Vous explorerez les bases de Flask, y compris la création de routes, la gestion des templates et l'intégration de bases de données. En combinant des exemples pratiques et des projets, vous serez en mesure de développer des applications web dynamiques et évolutives avec Flask.",
+				"formateur": "Lucie Martin",
+				"cout": 180,
+				"nombreHeures": 26
+			},
+			{
+				"id": "pyAtmt",
+				"titre": "Python pour l'Automatisation des Tâches : Introduction à Automate",
+				"description": "Découvrez comment automatiser les tâches répétitives avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Automate pour créer des scripts Python qui automatisent des tâches telles que la manipulation de fichiers, l'envoi d'e-mails et la gestion de données. En appliquant ces compétences, vous serez en mesure d'accroître votre productivité et d'éliminer les tâches fastidieuses.",
+				"formateur": "Julien Dupuis",
+				"cout": 190,
+				"nombreHeures": 28
+			},
+			{
+				"id": "pyBknd",
+				"titre": "Python pour les Développeurs Backend : Introduction à Django",
+				"description": "Explorez le développement backend avec Python dans ce cours spécialisé. Vous découvrirez les bases de Django, y compris la création de modèles, les vues et la gestion des URL. En combinant la théorie avec des projets pratiques, vous serez en mesure de créer des applications web backend robustes et évolutives avec Django.",
+				"formateur": "Maxime Lambert",
+				"cout": 200,
+				"nombreHeures": 30
+			}
+		]
+	},
+	{
+		"mois": "Juillet 2024",
+		"cours": [
+			{
+				"id": "pyCld",
+				"titre": "Python et le Cloud : Développement d'Applications Cloud-Natives avec Flask et AWS",
+				"description": "Découvrez comment créer des applications cloud-natives avec Python dans ce cours avancé. Vous utiliserez Flask pour créer des API web et AWS pour déployer et gérer vos applications dans le cloud. En combinant ces outils, vous serez en mesure de créer des applications évolutives et résilientes dans le cloud.",
+				"formateur": "Charlotte Roy",
+				"cout": 220,
+				"nombreHeures": 28
+			},
+			{
+				"id": "pyGPtfm",
+				"titre": "Python pour l'Analyse de Données sur le Cloud : Introduction à Google Cloud Platform",
+				"description": "Explorez l'analyse de données sur le cloud avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser les services de Google Cloud Platform (GCP) pour analyser et visualiser des données à grande échelle. En appliquant ces compétences, vous serez en mesure de tirer parti des fonctionnalités du cloud pour l'analyse de données.",
+				"formateur": "Alexandre Martin",
+				"cout": 230,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyApch",
+				"titre": "Python pour le Traitement Big Data : Introduction à Apache Spark",
+				"description": "Découvrez comment traiter de grands ensembles de données avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Apache Spark pour effectuer des analyses et des traitements sur des ensembles de données distribués. En appliquant ces techniques, vous serez en mesure de traiter efficacement le big data avec Python.",
+				"formateur": "Julie Dupuis",
+				"cout": 240,
+				"nombreHeures": 32
+			},
+			{
+				"id": "pyAppCnnct",
+				"titre": "Python pour l'IoT : Développement d'Applications Connectées",
+				"description": "Explorez le développement d'applications IoT avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour interagir avec des capteurs, collecter des données et contrôler des appareils connectés. En appliquant ces compétences, vous serez en mesure de créer des solutions IoT innovantes avec Python.",
+				"formateur": "Sophie Lefebvre",
+				"cout": 250,
+				"nombreHeures": 35
+			}
+		]
+	},
+	{
+		"mois": "Août 2024",
+		"cours": [
+			{
+				"id": "pyTskAuto",
+				"titre": "Python pour l'Automatisation des Tâches : Création de Scripts Efficaces",
+				"description": "Apprenez à automatiser des tâches avec Python dans ce cours pratique. Vous découvrirez comment créer des scripts Python pour automatiser des processus courants tels que la manipulation de fichiers, l'envoi d'e-mails et l'interaction avec des API. Avec ces compétences, vous serez en mesure d'optimiser votre productivité et de simplifier vos workflows.",
+				"formateur": "Maxime Renault",
+				"cout": 230,
+				"nombreHeures": 25
+			},
+			{
+				"id": "pyImg",
+				"titre": "Python pour le Traitement de l'Image : Introduction à OpenCV",
+				"description": "Explorez le traitement d'images avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque OpenCV pour effectuer des opérations telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces techniques, vous serez en mesure de développer des applications de vision par ordinateur avec Python.",
+				"formateur": "Julien Lambert",
+				"cout": 240,
+				"nombreHeures": 30
+			},
+			{
+				"id": "py2d",
+				"titre": "Python pour le Développement de Jeux : Création de Jeux 2D avec Pygame",
+				"description": "Découvrez comment créer des jeux 2D avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Pygame pour développer des jeux d'arcade, des puzzles et des simulations. En appliquant ces compétences, vous serez en mesure de créer vos propres jeux avec Python.",
+				"formateur": "Étienne Leclerc",
+				"cout": 250,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyInfo",
+				"titre": "Python pour la Sécurité Informatique : Analyse de Vulnérabilités et Tests d'Intrusion",
+				"description": "Explorez la sécurité informatique avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour analyser des vulnérabilités, effectuer des tests d'intrusion et développer des outils de sécurité. En appliquant ces compétences, vous serez en mesure de renforcer la sécurité de vos systèmes informatiques.",
+				"formateur": "Sophie Dubois",
+				"cout": 260,
+				"nombreHeures": 40
+			}
+		]
+	},
+	{
+		"mois": "Septembre 2024",
+		"cours": [
+			{
+				"id": "pyDtbs",
+				"titre": "Python et les Bases de Données : Utilisation de SQLite et SQLAlchemy",
+				"description": "Découvrez comment travailler avec des bases de données en Python dans ce cours spécialisé. Vous utiliserez SQLite pour la gestion de bases de données relationnelles et SQLAlchemy pour interagir avec des bases de données via Python. En combinant ces outils, vous serez en mesure de créer et de manipuler des bases de données efficacement avec Python.",
+				"formateur": "Gabriel Girard",
+				"cout": 240,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyPtst",
+				"titre": "Python pour l'Automatisation des Tests : Introduction à pytest",
+				"description": "Apprenez à automatiser les tests avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque pytest pour écrire et exécuter des tests unitaires et d'intégration de manière efficace. En appliquant ces compétences, vous serez en mesure de garantir la qualité de votre code Python et d'automatiser le processus de test.",
+				"formateur": "Sophie Laurent",
+				"cout": 250,
+				"nombreHeures": 25
+			},
+			{
+				"id": "pyRappt",
+				"titre": "Python pour la Génération de Rapports Automatisés : Utilisation de Jinja2",
+				"description": "Découvrez comment générer des rapports automatisés avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque Jinja2 pour créer des modèles de rapports dynamiques et à automatiser le processus de génération de rapports à partir de données. En appliquant ces compétences, vous serez en mesure de créer des rapports personnalisés et évolutifs avec Python.",
+				"formateur": "David Martin",
+				"cout": 260,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyOpncv",
+				"titre": "Python pour le Traitement d'Images : Introduction à OpenCV",
+				"description": "Explorez le traitement d'images avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser la bibliothèque OpenCV pour effectuer des opérations telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces compétences, vous serez en mesure de manipuler et d'analyser des images de manière avancée avec Python.",
+				"formateur": "Marie Dupuis",
+				"cout": 270,
+				"nombreHeures": 40
+			}
+		]
+	},
+	{
+		"mois": "Octobre 2024",
+		"cours": [
+			{
+				"id": "pyFdt",
+				"titre": "Python et l'Intelligence Artificielle (IA) : Fondamentaux et Applications",
+				"description": "Explorez le domaine de l'intelligence artificielle (IA) avec Python dans ce cours avancé. Vous découvrirez les concepts fondamentaux de l'IA, y compris l'apprentissage machine, le traitement du langage naturel (NLP) et la vision par ordinateur, tout en apprenant à implémenter des solutions d'IA avec Python. Grâce à des projets pratiques et des études de cas d'utilisation réels, vous serez en mesure de créer des modèles d'IA pour résoudre divers problèmes.",
+				"formateur": "Sophie Martin",
+				"cout": 250,
+				"nombreHeures": 28
+			},
+			{
+				"id": "pyRobt",
+				"titre": "Python pour la Robotique : Introduction à ROS (Robot Operating System)",
+				"description": "Découvrez comment utiliser Python pour la robotique dans ce cours spécialisé. Vous explorerez les bases de ROS (Robot Operating System) et apprendrez à contrôler des robots en utilisant Python. En combinant ces compétences, vous serez en mesure de créer et de programmer des robots autonomes et intelligents.",
+				"formateur": "Lucas Lambert",
+				"cout": 260,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyRealTm",
+				"titre": "Python pour les Applications Web en Temps Réel : Introduction à Flask-SocketIO",
+				"description": "Apprenez à créer des applications web en temps réel avec Python dans ce cours spécialisé. Vous découvrirez Flask-SocketIO, une extension de Flask pour la création d'applications web en temps réel, et apprendrez à développer des fonctionnalités de chat, de notifications en temps réel et d'autres applications interactives. En appliquant ces compétences, vous serez en mesure de créer des applications web modernes et réactives.",
+				"formateur": "Manon Dupuis",
+				"cout": 270,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyADN",
+				"titre": "Python pour l'Analyse de Séquences Génomiques : Utilisation de Biopython",
+				"description": "Plongez dans l'analyse de séquences génomiques avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Biopython, une bibliothèque Python pour la bioinformatique, pour manipuler et analyser des données de séquences génomiques. En appliquant ces compétences, vous serez en mesure de contribuer à la recherche en génomique et de résoudre des problèmes dans des domaines tels que la génétique et la biologie moléculaire.",
+				"formateur": "Camille Leclerc",
+				"cout": 280,
+				"nombreHeures": 35
+			}
+		]
+	},
+	{
+		"mois": "Novembre 2024",
+		"cours": [
+			{
+				"id": "pySeAp",
+				"titre": "Python et la Sécurité : Gestion des Vulnérabilités et Sécurité des Applications",
+				"description": "Découvrez les bonnes pratiques de sécurité en Python dans ce cours spécialisé. Vous apprendrez à identifier et à gérer les vulnérabilités de sécurité courantes dans les applications Python. En appliquant ces techniques, vous serez en mesure de renforcer la sécurité de vos applications Python.",
+				"formateur": "Alexandre Dubois",
+				"cout": 260,
+				"nombreHeures": 25
+			},
+			{
+				"id": "pyOb",
+				"titre": "Python pour l'Internet des Objets (IoT) : Contrôle de Dispositifs Connectés",
+				"description": "Explorez l'Internet des objets (IoT) avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python pour contrôler des dispositifs connectés, collecter des données à partir de capteurs et interagir avec des appareils IoT. En appliquant ces compétences, vous serez en mesure de créer des solutions innovantes dans le domaine de l'IoT.",
+				"formateur": "Éric Martin",
+				"cout": 270,
+				"nombreHeures": 30
+			},
+			{
+				"id": "pyFin",
+				"titre": "Python pour les Finances : Analyse de Données Financières et Modélisation",
+				"description": "Plongez dans l'analyse financière avec Python dans ce cours spécialisé. Vous apprendrez à utiliser Python pour analyser des données financières, créer des modèles financiers et prendre des décisions éclairées en matière d'investissement. En appliquant ces compétences, vous serez en mesure d'améliorer votre compréhension des marchés financiers et de prendre des décisions plus informées.",
+				"formateur": "Sophie Lefebvre",
+				"cout": 280,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyDe",
+				"titre": "Python pour l'Apprentissage Profond (Deep Learning) : Introduction à TensorFlow",
+				"description": "Découvrez le domaine de l'apprentissage profond avec Python dans ce cours spécialisé. Vous apprendrez les bases de l'apprentissage profond en utilisant TensorFlow, l'une des bibliothèques les plus populaires pour le développement d'algorithmes d'apprentissage profond. En appliquant ces compétences, vous serez en mesure de créer et de former des modèles d'apprentissage profond pour résoudre des problèmes complexes.",
+				"formateur": "Julien Dubois",
+				"cout": 290,
+				"nombreHeures": 40
+			}
+		]
+	},
+	{
+		"mois": "Décembre 2024",
+		"cours": [
+			{
+				"id": "pySig",
+				"titre": "Python et le Traitement du Signal : Introduction à SciPy",
+				"description": "Découvrez le traitement du signal avec Python dans ce cours spécialisé. Vous explorerez les fonctionnalités de base de la bibliothèque SciPy pour le traitement du signal, y compris le filtrage, la transformée de Fourier et la convolution. En appliquant ces techniques à des signaux réels, vous serez en mesure de résoudre des problèmes de traitement du signal avec Python.",
+				"formateur": "Laura Bernard",
+				"cout": 270,
+				"nombreHeures": 29
+			},
+			{
+				"id": "pyRbtS",
+				"titre": "Python pour la Robotique : Contrôle de Robots avec ROS",
+				"description": "Plongez dans le domaine de la robotique avec Python dans ce cours spécialisé. Vous découvrirez comment utiliser Python avec Robot Operating System (ROS) pour contrôler des robots, simuler des environnements robotiques et développer des applications robotiques avancées. En appliquant ces compétences, vous serez en mesure de créer et de programmer des robots pour diverses applications.",
+				"formateur": "Lucas Martin",
+				"cout": 280,
+				"nombreHeures": 32
+			},
+			{
+				"id": "pyVsCPT",
+				"titre": "Python pour la Vision par Ordinateur : Introduction à OpenCV",
+				"description": "Explorez la vision par ordinateur avec Python dans ce cours spécialisé. Vous apprendrez à utiliser la bibliothèque OpenCV pour effectuer des tâches de traitement d'images telles que la détection d'objets, la reconnaissance faciale et la segmentation d'images. En appliquant ces techniques à des images réelles, vous serez en mesure de développer des applications de vision par ordinateur avec Python.",
+				"formateur": "Camille Dubois",
+				"cout": 290,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyAsynchrone16",
+				"titre": "Python et l'Analyse de Réseaux Sociaux : Utilisation de NetworkX",
+				"description": "Découvrez l'analyse de réseaux sociaux avec Python dans ce cours spécialisé. Vous explorerez les bases de l'analyse de réseaux sociaux en utilisant la bibliothèque NetworkX pour créer, analyser et visualiser des graphes de réseaux sociaux. En appliquant ces compétences à des données de réseaux sociaux réels, vous serez en mesure d'extraire des informations précieuses sur les structures de réseau et les interactions sociales.",
+				"formateur": "Emma Lefevre",
+				"cout": 300,
+				"nombreHeures": 40
+			}
+		]
+	},
+	{
+		"mois": "Janvier 2025",
+		"cours": [
+			{
+				"id": "pyPygm",
+				"titre": "Python et les Jeux Vidéo : Création de Jeux 2D avec Pygame",
+				"description": "Explorez le monde du développement de jeux vidéo avec Python dans ce cours spécialisé. Vous apprendrez à créer des jeux 2D interactifs en utilisant la bibliothèque Pygame, en explorant des concepts tels que les sprites, les collisions et les événements utilisateur. Avec des projets pratiques et des exemples de jeux réels, vous serez en mesure de créer vos propres jeux 2D avec Python.",
+				"formateur": "Antoine Lefebvre",
+				"cout": 280,
+				"nombreHeures": 31
+			},
+			{
+				"id": "pySlium",
+				"titre": "Python pour l'Automatisation des Tests : Introduction à Selenium",
+				"description": "Découvrez comment automatiser les tests avec Python dans ce cours spécialisé. Vous utiliserez la bibliothèque Selenium pour automatiser les tests d'applications web, en explorant des concepts tels que la localisation d'éléments, l'interaction avec des formulaires et l'exécution de tests sur différents navigateurs. Avec ces compétences, vous pourrez améliorer l'efficacité et la qualité de vos processus de test.",
+				"formateur": "Lucie Martin",
+				"cout": 290,
+				"nombreHeures": 35
+			},
+			{
+				"id": "pyBkchn",
+				"titre": "Python pour la Blockchain : Introduction à Web3.py",
+				"description": "Explorez la technologie de la blockchain avec Python dans ce cours spécialisé. Vous apprendrez à interagir avec des contrats intelligents Ethereum et à développer des applications décentralisées (dApps) en utilisant la bibliothèque Web3.py. En appliquant ces compétences, vous serez en mesure de créer des applications innovantes basées sur la blockchain avec Python.",
+				"formateur": "Théo Martin",
+				"cout": 300,
+				"nombreHeures": 40
+			},
+			{
+				"id": "pyQtlib",
+				"titre": "Python et la Finance Quantitative : Introduction à QuantLib",
+				"description": "Découvrez la finance quantitative avec Python dans ce cours spécialisé. Vous explorerez les bases de l'analyse financière et de la modélisation quantitative en utilisant la bibliothèque QuantLib. En appliquant ces techniques à des données financières réelles, vous serez en mesure d'analyser et de modéliser efficacement les marchés financiers avec Python.",
+				"formateur": "Marie Martin",
+				"cout": 310,
+				"nombreHeures": 45
+			}
+		]
+	}
+]
